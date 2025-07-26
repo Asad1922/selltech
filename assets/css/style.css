@@ -4559,3 +4559,8 @@ p.jos-cta-cs-p.mt-5 {
 h2.jos-cta-cs {
     color: white;
 }
+.max-w-full {
+    object-fit: cover;
+    height: 550px;
+    max-width: 100%;
+}
