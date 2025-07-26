@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+</head>
+
+<body class="relative">
+    <div class="page-wrapper relative">
+        <!-- ...::: Header Section Start :::... -->
+        <header>
+            <div class="bg-colorTextTitle py-5">
+                <a href="index.html">
+                    <img src="assets/img/images/logo-alter.png" alt="logo-alter" width="112" height="40" class="mx-auto" />
+                </a>
+            </div>
+        </header>
+        <!-- ...::: Header Section End :::... -->
+
+        <!-- Main Wrapper -->
+        <main class="main-wrapper relative overflow-x-clip">
+            <!--...::: Login Section Start :::... -->
+            <section class="section-login">
+                <!-- Section Space -->
+                <div class="section-space">
+                    <!-- Section Container -->
+                    <div class="container">
+                        <div class="mx-auto max-w-[860px]">
+                            <h2 class="mb-10 text-center md:mb-[60px] lg:mb-20">
+                                Welcome back
+                            </h2>
+                            <div class="rounded-[10px] bg-white p-5 shadow-custom-1 sm:p-[50px]">
+                                <!-- Auth Form -->
+                                <form action="#" method="post" class="grid grid-cols-1 gap-y-6">
+                                    <div class="grid grid-cols-1 gap-6">
+                                        <!-- Form Group -->
+                                        <div>
+                                            <label for="auth-email" class="mb-4 block font-semibold text-colorTextTitle">Email Address</label>
+                                            <input type="email" name="auth-email" id="auth-email" placeholder="exalpio456@gmail.com" class="w-full rounded-[50px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none" required />
+                                        </div>
+                                        <!-- Form Group -->
+                                        <!-- Form Group -->
+                                        <div>
+                                            <label for="auth-password" class="mb-4 block font-semibold text-colorTextTitle">Password</label>
+                                            <input type="password" name="auth-password" id="auth-password" placeholder="Min 8 characters" class="w-full rounded-[50px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none" required />
+                                        </div>
+                                        <!-- Form Group -->
+                                    </div>
+                                    <div class="flex flex-wrap items-center justify-between gap-6">
+                                        <label for="login-check" class="peer flex items-center gap-[10px]">
+                                            <input type="checkbox" name="login-check" id="login-check" class="peer size-5 appearance-none overflow-hidden rounded-[4px] border border-colorPurpleLight accent-colorPurpleLight checked:appearance-auto" />
+                                            <span>Remember me</span>
+                                        </label>
+
+                                        <a href="reset-password.html">Forget Password?</a>
+                                    </div>
+                                    <div class="flex justify-start gap-6">
+                                        <button type="submit" class="btn btn-primary flex w-full">
+                                            <span>Login Now</span>
+                                            <span>Login Now</span>
+                                        </button>
+                                    </div>
+                                </form>
+                                <!-- Auth Form -->
+                                <p class="mb-[30px] mt-6">
+                                    Don’t have an account?
+                                    <a href="signup.html" class="font-bold text-colorTextTitle">Sign Up</a>
+                                </p>
+
+                                <button class="btn btn-outline-black w-full">
+                                    <span class="flex gap-2"><img src="assets/img/images/home-1/google-icon.svg" alt="google-icon" width="27" height="28" class="inline-block pr-2" />
+                                        Sign up with google</span>
+                                    <span class="flex gap-2"><img src="assets/img/images/home-1/google-icon.svg" alt="google-icon" width="27" height="28" class="inline-block pr-2" />
+                                        Sign up with google</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Space -->
+            </section>
+            <!--...::: Login Section End :::... -->
+        </main>
+        <!-- Main Wrapper -->
+    </div>
+
+    <!--Vendor js-->
+   <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

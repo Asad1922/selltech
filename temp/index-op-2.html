@@ -1,0 +1,1517 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+      <header class="section-header site-header fixed top-0 z-30 w-full py-4">
+        <!-- Section Container -->
+        <div class="container">
+          <!-- Header Area -->
+          <div class="flex items-center justify-between">
+            <!-- Header Left Block -->
+            <div>
+              <!-- Header Logo -->
+              <a href="index.html" class="h-auto w-auto">
+                <img
+                  src="assets/img/images/logo.png"
+                  alt="logo"
+                  width="112"
+                  height="40"
+                />
+              </a>
+              <!-- Header Logo -->
+            </div>
+            <!-- Header Left Block -->
+
+            <!-- Header Navigation -->
+            <div class="menu-block-wrapper">
+              <div class="menu-overlay"></div>
+              <nav class="menu-block" id="append-menu-header">
+                <div class="mobile-menu-head">
+                  <div class="go-back">
+                    <i class="ri-arrow-left-s-fill"></i>
+                  </div>
+                  <div class="current-menu-title"></div>
+                  <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="site-menu-main">
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#feature">Feature</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#faq">FAQ</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Header Navigation -->
+
+            <!-- Header Right Block -->
+            <div class="flex items-center gap-x-6">
+              <a
+                href="contact.html"
+                class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex"
+              >
+                <span>Contact Us</span>
+                <span>Contact Us</span>
+              </a>
+
+              <!-- Responsive Offcanvas Menu Button -->
+              <div class="block lg:hidden">
+                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                  <span
+                    class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <!-- Header Right Block -->
+          </div>
+          <!-- Header Area -->
+        </div>
+        <!-- Section Container -->
+      </header>
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Hero Section Start :::... -->
+        <section class="section-hero" id="home">
+          <!-- Section Space -->
+          <div class="section-space-bottom pt-24 md:pt-32 lg:pt-40 xl:pt-52">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Hero Area -->
+              <div
+                class="grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2 xl:grid-cols-[1fr_minmax(0,0.5fr)]"
+              >
+                <!-- Hero Content Block -->
+                <div class="text-center lg:text-left">
+                  <h1 class="jos mb-6">The next-gen crypto trading platform</h1>
+                  <p class="mx-auto mb-12 max-w-xl lg:mx-0 xxl:max-w-3xl">
+                    Building a next-gen crypto wallet and trading platform
+                    requires a comprehensive understanding of the evolving to a
+                    crypto landscape and the needs of users.
+                  </p>
+                  <div
+                    class="flex flex-wrap justify-center gap-4 text-left lg:justify-start"
+                  >
+                    <a
+                      href="https://www.apple.com/app-store"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="assets/img/images/home-1/apple-apps-store.png"
+                        alt="apple-apps-store"
+                        width="170"
+                        height="54"
+                      />
+                    </a>
+                    <a
+                      href="https://play.google.com/store/games"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="assets/img/images/home-1/google-play-store.png"
+                        alt="google-play-store"
+                        width="170"
+                        height="50"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!-- Hero Content Block -->
+
+                <!-- Hero Image Block -->
+                <div class="mx-auto">
+                  <img
+                    src="assets/img/images/home-2/hero-2-img-1.png"
+                    alt="hero-2-img-1"
+                    width="472"
+                    height="567"
+                  />
+                </div>
+                <!-- Hero Image Block -->
+              </div>
+              <!-- Hero Area -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Hero Section End :::... -->
+
+        <!--...::: Fun-fact Section Start :::... -->
+        <div class="fun-fact-section">
+          <!-- Section Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Section Space -->
+            <div class="py-20 lg:py-[100px]">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Fun-fact Area  -->
+                <ul
+                  class="grid grid-cols-1 justify-between gap-x-10 gap-y-10 sm:grid-cols-2 lg:flex"
+                >
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      $<span class="start-number" data-countup-number="9"
+                        >9</span
+                      >K
+                    </div>
+                    <span>Total value locked</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      $<span class="start-number" data-countup-number="5"
+                        >5</span
+                      >K
+                    </div>
+                    <span>Total trading volume</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      <span class="start-number" data-countup-number="0.1"
+                        >0.1</span
+                      >%
+                    </div>
+                    <span>Lowest trade free</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      <span class="start-number" data-countup-number="100"
+                        >100</span
+                      >%
+                    </div>
+                    <span>Swap free cashback</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                </ul>
+                <!-- Fun-fact Area  -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </div>
+        <!--...::: Fun-fact Section End :::... -->
+
+        <!--...::: Feature Section Start :::... -->
+        <section class="section-feature" id="feature">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Section Block -->
+              <div
+                class="mx-auto mb-10 max-w-3xl text-center md:mb-[60px] lg:mb-20"
+              >
+                <h2 class="jos">Secure solutions for your digital assets</h2>
+              </div>
+              <!-- Section Block -->
+
+              <!-- Feature List -->
+              <div class="grid grid-cols-1 items-start gap-6 lg:grid-cols-3">
+                <div
+                  class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-1"
+                >
+                  <!-- Feature Item -->
+                  <div
+                    class="jos rounded-[10px] border border-colorBorder p-[30px]"
+                  >
+                    <img
+                      src="assets/img/icons/feature-icon-1.svg"
+                      alt="feature-icon-1"
+                      width="61"
+                      height="60"
+                      class="h-[60px] w-auto"
+                    />
+                    <div
+                      class="display-heading display-heading-4 mb-4 mt-[30px]"
+                    >
+                      Send & Receive
+                    </div>
+                    <p>
+                      Sending & receiving cryptocurrencies such as Bitcoin,
+                      Ethereum or to other digital assets between deferent.
+                    </p>
+                  </div>
+                  <!-- Feature Item -->
+                  <!-- Feature Item -->
+                  <div
+                    class="jos rounded-[10px] border border-colorBorder p-[30px]"
+                  >
+                    <img
+                      src="assets/img/icons/feature-icon-2.svg"
+                      alt="feature-icon-2"
+                      width="53"
+                      height="60"
+                      class="h-[60px] w-auto"
+                    />
+                    <div
+                      class="display-heading display-heading-4 mb-4 mt-[30px]"
+                    >
+                      100% Secure Wallet
+                    </div>
+                    <p>
+                      Cryptocurrency wallets implement to robust security
+                      measures there is no such thing as absolute security.
+                    </p>
+                  </div>
+                  <!-- Feature Item -->
+                </div>
+                <!-- Feature Item -->
+                <div
+                  class="jos relative z-10 rounded-[10px] border border-colorBorder bg-colorPurpleLight p-[30px] pb-0"
+                >
+                  <img
+                    src="assets/img/icons/feature-icon-3.svg"
+                    alt="feature-icon-3"
+                    width="55"
+                    height="60"
+                    class="h-[60px] w-auto"
+                  />
+                  <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                    IOS & Android App
+                  </div>
+                  <p>
+                    Apps developed using programming languages such as swift or
+                    objective-c & are typically distributed.
+                  </p>
+                  <img
+                    src="assets/img/images/home-2/home-2-feature-img.png"
+                    alt="home-2-feature-img"
+                    width="356"
+                    height="311"
+                    class="mx-auto mt-[30px] max-w-full"
+                  />
+
+                  <img
+                    src="assets/img/images/home-2/home-2-feature-shape.svg"
+                    alt="home-2-feature-shape"
+                    width="364"
+                    height="212"
+                    class="absolute -right-20 -top-20 -z-10"
+                  />
+                </div>
+                <!-- Feature Item -->
+                <div
+                  class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-1"
+                >
+                  <!-- Feature Item -->
+                  <div
+                    class="jos rounded-[10px] border border-colorBorder p-[30px]"
+                  >
+                    <img
+                      src="assets/img/icons/feature-icon-4.svg"
+                      alt="feature-icon-4"
+                      width="61"
+                      height="60"
+                      class="h-[60px] w-auto"
+                    />
+                    <div
+                      class="display-heading display-heading-4 mb-4 mt-[30px]"
+                    >
+                      Trading Charts
+                    </div>
+                    <p>
+                      Traders investors & analyze historical price data,
+                      identify transaction, make informed decisions about
+                      buying.
+                    </p>
+                  </div>
+                  <!-- Feature Item -->
+                  <!-- Feature Item -->
+                  <div
+                    class="jos rounded-[10px] border border-colorBorder p-[30px]"
+                  >
+                    <img
+                      src="assets/img/icons/feature-icon-1.svg"
+                      alt="feature-icon-1"
+                      width="61"
+                      height="60"
+                      class="h-[60px] w-auto"
+                    />
+                    <div
+                      class="display-heading display-heading-4 mb-4 mt-[30px]"
+                    >
+                      Real Time Trading
+                    </div>
+                    <p>
+                      This data includes current prices that trading volume,
+                      bid-ask to spreads or order book depth & relevant metrics.
+                    </p>
+                  </div>
+                  <!-- Feature Item -->
+                </div>
+              </div>
+              <!-- Feature List -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Feature Section End :::... -->
+
+        <!--...::: Content Section Start :::... -->
+        <section class="section-content">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <div
+                  class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]"
+                >
+                  <!-- Content Area -->
+                  <div
+                    class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[minmax(0,0.75fr)_1fr] xl:gap-20"
+                  >
+                    <!-- Image Block -->
+                    <div
+                      class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center lg:order-1"
+                      data-jos_animation="fade-right"
+                    >
+                      <img
+                        src="assets/img/images/home-2/content-img-3.png"
+                        alt="content-img-3"
+                        width="472"
+                        height="567"
+                        class="max-w-full"
+                      />
+                    </div>
+                    <!-- Image Block -->
+                    <!-- Content Block -->
+                    <div class="order-1 lg:order-2">
+                      <!-- Section Block -->
+                      <div class="mb-[50px]">
+                        <h2 class="jos">
+                          Buy, sell & securely store a wide range of
+                          cryptocurrencies.
+                        </h2>
+                      </div>
+                      <!-- Section Block -->
+                      <div>
+                        <div class="jos mt-5">
+                          <p>
+                            You can now manage your cryptocurrencies with ease
+                            by buying, selling, storing & transferring them all
+                            in one place. Additionally, you can acquire the
+                            right to buy or sell stocks for a specific price
+                            with no commission fees.
+                          </p>
+                          <p>
+                            Finally, you can buy, sell and securely store a
+                            variety of cryptocurrencies with this app and
+                            protect your crypto with best-in-class cold storage.
+                          </p>
+                        </div>
+                        <a href="signup.html" class="btn btn-primary mt-[50px]">
+                          <span>Sign up now</span>
+                          <span>Sign up now</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Content Block -->
+                  </div>
+                  <!-- Content Area -->
+                </div>
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: Content Section End :::... -->
+
+        <!--...::: Content Section Start :::... -->
+        <section class="section-content">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <div
+                class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]"
+              >
+                <!-- Content Area -->
+                <div
+                  class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[1fr_minmax(0,0.75fr)] xl:gap-20"
+                >
+                  <!-- Image Block -->
+                  <div
+                    class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center"
+                    data-jos_animation="fade-right"
+                  >
+                    <img
+                      src="assets/img/images/home-2/content-img-4.png"
+                      alt="content-img-4"
+                      width="472"
+                      height="567"
+                      class="max-w-full"
+                    />
+                  </div>
+                  <!-- Image Block -->
+                  <!-- Content Block -->
+                  <div class="order-1">
+                    <!-- Section Block -->
+                    <div class="mb-[50px]">
+                      <h2 class="jos">
+                        Easily trade anytime, anywhere on the go
+                      </h2>
+                      <p class="jos mt-5">
+                        Our user-friendly mobile app is designed for
+                        convenience, ensuring you can execute trades & manage
+                        your portfolio effortlessly anytime anywhere.
+                      </p>
+                    </div>
+                    <!-- Section Block -->
+                    <!-- Content List -->
+                    <ul class="mb-[50px] flex max-w-2xl flex-col gap-y-6">
+                      <li class="jos">
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-[3px] bg-colorGreen"
+                          >
+                            <img
+                              src="assets/img/icons/icon-device-mobile-white.svg"
+                              alt="icon-device-mobile-white"
+                              width="30"
+                              height="30"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <div class="display-heading display-heading-4 mb-4">
+                              Largest public crypto app
+                            </div>
+                            <p>
+                              Buy & sell popular digital currencies, keep track
+                              of them in the one place & watch currencies you’re
+                              interested.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="jos">
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-[3px] bg-colorGreen"
+                          >
+                            <img
+                              src="assets/img/icons/icon-finger-print-white.svg"
+                              alt="icon-finger-print-white"
+                              width="32"
+                              height="32"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <div class="display-heading display-heading-4 mb-4">
+                              Your assets are protected
+                            </div>
+                            <p>
+                              Robust security features, such as two-factor
+                              authentication & encryption, to protect users
+                              accounts and transactions.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="jos">
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-[3px] bg-colorGreen"
+                          >
+                            <img
+                              src="assets/img/icons/icon-pencil-alt-white.svg"
+                              alt="icon-pencil-alt-white"
+                              width="32"
+                              height="32"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <div class="display-heading display-heading-4 mb-4">
+                              Get the help you need when you need it
+                            </div>
+                            <p>
+                              Leading crypto app with top-notch security and
+                              robust asset protection. Access assistance
+                              whenever you need it.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <!-- Content List -->
+                  </div>
+                  <!-- Content Block -->
+                </div>
+                <!-- Content Area -->
+                <!-- Content Area -->
+                <div
+                  class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[minmax(0,0.75fr)_1fr] xl:gap-20"
+                >
+                  <!-- Image Block -->
+                  <div
+                    class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center lg:order-1"
+                    data-jos_animation="fade-right"
+                  >
+                    <img
+                      src="assets/img/images/home-2/content-img-5.png"
+                      alt="content-img-5"
+                      width="472"
+                      height="567"
+                      class="max-w-full"
+                    />
+                  </div>
+                  <!-- Image Block -->
+                  <!-- Content Block -->
+                  <div class="order-1 lg:order-2">
+                    <!-- Section Block -->
+                    <div class="mb-[50px]">
+                      <h2 class="jos">
+                        Lightning-fast crypto trading in just 3 steps
+                      </h2>
+                      <p class="jos mt-5">
+                        One of the largest and best-known cryptocurrency
+                        platforms offering a user-friendly interface to buy,
+                        sell & manage various cryptocurrencies in easy steps.
+                      </p>
+                    </div>
+                    <!-- Section Block -->
+
+                    <!-- Accordion List -->
+                    <ul class="jos mt-[50px] flex flex-col gap-y-6">
+                      <!-- Accordion Item -->
+                      <li class="accordion-item-style-1 accordion-item active">
+                        <!-- Accordion Header -->
+                        <div
+                          class="accordion-header flex items-center justify-between gap-6"
+                        >
+                          <button
+                            class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                          >
+                            1. Download and create an account easily
+                          </button>
+                          <div class="accordion-icon text-3xl">
+                            <i class="ri-arrow-down-s-line"></i>
+                          </div>
+                        </div>
+                        <!-- Accordion Header -->
+                        <!-- Accordion Body -->
+                        <div class="accordion-body max-w-[826px] opacity-80">
+                          <p class="pt-4">
+                            Effortlessly begin your cryptocurrency journey by
+                            downloading our user-friendly app. Within minutes,
+                            you can create a secure account.
+                          </p>
+                        </div>
+                        <!-- Accordion Body -->
+                      </li>
+                      <!-- Accordion Item -->
+                      <!-- Accordion Item -->
+                      <li class="accordion-item-style-1 accordion-item">
+                        <!-- Accordion Header -->
+                        <div
+                          class="accordion-header flex items-center justify-between gap-6"
+                        >
+                          <button
+                            class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                          >
+                            2. Link your bank account & make a payment
+                          </button>
+                          <div class="accordion-icon text-3xl">
+                            <i class="ri-arrow-down-s-line"></i>
+                          </div>
+                        </div>
+                        <!-- Accordion Header -->
+                        <!-- Accordion Body -->
+                        <div class="accordion-body max-w-[826px] opacity-80">
+                          <p class="pt-4">
+                            Connect your bank account securely to our platform
+                            for smooth and convenient transactions & it’s
+                            handled with the utmost security.
+                          </p>
+                        </div>
+                        <!-- Accordion Body -->
+                      </li>
+                      <!-- Accordion Item -->
+                      <!-- Accordion Item -->
+                      <li class="accordion-item-style-1 accordion-item">
+                        <!-- Accordion Header -->
+                        <div
+                          class="accordion-header flex items-center justify-between gap-6"
+                        >
+                          <button
+                            class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                          >
+                            3. Start buying & selling crypto as you wish
+                          </button>
+                          <div class="accordion-icon text-3xl">
+                            <i class="ri-arrow-down-s-line"></i>
+                          </div>
+                        </div>
+                        <!-- Accordion Header -->
+                        <!-- Accordion Body -->
+                        <div class="accordion-body max-w-[826px] opacity-80">
+                          <p class="pt-4">
+                            Once your account is set up and linked, dive into
+                            the world of cryptocurrency trading. Buy & sell a
+                            diverse range of digital assets.
+                          </p>
+                        </div>
+                        <!-- Accordion Body -->
+                      </li>
+                      <!-- Accordion Item -->
+                    </ul>
+                    <!-- Accordion List -->
+                  </div>
+                  <!-- Content Block -->
+                </div>
+                <!-- Content Area -->
+              </div>
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Content Section End :::... -->
+
+        <!--...::: Currency Section Start :::... -->
+        <div class="section-cyrrency-slider">
+          <!-- Section Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Section Space -->
+            <div class="py-20 lg:py-[100px]">
+              <!-- Currency Slider -->
+              <div class="currency-slider swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper items-center">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-1.png"
+                      alt="client-img-1"
+                      width="277"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-2.png"
+                      alt="client-img-2"
+                      width="237"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-3.png"
+                      alt="client-img-3"
+                      width="219"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-4.png"
+                      alt="client-img-4"
+                      width="155"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-5.png"
+                      alt="client-img-5"
+                      width="172"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-6.png"
+                      alt="client-img-6"
+                      width="224"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-7.png"
+                      alt="client-img-7"
+                      width="184"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-1.png"
+                      alt="client-img-1"
+                      width="277"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-2.png"
+                      alt="client-img-2"
+                      width="237"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-3.png"
+                      alt="client-img-3"
+                      width="219"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-4.png"
+                      alt="client-img-4"
+                      width="155"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-5.png"
+                      alt="client-img-5"
+                      width="172"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-6.png"
+                      alt="client-img-6"
+                      width="224"
+                      height="70"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-2/crypto-img-7.png"
+                      alt="client-img-7"
+                      width="184"
+                      height="70"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Currency Slider -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </div>
+        <!--...::: Currency Section End :::... -->
+
+        <!--...::: Testimonial Section Start :::... -->
+        <section class="section-testimonial" id="testimonial">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Section Block -->
+              <div
+                class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20"
+              >
+                <h2 class="jos">Trusted by more than 100K+ people</h2>
+              </div>
+              <!-- Section Block -->
+
+              <!-- Testimonial Block -->
+              <div class="jos relative">
+                <!-- Slider Main Block -->
+                <div class="swiper testimonial-gallery md:pl-8">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div
+                        class="grid grid-cols-1 items-center gap-10 md:grid-cols-2 lg:grid-cols-[minmax(0,0.5fr)_1fr] lg:gap-[60px] xl:gap-24"
+                      >
+                        <img
+                          src="assets/img/images/home-2/testimonial-user-img-home-2-img-1.jpg"
+                          alt="testimonial-user-img-home-2-img-1"
+                          class="h-auto w-full rounded-lg"
+                        />
+                        <!-- Testimonial Content -->
+                        <div>
+                          <div
+                            class="inline-flex gap-1 text-2xl text-colorYellow"
+                          >
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                          </div>
+                          <blockquote
+                            class="mb-10 mt-[30px] text-2xl text-colorTextTitle lg:text-3xl xl:text-4xl"
+                          >
+                            Working with this team has been a game-changer for
+                            our business. The innovative solutions they provided
+                            helped streamline our processes and boost
+                            efficiency. Highly recommended!
+                          </blockquote>
+                          <div class="">
+                            <span
+                              class="display-heading display-heading-4 mb-1 block"
+                            >
+                              John Matthews</span
+                            >
+                            <span>CEO</span>
+                          </div>
+                        </div>
+                        <!-- Testimonial Content -->
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="grid grid-cols-1 items-center gap-10 md:grid-cols-2 lg:grid-cols-[minmax(0,0.5fr)_1fr] lg:gap-[60px] xl:gap-24"
+                      >
+                        <img
+                          src="assets/img/images/home-2/testimonial-user-img-home-2-img-1.jpg"
+                          alt="testimonial-user-img-home-2-img-2"
+                          class="h-auto w-full rounded-lg"
+                        />
+                        <!-- Testimonial Content -->
+                        <div>
+                          <div
+                            class="inline-flex gap-1 text-2xl text-colorYellow"
+                          >
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                          </div>
+                          <blockquote
+                            class="mb-10 mt-[30px] text-2xl text-colorTextTitle lg:text-3xl xl:text-4xl"
+                          >
+                            I am really satisfied to with your services. It’s a
+                            breath of fresh air to work financial advisor that
+                            genuinely cares about their clients requirement
+                            situations and preferences. Highly recommend
+                            freelance crypto trader.
+                          </blockquote>
+                          <div class="">
+                            <span
+                              class="display-heading display-heading-4 mb-1 block"
+                              >Nicholas Morgan</span
+                            >
+                            <span>Online Specialist</span>
+                          </div>
+                        </div>
+                        <!-- Testimonial Content -->
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="grid grid-cols-1 items-center gap-10 md:grid-cols-2 lg:grid-cols-[minmax(0,0.5fr)_1fr] lg:gap-[60px] xl:gap-24"
+                      >
+                        <img
+                          src="assets/img/images/home-2/testimonial-user-img-home-2-img-2.jpg"
+                          alt="testimonial-user-img-home-2-img-3"
+                          class="h-auto w-full rounded-lg"
+                        />
+                        <!-- Testimonial Content -->
+                        <div>
+                          <div
+                            class="inline-flex gap-1 text-2xl text-colorYellow"
+                          >
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                          </div>
+                          <blockquote
+                            class="mb-10 mt-[30px] text-2xl text-colorTextTitle lg:text-3xl xl:text-4xl"
+                          >
+                            The customer service and support were outstanding.
+                            They really took the time to understand our needs
+                            and delivered exactly what we wanted, on time and
+                            within budget.
+                          </blockquote>
+                          <div class="">
+                            <span
+                              class="display-heading display-heading-4 mb-1 block"
+                              >Emily Rios</span
+                            >
+                            <span>Marketing Director</span>
+                          </div>
+                        </div>
+                        <!-- Testimonial Content -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slider Main Block -->
+
+                <!-- SLider Gallery Block -->
+                <div
+                  class="swiper testimonial-thumbs absolute left-0 top-1/2 hidden -translate-y-1/2 md:block"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide cursor-pointer">
+                      <div class="my-2">
+                        <img
+                          src="assets/img/images/home-2/testimonial-user-thumb-home-2-img-1.jpg"
+                          alt="testimonial-user-thumb-home-2-img-1"
+                          width="58"
+                          height="58"
+                          class="h-[58px] w-[58px] rounded-full border-2 border-transparent"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide cursor-pointer">
+                      <div class="my-2">
+                        <img
+                          src="assets/img/images/home-2/testimonial-user-thumb-home-2-img-2.jpg"
+                          alt="testimonial-user-thumb-home-2-img-2"
+                          width="58"
+                          height="58"
+                          class="h-[58px] w-[58px] rounded-full border-2 border-transparent"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide cursor-pointer">
+                      <div class="my-2">
+                        <img
+                          src="assets/img/images/home-2/testimonial-user-thumb-home-2-img-3.jpg"
+                          alt="testimonial-user-thumb-home-2-img-3"
+                          width="58"
+                          height="58"
+                          class="h-[58px] w-[58px] rounded-full border-2 border-transparent"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- SLider Gallery Block -->
+
+                <!-- Slider Arrow Block -->
+                <div
+                  class="bottom-0 right-0 z-10 mx-auto mt-8 flex justify-center gap-x-6 lg:absolute lg:mt-0 lg:inline-flex"
+                >
+                  <div
+                    class="testimonial-slider-button-prev inline-flex h-[50px] w-[50px] items-center justify-center rounded-[3px] bg-colorBorder text-3xl text-colorTextTitle transition-all duration-300 hover:bg-colorGreen hover:text-white"
+                  >
+                    <i class="ri-arrow-left-line"></i>
+                  </div>
+                  <div
+                    class="testimonial-slider-button-next inline-flex h-[50px] w-[50px] items-center justify-center rounded-[3px] bg-colorBorder text-3xl text-colorTextTitle transition-all duration-300 hover:bg-colorGreen hover:text-white"
+                  >
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
+                </div>
+                <!-- Slider Arrow Block -->
+              </div>
+              <!-- Testimonial Block -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Testimonial Section End :::... -->
+
+        <!--...::: FAQ Section Start :::... -->
+        <section class="section-faq" id="faq">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Section Container -->
+                <!-- Section Block -->
+                <div
+                  class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20"
+                >
+                  <h2 class="jos">If you want to know anything asked us</h2>
+                </div>
+                <!-- Section Block -->
+
+                <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+                  <!-- Accordion List -->
+                  <ul class="jos mt-[50px] flex flex-col gap-6">
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-1 accordion-item active">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button
+                          class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                        >
+                          1. Download and create an account easily
+                        </button>
+                        <div class="accordion-icon text-3xl">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Effortlessly begin your cryptocurrency journey by
+                          downloading our user-friendly app. Within minutes, you
+                          can create a secure account.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-1 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button
+                          class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                        >
+                          2. Link your bank account & make a payment
+                        </button>
+                        <div class="accordion-icon text-3xl">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Connect your bank account securely to our platform for
+                          smooth and convenient transactions & it’s handled with
+                          the utmost security.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-1 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button
+                          class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                        >
+                          3. Start buying & selling crypto as you wish
+                        </button>
+                        <div class="accordion-icon text-3xl">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Once your account is set up and linked, dive into the
+                          world of cryptocurrency trading. Buy & sell a diverse
+                          range of digital assets.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                  </ul>
+                  <!-- Accordion List -->
+                  <!-- Accordion List -->
+                  <ul class="jos mt-[50px] flex flex-col gap-6">
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-1 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button
+                          class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                        >
+                          1. Download and create an account easily
+                        </button>
+                        <div class="accordion-icon text-3xl">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Effortlessly begin your cryptocurrency journey by
+                          downloading our user-friendly app. Within minutes, you
+                          can create a secure account.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-1 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button
+                          class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                        >
+                          2. Link your bank account & make a payment
+                        </button>
+                        <div class="accordion-icon text-3xl">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Connect your bank account securely to our platform for
+                          smooth and convenient transactions & it’s handled with
+                          the utmost security.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-1 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button
+                          class="flex-1 text-left text-2xl font-semibold text-colorTextTitle"
+                        >
+                          3. Start buying & selling crypto as you wish
+                        </button>
+                        <div class="accordion-icon text-3xl">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Once your account is set up and linked, dive into the
+                          world of cryptocurrency trading. Buy & sell a diverse
+                          range of digital assets.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                  </ul>
+                  <!-- Accordion List -->
+                </div>
+              </div>
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: FAQ Section End :::... -->
+
+        <!--...::: Content Section Start :::... -->
+        <section class="section-content">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <div
+                class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]"
+              >
+                <!-- Content Area -->
+                <div
+                  class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[minmax(0,0.75fr)_1fr] xl:gap-20"
+                >
+                  <!-- Image Block -->
+                  <div
+                    class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center lg:order-1"
+                    data-jos_animation="fade-right"
+                  >
+                    <img
+                      src="assets/img/images/home-2/content-img-3.png"
+                      alt="content-img-3"
+                      width="472"
+                      height="567"
+                      class="max-w-full"
+                    />
+                  </div>
+                  <!-- Image Block -->
+                  <!-- Content Block -->
+                  <div class="order-1 lg:order-2">
+                    <!-- Section Block -->
+                    <div class="mb-[50px]">
+                      <h2 class="jos">
+                        Download and start your crypto journey
+                      </h2>
+                    </div>
+                    <!-- Section Block -->
+                    <div>
+                      <div class="jos mt-5">
+                        <p>
+                          Embark on your crypto journey effortlessly! Download
+                          our user-friendly app, create an account in minutes,
+                          and step into the exciting world of digital assets.
+                          Begin buying and selling cryptocurrencies with ease.
+                        </p>
+                      </div>
+                      <a href="signup.html" class="btn btn-primary mt-[50px]">
+                        <span>Sign up now</span>
+                        <span>Sign up now</span>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Content Block -->
+                </div>
+                <!-- Content Area -->
+              </div>
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Content Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+      <footer class="section-footer">
+        <div class="bg-colorTextTitle text-white">
+          <!-- Footer Top -->
+          <div class="pb-14 pt-14 lg:pt-[100px]">
+            <!-- Container -->
+            <div class="container">
+              <!-- Footer Top Area -->
+              <div class="flex flex-wrap gap-10 xl:justify-between">
+                <!-- Footer Widget - Info -->
+                <div class="max-w-sm">
+                  <a href="index.html" class="inline-block">
+                    <img
+                      src="assets/img/images/logo-alter.png"
+                      alt="logo-alter"
+                      width="112"
+                      height="40"
+                    />
+                  </a>
+                  <p class="my-6">
+                    Sofax is best softwere platform manage your sales depends on
+                    your specific business needs budget & industry.
+                  </p>
+
+                  <div class="flex gap-6">
+                    <a
+                      href="https://www.x.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextBody text-lg hover:bg-colorPurpleLight"
+                    >
+                      <i class="ri-twitter-x-line"></i>
+                    </a>
+                    <a
+                      href="https://www.x.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextBody text-lg hover:bg-colorPurpleLight"
+                    >
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a
+                      href="https://www.x.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextBody text-lg hover:bg-colorPurpleLight"
+                    >
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                    <a
+                      href="https://www.x.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextBody text-lg hover:bg-colorPurpleLight"
+                    >
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- Footer Widget - Info -->
+
+                <!-- Footer Widget - Navigation -->
+                <div>
+                  <span
+                    class="display-heading display-heading-5 mb-6 block text-white"
+                    >Company</span
+                  >
+
+                  <nav class="flex flex-col gap-y-4">
+                    <a
+                      href="about.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >About Us</a
+                    >
+                    <a
+                      href="contact.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >Contact US</a
+                    >
+                    <a
+                      href="terms-condition.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >Privacy Policy
+                    </a>
+                    <a
+                      href="terms-condition.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >Terms & Conditions</a
+                    >
+                  </nav>
+                </div>
+                <!-- Footer Widget - Navigation -->
+
+                <!-- Footer Widget - Navigation -->
+                <div>
+                  <span
+                    class="display-heading display-heading-5 mb-6 block text-white"
+                    >Utility Pages</span
+                  >
+
+                  <div class="flex flex-col gap-y-4">
+                    <a
+                      href="contact.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >Instructions</a
+                    >
+                    <a
+                      href="contact.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >Style Guide</a
+                    >
+                    <a
+                      href="error-404.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >404 Pages
+                    </a>
+                    <a
+                      href="contact.html"
+                      class="hover:text-colorBody hover:font-medium"
+                      >Licenses</a
+                    >
+                  </div>
+                </div>
+                <!-- Footer Widget - Navigation -->
+
+                <!-- Footer Widget - Subscribe Form -->
+                <div class="max-w-72">
+                  <span
+                    class="display-heading display-heading-5 mb-6 block text-white"
+                    >Subscribe to our newsletter</span
+                  >
+
+                  <form action="#" method="post">
+                    <input
+                      type="email"
+                      placeholder="Enter your email"
+                      class="w-full rounded-[50px] bg-colorTextBody px-11 py-3"
+                    />
+                    <button
+                      type="submit"
+                      class="btn btn-primary mt-3 flex w-full"
+                    >
+                      <span>Subscribe now</span>
+                      <span>Subscribe now</span>
+                    </button>
+                  </form>
+                </div>
+                <!-- Footer Widget - Subscribe Form -->
+              </div>
+              <!-- Footer Top Area -->
+            </div>
+            <!-- Container -->
+          </div>
+          <!-- Footer Top -->
+
+          <!-- Footer Bottom -->
+          <div>
+            <!-- Container -->
+            <div class="container">
+              <div class="border-t border-colorTextBody py-9 text-center">
+                © 2024 Mthemeus All Rights Reserved.
+              </div>
+            </div>
+            <!-- Container -->
+          </div>
+          <!-- Footer Bottom -->
+        </div>
+      </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

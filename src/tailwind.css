@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body,
+  .page-wrapper {
+    @apply min-h-screen font-body text-xl text-colorTextBody;
+  }
+
+  /* Default Heading */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .display-heading {
+    @apply font-title font-bold text-colorTextTitle;
+  }
+
+  h1,
+  .display-heading-1 {
+    @apply text-5xl leading-none sm:text-6xl md:text-7xl lg:-tracking-[3px] xl:text-8xl xxl:text-[120px];
+  }
+
+  h2,
+  .display-heading-2 {
+    @apply text-4xl leading-[1.06] sm:text-5xl md:text-[62px] lg:-tracking-[2px] xl:text-[75px];
+  }
+
+  h3,
+  .display-heading-3 {
+    @apply text-2xl leading-[1.05] -tracking-[0.5px] md:text-3xl xl:text-4xl;
+  }
+  h4,
+  .display-heading-4 {
+    @apply text-2xl  -tracking-[0.5px];
+  }
+
+  h5,
+  .display-heading-5 {
+    @apply text-xl;
+  }
+  h6,
+  .display-heading-6 {
+    @apply text-lg;
+  }
+
+  a,
+  button,
+  .transition-default {
+    @apply transition-all duration-300;
+  }
+
+  p {
+    @apply mb-8 last:mb-0;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex min-w-[200px] items-center justify-center gap-x-2 overflow-hidden rounded-[50px] px-6 py-4 text-center text-base font-bold text-colorTextTitle;
+  }
+
+  .btn span {
+    @apply block transition-all duration-300 first-of-type:translate-y-0 first-of-type:opacity-100 last-of-type:absolute last-of-type:translate-y-full last-of-type:opacity-0;
+  }
+  .btn:hover span {
+    @apply first-of-type:-translate-y-full first-of-type:opacity-0 last-of-type:translate-y-0 last-of-type:opacity-100;
+  }
+
+  .btn-primary {
+    @apply bg-colorPurpleLight;
+  }
+
+  .btn-dark {
+    @apply bg-colorTextTitle text-white;
+  }
+
+  .btn-outline-black {
+    @apply border border-colorTextTitle;
+  }
+
+  .hover-shadow {
+    @apply relative z-10 after:absolute after:left-0 after:top-0 after:-z-10 after:h-[calc(100%+5px)] after:w-[calc(100%+5px)] after:rounded-[10px] after:bg-transparent after:transition-all after:duration-300 hover:after:bg-colorTextTitle;
+  }
+
+  .img-shadow {
+    @apply relative z-10 after:absolute after:inset-0 after:-z-10 after:translate-x-2 after:translate-y-2 after:rounded-[10px] after:bg-colorTextTitle;
+  }
+}
+
+.nav-link-item {
+  @apply hover:text-colorPurpleLight;
+}
+
+.sub-menu--item a {
+  @apply hover:text-colorRed;
+}
+
+/* Section Space */
+.section-space {
+  @apply py-20 lg:py-[100px] xl:py-[130px];
+}
+.section-space-top {
+  @apply pt-20 lg:pt-[100px] xl:pt-[130px];
+}
+.section-space-bottom {
+  @apply pb-20 lg:pb-[100px] xl:pb-[130px];
+}
+
+/* Breadcrumb */
+.breadcrumb-space {
+  @apply pb-20 pt-24 md:pt-32 lg:pb-[100px] lg:pt-40 xl:pb-[130px] xl:pt-52;
+}
+
+.breadcrumb {
+  @apply flex flex-wrap justify-center gap-x-10 gap-y-3;
+}
+
+.breadcrumb-item {
+  @apply relative text-white after:absolute after:left-[calc(100%+10px)] after:font-icon after:content-["\ea6e"] last-of-type:after:hidden;
+}
+.breadcrumb-item a {
+  @apply text-white hover:text-colorPurpleLight;
+}
+.breadcrumb-item.active {
+  @apply font-bold text-colorPurpleLight;
+}
+
+/* Section Text */
+.section-para {
+  @apply mt-8 text-lg leading-[1.42] first-of-type:mt-0 lg:text-[21px];
+}
+
+/* Container Size */
+.container {
+  @apply mx-auto max-w-full px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]  xxl:max-w-[1330px];
+}
+.testimonial-thumbs .swiper-slide-thumb-active img {
+  @apply border-colorPurpleLight transition-all duration-300;
+}
+/* Accordion */
+.accordion-body {
+  @apply h-0 translate-y-5 overflow-clip opacity-0 transition-all duration-300;
+}
+
+.accordion-item.active .accordion-body {
+  @apply h-auto translate-y-0 opacity-100;
+}
+
+/* Accordion 1 */
+.accordion-item-style-1 {
+  @apply rounded-[10px] border border-colorBorder p-5;
+}
+.accordion-item-style-1.active {
+  @apply shadow-custom-1;
+}
+
+.accordion-item-style-1.active .accordion-icon {
+  @apply rotate-180 transition-all duration-300;
+}
+
+/* Accordion 2 */
+.accordion-item-style-2 {
+  @apply rounded-[10px] border border-colorTextTitle p-5;
+}
+.accordion-item-style-2.active {
+  @apply bg-colorTextTitle text-white;
+}
+
+.accordion-item-style-2.active .accordion-icon {
+  @apply rotate-180 transition-all duration-300;
+}
+
+/* Tab */
+.tab-button {
+  @apply rounded-[50px] border border-colorTextTitle px-[30px] py-3 text-center transition-all duration-300;
+}
+.tab-button.active {
+  @apply border-colorPurpleLight bg-colorPurpleLight;
+}
+
+/* Pagination */
+.pagination {
+  @apply flex gap-x-6;
+}
+
+.page-item {
+  @apply inline-flex h-[50px] w-[50px] items-center justify-center rounded-full bg-colorGrey transition-all duration-300 hover:bg-colorPurpleLight;
+}
+.page-item.active {
+  @apply bg-colorPurpleLight;
+}
+
+/* Rich Text Block */
+.rich-text-block h1 {
+  @apply mb-6;
+}
+.rich-text-block h2 {
+  @apply mb-4;
+}
+.rich-text-block h3 {
+  @apply mb-4;
+}
+.rich-text-block h4 {
+  @apply mb-4;
+}
+.rich-text-block h5 {
+  @apply mb-4;
+}
+.rich-text-block h6 {
+  @apply mb-4;
+}
+.rich-text-block p {
+  @apply mb-8;
+}
+.rich-text-block blockquote {
+  @apply my-[30px] rounded-[10px] bg-colorTextTitle p-[30px] text-2xl font-bold leading-[1.05] -tracking-[0.5px] text-white md:text-3xl xl:text-4xl;
+}
+.rich-text-block ul {
+  @apply mb-10 flex list-inside list-disc flex-col gap-4 font-bold text-colorTextTitle;
+}
+.rich-text-block ol {
+  @apply mb-10 flex list-inside list-decimal flex-col gap-4 font-bold text-colorTextTitle;
+}

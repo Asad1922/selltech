@@ -1,0 +1,47 @@
+/* Inter Normal */
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* Available weight range */
+  font-style: normal;
+  font-variation-settings:
+    "wght" 400,
+    "slnt" 0;
+}
+
+/* Inter Italic */
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* Available weight range */
+  font-style: italic;
+  font-variation-settings:
+    "wght" 400,
+    "slnt" -10; /* Apply slight slant for italics */
+}
+
+/* DM Sans Normal */
+@font-face {
+  font-family: "DM Sans";
+  src: url("./DMSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 700; /* Available weight range */
+  font-style: normal;
+  font-variation-settings: "wght" 400;
+}
+
+/* DM Sans Italic */
+@font-face {
+  font-family: "DM Sans";
+  src: url("./DMSans-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 700; /* Available weight range */
+  font-style: italic;
+  font-variation-settings: "wght" 400;
+}
+/* DM Sans Normal */
+@font-face {
+  font-family: "Redick";
+  src: url("./Redick.ttf") format("truetype");
+  font-weight: 200 700; /* Available weight range */
+  font-style: normal;
+  font-variation-settings: "wght" 400;
+}

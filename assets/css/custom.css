@@ -1,0 +1,72 @@
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+/* Animation */
+.scrolling {
+  animation: fadeInDown 0.9s 1;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 5px 2px rgb(0 0 0 / 10%);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple-animation 0.6s linear;
+  background: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.rotate-animate {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.up-down-40 {
+  animation: up-down 3s linear infinite backwards;
+}
+
+@keyframes up-down {
+  from {
+    transform: translateY(-40px);
+  }
+  to {
+    transform: translateY(40px);
+  }
+}
+
+.infinite-text-slider {
+  animation: infinite-text-slider 8s linear infinite backwards;
+}
+
+@keyframes infinite-text-slider {
+  from {
+    transform: translateX(-100%);
+  }
+}

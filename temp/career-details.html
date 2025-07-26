@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+    <!-- ...::: Header Section Start :::... -->
+    <header class="section-header site-header fixed top-0 z-30 w-full py-2">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="index.html" class="h-auto w-auto">
+              <img src="assets/img/images/logo.png" alt="SellTech - Software Development & Marketing Agency" width="200"
+                height="40" />
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="ri-arrow-left-s-fill"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a class="nav-link-item" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Services <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu mega-menu" id="submenu-services">
+                    <div class="mega-menu-content">
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Software Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#saas-development"><i class="ri-arrow-right-s-line"></i> SaaS Application
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#api-development"><i class="ri-arrow-right-s-line"></i> API Development
+                              Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#cross-platform-app"><i class="ri-arrow-right-s-line"></i> Cross-platform App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#progressive-web-app"><i class="ri-arrow-right-s-line"></i> Progressive Web App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#enterprise-software"><i class="ri-arrow-right-s-line"></i> Enterprise Software
+                              Solutions</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">Mobile App Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#native-app-development"><i class="ri-arrow-right-s-line"></i> Native App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#cross-platform-mobile"><i class="ri-arrow-right-s-line"></i> Cross-platform
+                              Mobile Development</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Web Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#custom-web-development"><i class="ri-arrow-right-s-line"></i> Custom Web
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#ecommerce-development"><i class="ri-arrow-right-s-line"></i> E-commerce
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#cms-development"><i class="ri-arrow-right-s-line"></i> CMS Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#website-maintenance"><i class="ri-arrow-right-s-line"></i> Website
+                              Maintenance</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#performance-optimization"><i class="ri-arrow-right-s-line"></i> Performance
+                              Optimization</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">Digital Marketing</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#seo-services"><i class="ri-arrow-right-s-line"></i> Search Engine
+                              Optimization (SEO)</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#ppc-advertising"><i class="ri-arrow-right-s-line"></i> Pay-Per-Click (PPC)
+                              Advertising</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#social-media-marketing"><i class="ri-arrow-right-s-line"></i> Social Media
+                              Marketing</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Branding Services</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-strategy-development"><i class="ri-arrow-right-s-line"></i> Brand Strategy
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#logo-design-services"><i class="ri-arrow-right-s-line"></i> Logo Design Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#visual-identity-creation"><i class="ri-arrow-right-s-line"></i> Visual Identity
+                              Creation</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-guidelines-establishment"><i class="ri-arrow-right-s-line"></i> Brand Guidelines
+                              Establishment</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#marketing-materials-design"><i class="ri-arrow-right-s-line"></i> Marketing
+                              Materials Design</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">UI/UX Service</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ui-design"><i class="ri-arrow-right-s-line"></i> UI Design</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ux-research-strategy"><i class="ri-arrow-right-s-line"></i> UX Research & Strategy</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#wireframing-prototyping"><i class="ri-arrow-right-s-line"></i> Wireframing &
+                              Prototyping</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col mega-menu-cta">
+                        <h3>Ready to Start Your Project?</h3>
+                        <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
+                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Industries <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-industries">
+                    <li class="sub-menu--item">
+                      <a href="healthcare-solutions.html">Healthcare</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="fintech-solutions.html">Fintech</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="ecommerce-solutions.html">E-commerce</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="education-solutions.html">Education</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="real-estate-solutions.html">Real Estate</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="manufacturing-solutions.html">Manufacturing</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="automotive-solutions.html">Automotive</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="Case studies.html">Case studies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-x-6">
+            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+              <span>Get Free Quote</span>
+              <span>Get Free Quote</span>
+            </a>
+            <div class="block lg:hidden">
+              <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                <span class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ...::: Header Section End :::... -->
+
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Breadcrumb Section Start :::... -->
+        <section class="section-breadcrumb">
+          <!-- Breadcrumb Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Breadcrumb Space -->
+            <div class="breadcrumb-space">
+              <!-- Breadcrumb Container -->
+              <div class="container">
+                <div class="text-center text-white">
+                  <h1 class="mb-[50px] text-white">UI/UX Designer</h1>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="career.html">Career</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        Career Details
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+              <!-- Breadcrumb Container -->
+            </div>
+            <!-- Breadcrumb Space -->
+          </div>
+          <!-- Breadcrumb Background -->
+        </section>
+        <!--...::: Breadcrumb Section End :::... -->
+
+        <!--...::: Career Designer Section Start :::... -->
+        <section class="section-blog">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Career Area -->
+              <div
+                class="grid grid-cols-1 gap-[30px] lg:grid-cols-[1fr_minmax(416px,0.5fr)]"
+              >
+                <!-- Career Designer Left -->
+                <div>
+                  <article class="jos">
+                    <h2 class="mb-4">Job Details:</h2>
+                    <p>
+                      UI/UX designers and user an experience (UX) designers are
+                      the similar—in fact, sometimes the titles are used
+                      interchangeably.
+                    </p>
+                    <!-- Job Details Meta Info -->
+                    <ul
+                      class="mb-10 flex flex-wrap gap-x-6 gap-y-3 text-lg font-bold text-colorTextTitle"
+                    >
+                      <li class="inline-flex gap-1">
+                        <span class="font-normal"
+                          ><i class="ri-time-fill"></i>
+                        </span>
+                        Full Time
+                      </li>
+                      <li class="inline-flex gap-1">
+                        <span class="font-normal"
+                          ><i class="ri-map-pin-2-fill"></i>
+                        </span>
+                        London, UK
+                      </li>
+                      <li class="inline-flex gap-1">
+                        <span class="font-normal"
+                          ><i class="ri-cash-fill"></i>
+                        </span>
+                        $25k-$40k
+                      </li>
+                    </ul>
+                    <!-- Job Details Meta Info -->
+
+                    <div class="rich-text-block">
+                      <h3>Job Responsibilities</h3>
+                      <p>
+                        By partnering with cross-functional teams and customers,
+                        for you will turn your insights into delightful creative
+                        environment that requires proven leadership skills and
+                        the ability.
+                      </p>
+                      <ul>
+                        <li>
+                          Set design requirements based on information from
+                          internal teams.
+                        </li>
+                        <li>Identify new product improvement opportunities.</li>
+                        <li>
+                          Analyze how a new product satisfies market needs &
+                          consumer preferences.
+                        </li>
+                        <li>
+                          Stay up to date on current industry trends and market
+                          conditions.
+                        </li>
+                        <li>
+                          Coordinate with other design team members to ensure
+                          communication.
+                        </li>
+                      </ul>
+
+                      <h3>Requirements</h3>
+                      <p>
+                        Proven experience in all phases of the design process
+                        including user for a research, copywriting, wireframing,
+                        prototyping, visual design, interaction design, and
+                        usability testing
+                      </p>
+                      <ul>
+                        <li>
+                          An intuitive eye for customer needs beyond the obvious
+                        </li>
+                        <li>
+                          Ability to collaborate with cross-functional team
+                          members
+                        </li>
+                        <li>
+                          Ability to collect and interpret both qualitative and
+                          quantitative feedback
+                        </li>
+                        <li>
+                          Ability to effectively communicate and persuade around
+                          design concepts
+                        </li>
+                        <li>
+                          Passion for design; not satisfied with the status quo
+                          and always thinking
+                        </li>
+                      </ul>
+
+                      <h3>Skill & Experience</h3>
+
+                      <ul>
+                        <li>
+                          You have at least 3 years’ experience working as a
+                          Product Designer.
+                        </li>
+                        <li>
+                          You have experience using Sketch and InVision or
+                          Framer X and must figma
+                        </li>
+                        <li>
+                          You have some previous experience working in an agile
+                          environment
+                        </li>
+                        <li>
+                          You are familiar using Jira and Confluence in your
+                          workflow
+                        </li>
+                      </ul>
+                    </div>
+                  </article>
+
+                  <div class="mt-10">
+                    <h3 class="jos mb-4">Need help?</h3>
+                    <p class="jos mb-6">
+                      Not sure exactly what we’re looking for or just want
+                      clarification? We’d be happy to chat with you and clear
+                      things up for you. Anytime
+                    </p>
+                    <!-- Contact Info List -->
+                    <ul class="flex max-w-lg flex-col gap-y-[60px]">
+                      <!-- Contact Info Item -->
+                      <li class="jos flex items-start gap-7">
+                        <div class="h-[60px] w-auto">
+                          <img
+                            src="assets/img/images/home-1/contact-icon-1.svg"
+                            alt="contact-icon-1"
+                            width="65"
+                            height="60"
+                          />
+                        </div>
+                        <div class="flex-1">
+                          <span
+                            class="display-heading display-heading-4 mb-4 block"
+                            >Chat with us</span
+                          >
+                          <p>
+                            We're waiting to help you every Monday-Friday from 9
+                            am to 5 pm EST easily.
+                          </p>
+                        </div>
+                      </li>
+                      <!-- Contact Info Item -->
+                      <!-- Contact Info Item -->
+                      <li class="jos flex items-start gap-7">
+                        <div class="h-[60px] w-auto">
+                          <img
+                            src="assets/img/images/home-1/contact-icon-2.svg"
+                            alt="contact-icon-2"
+                            width="65"
+                            height="60"
+                          />
+                        </div>
+                        <div class="flex-1">
+                          <span
+                            class="display-heading display-heading-4 mb-4 block"
+                            >Give us a call</span
+                          >
+                          <p>
+                            Give us a ring at
+                            <a
+                              href="tel:+08823456790"
+                              class="text-colorTextTitle hover:underline"
+                              >(+088-234-567-90)</a
+                            >. Every monday-friday from 9 am to 5 pm.
+                          </p>
+                        </div>
+                      </li>
+                      <!-- Contact Info Item -->
+                      <!-- Contact Info Item -->
+                      <li class="jos flex items-start gap-7">
+                        <div class="h-[60px] w-auto">
+                          <img
+                            src="assets/img/images/home-1/contact-icon-3.svg"
+                            alt="contact-icon-3"
+                            width="65"
+                            height="60"
+                          />
+                        </div>
+                        <div class="flex-1">
+                          <span
+                            class="display-heading display-heading-4 mb-4 block"
+                            >Email Us</span
+                          >
+                          <p>
+                            Drop us an email at
+                            <a
+                              href="mailto:example@gmail.com"
+                              class="text-colorTextTitle hover:underline"
+                              >example@gmail.com</a
+                            >
+                            and you'll receive a reply within 24 hours.
+                          </p>
+                        </div>
+                      </li>
+                      <!-- Contact Info Item -->
+                    </ul>
+                    <!-- Contact Info List -->
+                  </div>
+                </div>
+                <!-- Career Designer Left -->
+
+                <!-- Sidebar Block -->
+                <aside class="flex flex-col gap-y-8">
+                  <div
+                    class="jos rounded-[10px] bg-white px-[30px] py-10 shadow-custom-1"
+                    data-jos_animation="fade-left"
+                  >
+                    <h3 class="mb-8">Apply for this position</h3>
+                    <form
+                      action="#"
+                      method="post"
+                      class="grid grid-cols-1 gap-y-6"
+                    >
+                      <div class="grid grid-cols-1 gap-6">
+                        <!-- From Group -->
+                        <div>
+                          <label
+                            for="career-name"
+                            class="display-heading display-heading-5 mb-4 block"
+                            >Your Name</label
+                          >
+                          <input
+                            type="text"
+                            name="career-name"
+                            id="career-name"
+                            placeholder="Your Name*"
+                            class="w-full rounded-[50px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none"
+                            required
+                          />
+                        </div>
+                        <!-- From Group -->
+                        <div>
+                          <label
+                            for="career-email"
+                            class="display-heading display-heading-5 mb-4 block"
+                            >Your Email</label
+                          >
+                          <input
+                            type="email"
+                            name="career-email"
+                            id="career-email"
+                            placeholder="Email Address*"
+                            class="w-full rounded-[50px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="grid grid-cols-1 gap-6">
+                        <!-- Form Group -->
+                        <div>
+                          <label
+                            for="career-message"
+                            class="display-heading display-heading-5 mb-4 block"
+                            >Your Message</label
+                          >
+                          <textarea
+                            name="career-message"
+                            id="career-message"
+                            class="min-h-52 w-full rounded-[15px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none"
+                            placeholder="Write us your comment"
+                            required
+                          ></textarea>
+                        </div>
+                        <!-- Form Group -->
+                      </div>
+                      <label
+                        for="login-check"
+                        class="peer flex items-center gap-[10px] text-base"
+                      >
+                        <input
+                          type="checkbox"
+                          name="login-check"
+                          id="login-check"
+                          class="peer size-5 appearance-none overflow-hidden rounded-[4px] border border-colorPurpleLight accent-colorPurpleLight checked:appearance-auto"
+                        />
+                        <span>I agree to the mthemeus privacy policy*</span>
+                      </label>
+                      <div class="flex w-full justify-start gap-6">
+                        <button type="submit" class="btn btn-primary w-full">
+                          <span>Submit Now</span>
+                          <span>Submit Now</span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </aside>
+                <!-- Sidebar Block -->
+              </div>
+              <!-- Career Area -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Career Designer Section End :::... -->
+
+        <!--...::: Client Section Start :::... -->
+        <div class="section-client">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="py-20 lg:py-[100px]">
+              <!-- Section Container -->
+              <div class="container">
+                <div class="mx-auto mb-[60px] max-w-2xl text-center">
+                  <p>Trusted by 1600+ of the world's most popular companies</p>
+                </div>
+
+                <!-- Brand Slider -->
+                <div class="client-slider swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-1.png"
+                        alt="client-img-1"
+                        width="199"
+                        height="48"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-2.png"
+                        alt="client-img-2"
+                        width="199"
+                        height="49"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-3.png"
+                        alt="client-img-3"
+                        width="201"
+                        height="48"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-4.png"
+                        alt="client-img-4"
+                        width="189"
+                        height="40"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-5.png"
+                        alt="client-img-5"
+                        width="196"
+                        height="48"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-1.png"
+                        alt="client-img-1"
+                        width="199"
+                        height="48"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-2.png"
+                        alt="client-img-2"
+                        width="199"
+                        height="49"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-3.png"
+                        alt="client-img-3"
+                        width="201"
+                        height="48"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-4.png"
+                        alt="client-img-4"
+                        width="189"
+                        height="40"
+                      />
+                    </div>
+                    <div class="swiper-slide flex justify-center">
+                      <img
+                        src="assets/img/images/home-1/client-img-5.png"
+                        alt="client-img-5"
+                        width="196"
+                        height="48"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Brand Slider -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </div>
+        <!--...::: Client Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space relative">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- CTA Area -->
+              <div
+                class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
+              >
+                <!-- Section Block -->
+                <div class="sm:max-w-[820px] sm:flex-1">
+                  <h2 class="jos">
+                    Let's embark on a digital journey together!
+                    <img
+                      src="assets/img/images/home-5/icon-union.svg"
+                      alt="icon-union"
+                      width="83"
+                      height="80"
+                      class="inline h-auto w-10 lg:w-16"
+                    />
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <a
+                  href="contact.html"
+                  class="group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]"
+                >
+                  <span
+                    class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                  <span
+                    class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                </a>
+              </div>
+              <!-- CTA Area -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Background Element -->
+            <img
+              src="assets/img/images/home-5/background-shape-1.svg"
+              alt="background-shape-1"
+              width="273"
+              height="204"
+              class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
+            />
+            <!-- Background Element -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+      <footer class="section-footer">
+        <!-- Footer Top -->
+        <div class="pb-14 pt-14 lg:pt-[100px]">
+          <!-- Container -->
+          <div class="container">
+            <!-- Footer Top Area -->
+            <div class="flex flex-wrap gap-10 xl:justify-between">
+              <!-- Footer Widget - Info -->
+              <div class="max-w-sm">
+                <a href="index.html" class="inline-block">
+                  <img
+                    src="assets/img/images/logo.png"
+                    alt="logo"
+                    width="112"
+                    height="40"
+                  />
+                </a>
+                <p class="my-6">
+                  Sofax is best softwere platform manage your sales depends on
+                  your specific business needs budget & industry.
+                </p>
+
+                <div class="flex gap-6">
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-twitter-x-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-linkedin-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Footer Widget - Info -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Company</span
+                >
+
+                <nav class="flex flex-col gap-y-4">
+                  <a
+                    href="about.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >About Us</a
+                  >
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Contact US</a
+                  >
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Privacy Policy
+                  </a>
+                  <a
+                    href="terms-condition.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Terms & Conditions</a
+                  >
+                </nav>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Utility Pages</span
+                >
+
+                <div class="flex flex-col gap-y-4">
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Instructions</a
+                  >
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Style Guide</a
+                  >
+                  <a
+                    href="error-404.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >404 Pages
+                  </a>
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Licenses</a
+                  >
+                </div>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Subscribe Form -->
+              <div class="max-w-72">
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Subscribe to our newsletter</span
+                >
+
+                <form action="#" method="post">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full rounded-[50px] border border-colorTextTitle bg-white px-11 py-3"
+                  />
+                  <button
+                    type="submit"
+                    class="btn btn-primary mt-3 flex w-full"
+                  >
+                    <span>Subscribe now</span>
+                    <span>Subscribe now</span>
+                  </button>
+                </form>
+              </div>
+              <!-- Footer Widget - Subscribe Form -->
+            </div>
+            <!-- Footer Top Area -->
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Top -->
+
+        <!-- Footer Bottom -->
+        <div>
+          <!-- Container -->
+          <div class="container">
+            <div class="border-t border-colorBorder py-9 text-center">
+              © 2024 Mthemeus All Rights Reserved.
+            </div>
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Bottom -->
+      </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

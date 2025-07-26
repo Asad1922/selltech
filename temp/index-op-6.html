@@ -1,0 +1,1863 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+      <header class="section-header site-header fixed top-0 z-30 w-full py-4">
+        <!-- Section Container -->
+        <div class="container">
+          <!-- Header Area -->
+          <div class="flex items-center justify-between">
+            <!-- Header Left Block -->
+            <div>
+              <!-- Header Logo -->
+              <a href="index.html" class="h-auto w-auto">
+                <img
+                  src="assets/img/images/logo.png"
+                  alt="logo"
+                  width="112"
+                  height="40"
+                />
+              </a>
+              <!-- Header Logo -->
+            </div>
+            <!-- Header Left Block -->
+
+            <!-- Header Navigation -->
+            <div class="menu-block-wrapper">
+              <div class="menu-overlay"></div>
+              <nav class="menu-block" id="append-menu-header">
+                <div class="mobile-menu-head">
+                  <div class="go-back">
+                    <i class="ri-arrow-left-s-fill"></i>
+                  </div>
+                  <div class="current-menu-title"></div>
+                  <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="site-menu-main">
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#feature">Feature</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#testimonial">Testimonial</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Header Navigation -->
+
+            <!-- Header Right Block -->
+            <div class="flex items-center gap-x-6">
+              <a
+                href="contact.html"
+                class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex"
+              >
+                <span>Contact Us</span>
+                <span>Contact Us</span>
+              </a>
+
+              <!-- Responsive Offcanvas Menu Button -->
+              <div class="block lg:hidden">
+                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                  <span
+                    class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <!-- Header Right Block -->
+          </div>
+          <!-- Header Area -->
+        </div>
+        <!-- Section Container -->
+      </header>
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Hero Section Start :::... -->
+        <section class="section-hero" id="home">
+          <!-- Section Space -->
+          <div class="relative z-10 pt-24 md:pt-32 lg:pt-40 xl:pt-52">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Hero Area -->
+              <div
+                class="mx-auto grid max-w-full gap-10 xl:mr-[calc((-100vw+100%)/2)] xl:max-w-[1608px] xl:grid-cols-2"
+              >
+                <div class="text-center xl:text-left">
+                  <h1 class="jos mb-6">
+                    Your all-in-one CRM platform built success
+                  </h1>
+                  <p class="jos mx-auto max-w-[776px] xl:mx-0">
+                    Transform your business with our intelligent CRM solutions.
+                    Drive sales, track leads, automate tasks, enhance service,
+                    boost efficiency – all in one place.
+                  </p>
+                  <!-- Subscription Form -->
+                  <form
+                    action="#"
+                    method="post"
+                    class="mx-auto mt-[50px] max-w-[600px] xl:mx-0"
+                  >
+                    <div class="relative">
+                      <input
+                        type="email"
+                        placeholder="Enter your email "
+                        class="w-full rounded-[50px] border border-colorGreyDark px-5 py-4 text-lg focus-visible:outline-none sm:pr-56"
+                        required
+                      />
+                      <button
+                        type="submit"
+                        class="btn btn-primary right-1 top-1/2 mt-6 sm:absolute sm:mt-0 sm:-translate-y-1/2"
+                      >
+                        <span>Try for Free</span>
+                        <span>Try for Free</span>
+                      </button>
+                    </div>
+                  </form>
+                  <!-- Subscription Form -->
+                  <p class="mt-5">Full access, no credit card required.</p>
+                </div>
+                <div>
+                  <img
+                    src="assets/img/images/home-6/hero-dashboard.jpg"
+                    alt="hero-dashboard"
+                    class="mx-auto max-w-full rounded-bl-lg rounded-tl-lg xl:ml-auto"
+                  />
+                </div>
+              </div>
+              <!-- Hero Area -->
+
+              <!-- Hero Element -->
+              <img
+                src="assets/img/images/home-6/background-shape-1.svg"
+                alt="background-shape-1"
+                width="204"
+                height="175"
+                class="absolute right-0 top-0 -z-10"
+              />
+              <!-- Hero Element -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Hero Section End :::... -->
+        <!--...::: Hero Section End :::... -->
+
+        <!--...::: Client Section Start :::... -->
+        <div class="section-client">
+          <!-- Section Space -->
+          <div class="py-20 lg:py-[100px]">
+            <!-- Section Container -->
+            <div class="container">
+              <div class="mx-auto mb-[60px] max-w-2xl text-center">
+                <p class="display-heading display-heading-4">
+                  Trusted by 1600+ of the world's most popular companies
+                </p>
+              </div>
+
+              <!-- Brand Slider -->
+              <div class="client-slider swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-1.png"
+                      alt="client-img-1"
+                      width="199"
+                      height="48"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-2.png"
+                      alt="client-img-2"
+                      width="199"
+                      height="49"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-3.png"
+                      alt="client-img-3"
+                      width="201"
+                      height="48"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-4.png"
+                      alt="client-img-4"
+                      width="189"
+                      height="40"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-5.png"
+                      alt="client-img-5"
+                      width="196"
+                      height="48"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-1.png"
+                      alt="client-img-1"
+                      width="199"
+                      height="48"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-2.png"
+                      alt="client-img-2"
+                      width="199"
+                      height="49"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-3.png"
+                      alt="client-img-3"
+                      width="201"
+                      height="48"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-4.png"
+                      alt="client-img-4"
+                      width="189"
+                      height="40"
+                    />
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <img
+                      src="assets/img/images/home-1/client-img-5.png"
+                      alt="client-img-5"
+                      width="196"
+                      height="48"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Brand Slider -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </div>
+        <!--...::: Client Section End :::... -->
+
+        <!--...::: Feature Section Start :::... -->
+        <section class="section-feature" id="feature">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Section Block -->
+                <div
+                  class="mx-auto mb-10 max-w-3xl text-center md:mb-[60px] lg:mb-20"
+                >
+                  <h2 class="jos">
+                    Powerful features to help you sales faster
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <!-- Feature List -->
+                <ul
+                  class="grid grid-cols-1 items-start gap-6 md:grid-cols-2 xl:grid-cols-3"
+                >
+                  <!-- Feature Item -->
+                  <li class="jos" data-jos_animation="flip-left">
+                    <div class="relative z-10 rounded-[5px] bg-white p-[30px]">
+                      <img
+                        src="assets/img/images/home-6/feature-img-1.png"
+                        alt="feature-img-1"
+                        width="712"
+                        height="766"
+                        class="h-auto w-full rounded-[10px] shadow-custom-1"
+                      />
+                      <div
+                        class="display-heading display-heading-4 mb-4 mt-[30px]"
+                      >
+                        Individual Target Tracker
+                      </div>
+                      <p>
+                        Targets their to team members, track their progress,
+                        provide feedback.
+                      </p>
+                    </div>
+                  </li>
+                  <!-- Feature Item -->
+                  <!-- Feature Item -->
+                  <li class="jos" data-jos_animation="flip-left">
+                    <div class="relative z-10 rounded-[5px] bg-white p-[30px]">
+                      <img
+                        src="assets/img/images/home-6/feature-img-2.png"
+                        alt="feature-img-2"
+                        width="712"
+                        height="766"
+                        class="h-auto w-full rounded-[10px] shadow-custom-1"
+                      />
+                      <div
+                        class="display-heading display-heading-4 mb-4 mt-[30px]"
+                      >
+                        Meeting Scheduling
+                      </div>
+                      <p>
+                        All necessary participants can attend and that the
+                        meeting to occurs.
+                      </p>
+                    </div>
+                  </li>
+                  <!-- Feature Item -->
+                  <!-- Feature Item -->
+                  <li class="jos" data-jos_animation="flip-left">
+                    <div class="relative z-10 rounded-[5px] bg-white p-[30px]">
+                      <img
+                        src="assets/img/images/home-6/feature-img-3.png"
+                        alt="feature-img-3"
+                        width="712"
+                        height="766"
+                        class="h-auto w-full rounded-[10px] shadow-custom-1"
+                      />
+                      <div
+                        class="display-heading display-heading-4 mb-4 mt-[30px]"
+                      >
+                        Revenue Share
+                      </div>
+                      <p>
+                        Provide that resources to services or intellectual
+                        property that contribute.
+                      </p>
+                    </div>
+                  </li>
+                  <!-- Feature Item -->
+                </ul>
+                <!-- Feature List -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: Feature Section End :::... -->
+
+        <!--...::: Content Section Start :::... -->
+        <section class="section-content">
+          <!-- Section Space -->
+          <div class="section-space relative z-10">
+            <!-- Section Container -->
+            <div class="container">
+              <div
+                class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]"
+              >
+                <!-- Content Area -->
+                <div
+                  class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[1fr_minmax(0,0.8fr)] xl:gap-20"
+                >
+                  <!-- Image Block -->
+                  <div
+                    class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center rounded-[5px] bg-colorGrey p-7 lg:max-w-full"
+                    data-jos_animation="fade-right"
+                  >
+                    <img
+                      src="assets/img/images/home-6/content-card-1.jpg"
+                      alt="content-card-1"
+                      width="419"
+                      height="477"
+                      class="max-w-full rounded-[10px]"
+                    />
+                  </div>
+                  <!-- Image Block -->
+                  <!-- Content Block -->
+                  <div class="order-1">
+                    <!-- Section Block -->
+                    <div class="mb-[50px]">
+                      <h2 class="section-title jos">
+                        Integrate collaborate and grow with Sofax
+                      </h2>
+                      <p class="jos mt-5">
+                        Business environment, integration, collaboration and
+                        growth are key to the staying competitive. Sofax an
+                        innovative business solutions platform.
+                      </p>
+                    </div>
+                    <!-- Section Block -->
+                    <!-- Content List -->
+                    <ul class="mb-16 grid grid-cols-2 gap-[30px]">
+                      <!-- Content Item -->
+                      <li
+                        class="jos display-heading display-heading-4 flex items-center gap-3"
+                      >
+                        <div
+                          class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-full bg-colorGreen"
+                        >
+                          <img
+                            src="assets/img/icons/icon-cart-white.svg"
+                            alt="icon-cart-white"
+                            width="30"
+                            height="31"
+                          />
+                        </div>
+                        Insight Marketing
+                      </li>
+                      <!-- Content Item -->
+                      <!-- Content Item -->
+                      <li
+                        class="jos display-heading display-heading-4 flex items-center gap-3"
+                      >
+                        <div
+                          class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-full bg-colorGreen"
+                        >
+                          <img
+                            src="assets/img/icons/icon-customer-service-white.svg"
+                            alt="icon-customer-service-white"
+                            width="30"
+                            height="31"
+                          />
+                        </div>
+                        Build Relationships
+                      </li>
+                      <!-- Content Item -->
+                      <!-- Content Item -->
+                      <li
+                        class="jos display-heading display-heading-4 flex items-center gap-3"
+                      >
+                        <div
+                          class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-full bg-colorGreen"
+                        >
+                          <img
+                            src="assets/img/icons/icon-cloud-white.svg"
+                            alt="icon-cloud-white"
+                            width="32"
+                            height="33"
+                          />
+                        </div>
+                        Marketing Cloud
+                      </li>
+                      <!-- Content Item -->
+                      <!-- Content Item -->
+                      <li
+                        class="jos display-heading display-heading-4 flex items-center gap-3"
+                      >
+                        <div
+                          class="inline-flex h-[50px] w-[50px] items-center justify-center rounded-full bg-colorGreen"
+                        >
+                          <img
+                            src="assets/img/icons/icon-phone-white.svg"
+                            alt="icon-phone-white"
+                            width="30"
+                            height="31"
+                          />
+                        </div>
+                        App Connect
+                      </li>
+                      <!-- Content Item -->
+                    </ul>
+                    <!-- Content List -->
+                    <a href="about.html" class="btn btn-primary">
+                      <span>About Us</span>
+                      <span>About Us</span>
+                    </a>
+                  </div>
+                  <!-- Content Block -->
+                </div>
+                <!-- Content Area -->
+              </div>
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Content Section End :::... -->
+
+        <!--...::: Fun-fact Section Start :::... -->
+        <div class="fun-fact-section">
+          <!-- Section Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Section Space -->
+            <div class="py-20 lg:py-[100px]">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Fun-fact Area  -->
+                <ul
+                  class="grid grid-cols-1 justify-between gap-x-10 gap-y-10 sm:grid-cols-2 lg:flex"
+                >
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      $<span class="start-number" data-countup-number="9"
+                        >9</span
+                      >K
+                    </div>
+                    <span>Total value locked</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      $<span class="start-number" data-countup-number="5"
+                        >5</span
+                      >K
+                    </div>
+                    <span>Total trading volume</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      <span class="start-number" data-countup-number="0.1"
+                        >0.1</span
+                      >%
+                    </div>
+                    <span>Lowest trade free</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                  <!-- Fun-fact Item -->
+                  <li class="text-center text-white">
+                    <div
+                      class="display-heading display-heading-2 mb-1 text-white"
+                      data-module="countup"
+                    >
+                      <span class="start-number" data-countup-number="100"
+                        >100</span
+                      >%
+                    </div>
+                    <span>Swap free cashback</span>
+                  </li>
+                  <!-- Fun-fact Item -->
+                </ul>
+                <!-- Fun-fact Area  -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </div>
+        <!--...::: Fun-fact Section End :::... -->
+
+        <!--...::: Service Section Start :::... -->
+        <section class="section-service" id="service">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Section Block -->
+                <div
+                  class="mx-auto mb-10 max-w-3xl text-center md:mb-[60px] lg:mb-20"
+                >
+                  <h2 class="jos">We offer top-notch marketing services</h2>
+                </div>
+                <!-- Section Block -->
+
+                <!-- Service List -->
+                <ul class="divide-y divide-colorBorder">
+                  <!-- Service Item -->
+                  <li class="jos py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <div
+                      class="grid grid-cols-1 items-center gap-x-10 gap-y-4 lg:grid-cols-[0.8fr_1fr_auto] xl:gap-x-20"
+                    >
+                      <div class="display-heading display-heading-3">
+                        1. Social Media Strategy
+                      </div>
+                      <p class="mb-4 lg:mb-0">
+                        Crafting a customized social media strategy aligned with
+                        the client's business objectives, target users.
+                      </p>
+                      <div>
+                        <a
+                          href="service-details.html"
+                          class="inline-flex h-16 w-16 items-center justify-center rounded-[50%] border border-colorTextTitle hover:border-colorPurpleLight hover:bg-colorPurpleLight lg:h-20 lg:w-20"
+                          ><span class="text-5xl"
+                            ><i class="ri-arrow-right-up-line"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Service Item -->
+                  <!-- Service Item -->
+                  <li class="jos py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <div
+                      class="grid grid-cols-1 items-center gap-x-10 gap-y-4 lg:grid-cols-[0.8fr_1fr_auto] xl:gap-x-20"
+                    >
+                      <div class="display-heading display-heading-3">
+                        2. Audience Engagement
+                      </div>
+                      <p class="mb-4 lg:mb-0">
+                        Strategies to engage the audience actively include
+                        commenting, responding to messages.
+                      </p>
+                      <div>
+                        <a
+                          href="service-details.html"
+                          class="inline-flex h-16 w-16 items-center justify-center rounded-[50%] border border-colorTextTitle hover:border-colorPurpleLight hover:bg-colorPurpleLight lg:h-20 lg:w-20"
+                          ><span class="text-5xl"
+                            ><i class="ri-arrow-right-up-line"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Service Item -->
+                  <!-- Service Item -->
+                  <li class="jos py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <div
+                      class="grid grid-cols-1 items-center gap-x-10 gap-y-4 lg:grid-cols-[0.8fr_1fr_auto] xl:gap-x-20"
+                    >
+                      <div class="display-heading display-heading-3">
+                        3. Content Creation
+                      </div>
+                      <p class="mb-4 lg:mb-0">
+                        Developing engaging & shareable content, including text,
+                        images, videos, and other multimedia etc.
+                      </p>
+                      <div>
+                        <a
+                          href="service-details.html"
+                          class="inline-flex h-16 w-16 items-center justify-center rounded-[50%] border border-colorTextTitle hover:border-colorPurpleLight hover:bg-colorPurpleLight lg:h-20 lg:w-20"
+                          ><span class="text-5xl"
+                            ><i class="ri-arrow-right-up-line"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Service Item -->
+                  <!-- Service Item -->
+                  <li class="jos py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <div
+                      class="grid grid-cols-1 items-center gap-x-10 gap-y-4 lg:grid-cols-[0.8fr_1fr_auto] xl:gap-x-20"
+                    >
+                      <div class="display-heading display-heading-3">
+                        4. Community Building
+                      </div>
+                      <p class="mb-4 lg:mb-0">
+                        Building and nurturing an online community around the
+                        brand, fostering positive interactions.
+                      </p>
+                      <div>
+                        <a
+                          href="service-details.html"
+                          class="inline-flex h-16 w-16 items-center justify-center rounded-[50%] border border-colorTextTitle hover:border-colorPurpleLight hover:bg-colorPurpleLight lg:h-20 lg:w-20"
+                          ><span class="text-5xl"
+                            ><i class="ri-arrow-right-up-line"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Service Item -->
+                </ul>
+                <!-- Service List -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: Service Section End :::... -->
+
+        <!--...::: Content Section Start :::... -->
+        <section class="section-content">
+          <!-- Section Space -->
+          <div class="section-space relative z-10">
+            <!-- Section Container -->
+            <div class="container">
+              <div
+                class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]"
+              >
+                <!-- Content Area -->
+                <div
+                  class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[minmax(0,0.8fr)_1fr] xl:gap-20"
+                >
+                  <!-- Image Block -->
+                  <div
+                    class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center rounded-[5px] bg-colorGrey p-7 lg:order-1 lg:max-w-full"
+                    data-jos_animation="fade-right"
+                  >
+                    <img
+                      src="assets/img/images/home-6/content-card-2.jpg"
+                      alt="content-card-2"
+                      width="457"
+                      height="422"
+                      class="max-w-full rounded-[10px]"
+                    />
+                  </div>
+                  <!-- Image Block -->
+                  <!-- Content Block -->
+                  <div class="order-1 lg:order-2">
+                    <!-- Section Block -->
+                    <div class="mb-[50px]">
+                      <h2 class="section-title jos">
+                        We are dedicated a fully 24/7 support
+                      </h2>
+                      <p class="jos mt-5">
+                        Ensure all support select CRM and helpdesk software that
+                        can handle 24/7 operations and integrate seamlessly with
+                        your existing systems.
+                      </p>
+                    </div>
+                    <!-- Section Block -->
+                    <!-- Content List -->
+                    <ul class="flex max-w-[560px] flex-col gap-y-4">
+                      <li class="jos">
+                        <div class="display-heading display-heading-4">
+                          <span
+                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
+                            ><i class="ri-checkbox-circle-fill"></i
+                          ></span>
+                          Monitor performance & quality
+                        </div>
+                      </li>
+                      <li class="jos">
+                        <div class="display-heading display-heading-4">
+                          <span
+                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
+                            ><i class="ri-checkbox-circle-fill"></i
+                          ></span>
+                          Ensure security & compliance
+                        </div>
+                      </li>
+                      <li class="jos">
+                        <div class="display-heading display-heading-4">
+                          <span
+                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
+                            ><i class="ri-checkbox-circle-fill"></i
+                          ></span>
+                          Build a skilled support team
+                        </div>
+                      </li>
+                    </ul>
+                    <!-- Content List -->
+                  </div>
+                  <!-- Content Block -->
+                </div>
+                <!-- Content Area -->
+              </div>
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Content Section End :::... -->
+
+        <!--...::: Testimonial Section Start :::... -->
+        <section class="section-testimonial" id="testimonial">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Section Block -->
+                <div
+                  class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20"
+                >
+                  <h2 class="jos">See what our users have to say about it</h2>
+                </div>
+                <!-- Section Block -->
+              </div>
+              <!-- Section Container -->
+
+              <!-- Testimonial Area -->
+              <div>
+                <!-- Slider main container -->
+                <div class="jos testimonial-slider swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          Great results enjoyable to the works with & most
+                          importanly enabled us to the presence on the website
+                          needed conduct business.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                              alt="testimonial-user-img-1"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Derrick Turner</span
+                            >
+                            <span class="text-sm">Co-Founder</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          I am a would need more details to a provide relevant
+                          informatio business clients' reviews are feedback from
+                          in a individuals or companies.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-2.jpg"
+                              alt="testimonial-user-img-2"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Wellim Selith</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          It’s an all-in-one solution to that the has
+                          turbocharged the growth. The lead generation &
+                          capbilities. our partner & result spesk.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-3.jpg"
+                              alt="testimonial-user-img-3"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Semits Johan</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          Great results enjoyable to the works with & most
+                          importanly enabled us to the presence on the website
+                          needed conduct business.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                              alt="testimonial-user-img-1"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Derrick Turner</span
+                            >
+                            <span class="text-sm">Co-Founder</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          I am a would need more details to a provide relevant
+                          informatio business clients' reviews are feedback from
+                          in a individuals or companies.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-2.jpg"
+                              alt="testimonial-user-img-2"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Wellim Selith</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          It’s an all-in-one solution to that the has
+                          turbocharged the growth. The lead generation &
+                          capbilities. our partner & result spesk.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-3.jpg"
+                              alt="testimonial-user-img-3"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Semits Johan</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="jos testimonial-slider-reverse swiper mt-10">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          Great results enjoyable to the works with & most
+                          importanly enabled us to the presence on the website
+                          needed conduct business.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                              alt="testimonial-user-img-1"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Derrick Turner</span
+                            >
+                            <span class="text-sm">Co-Founder</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          I am a would need more details to a provide relevant
+                          informatio business clients' reviews are feedback from
+                          in a individuals or companies.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-2.jpg"
+                              alt="testimonial-user-img-2"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Wellim Selith</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          It’s an all-in-one solution to that the has
+                          turbocharged the growth. The lead generation &
+                          capbilities. our partner & result spesk.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-3.jpg"
+                              alt="testimonial-user-img-3"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Semits Johan</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          Great results enjoyable to the works with & most
+                          importanly enabled us to the presence on the website
+                          needed conduct business.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                              alt="testimonial-user-img-1"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Derrick Turner</span
+                            >
+                            <span class="text-sm">Co-Founder</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          I am a would need more details to a provide relevant
+                          informatio business clients' reviews are feedback from
+                          in a individuals or companies.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-2.jpg"
+                              alt="testimonial-user-img-2"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Wellim Selith</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div
+                        class="rounded-md border border-[#DBDBDB] bg-white p-9"
+                      >
+                        <!-- Review Star -->
+                        <div
+                          class="inline-flex gap-x-1 text-2xl text-colorGreen"
+                        >
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <!-- Review Star -->
+                        <blockquote class="my-5 text-colorTextTitle">
+                          It’s an all-in-one solution to that the has
+                          turbocharged the growth. The lead generation &
+                          capbilities. our partner & result spesk.
+                        </blockquote>
+
+                        <div class="flex items-center gap-2.5">
+                          <div class="h-14 w-14 overflow-hidden rounded-full">
+                            <img
+                              src="assets/img/images/home-1/testimonial-user-img-3.jpg"
+                              alt="testimonial-user-img-3"
+                              width="55"
+                              height="55"
+                              class="h-full w-full object-cover"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="block font-bold text-colorTextTitle"
+                              >Semits Johan</span
+                            >
+                            <span class="text-sm">Web Developer</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonial Area -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: Testimonial Section End :::... -->
+
+        <!--...::: FAQ Section Start :::... -->
+        <section class="section-faq" id="faq">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Section Container -->
+              <!-- Section Block -->
+              <div
+                class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20"
+              >
+                <h2>If you want to know anything asked us</h2>
+              </div>
+              <!-- Section Block -->
+
+              <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+                <!-- Accordion List -->
+                <ul class="jos flex flex-col gap-6">
+                  <!-- Accordion Item -->
+                  <li class="accordion-item-style-2 accordion-item active">
+                    <!-- Accordion Header -->
+                    <div
+                      class="accordion-header flex items-center justify-between gap-6"
+                    >
+                      <button class="flex-1 text-left text-2xl font-semibold">
+                        What everybody ought to knoe about digital?
+                      </button>
+                      <div
+                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                      >
+                        <i class="ri-arrow-down-s-line"></i>
+                      </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[826px] opacity-80">
+                      <p class="pt-4">
+                        Take a trivial example which undertakes laborious
+                        physical a exercise except to obtain some advantage
+                        pleasure.
+                      </p>
+                    </div>
+                    <!-- Accordion Body -->
+                  </li>
+                  <!-- Accordion Item -->
+                  <!-- Accordion Item -->
+                  <li class="accordion-item-style-2 accordion-item">
+                    <!-- Accordion Header -->
+                    <div
+                      class="accordion-header flex items-center justify-between gap-6"
+                    >
+                      <button class="flex-1 text-left text-2xl font-semibold">
+                        How do you approach strategic planning
+                      </button>
+                      <div
+                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                      >
+                        <i class="ri-arrow-down-s-line"></i>
+                      </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[826px] opacity-80">
+                      <p class="pt-4">
+                        Connect your bank account securely to our platform for
+                        smooth and convenient transactions & it’s handled with
+                        the utmost security.
+                      </p>
+                    </div>
+                    <!-- Accordion Body -->
+                  </li>
+                  <!-- Accordion Item -->
+                  <!-- Accordion Item -->
+                  <li class="accordion-item-style-2 accordion-item">
+                    <!-- Accordion Header -->
+                    <div
+                      class="accordion-header flex items-center justify-between gap-6"
+                    >
+                      <button class="flex-1 text-left text-2xl font-semibold">
+                        Is there a guaranteed result?
+                      </button>
+                      <div
+                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                      >
+                        <i class="ri-arrow-down-s-line"></i>
+                      </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[826px] opacity-80">
+                      <p class="pt-4">
+                        Once your account is set up and linked, dive into the
+                        world of cryptocurrency trading. Buy & sell a diverse
+                        range of digital assets.
+                      </p>
+                    </div>
+                    <!-- Accordion Body -->
+                  </li>
+                  <!-- Accordion Item -->
+                </ul>
+                <!-- Accordion List -->
+                <!-- Accordion List -->
+                <ul class="jos flex flex-col gap-6">
+                  <!-- Accordion Item -->
+                  <li class="accordion-item-style-2 accordion-item">
+                    <!-- Accordion Header -->
+                    <div
+                      class="accordion-header flex items-center justify-between gap-6"
+                    >
+                      <button class="flex-1 text-left text-2xl font-semibold">
+                        What services does Sofax provide?
+                      </button>
+                      <div
+                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                      >
+                        <i class="ri-arrow-down-s-line"></i>
+                      </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[826px] opacity-80">
+                      <p class="pt-4">
+                        Effortlessly begin your cryptocurrency journey by
+                        downloading our user-friendly app. Within minutes, you
+                        can create a secure account.
+                      </p>
+                    </div>
+                    <!-- Accordion Body -->
+                  </li>
+                  <!-- Accordion Item -->
+                  <!-- Accordion Item -->
+                  <li class="accordion-item-style-2 accordion-item">
+                    <!-- Accordion Header -->
+                    <div
+                      class="accordion-header flex items-center justify-between gap-6"
+                    >
+                      <button class="flex-1 text-left text-2xl font-semibold">
+                        Is full outsourcing profitable?
+                      </button>
+                      <div
+                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                      >
+                        <i class="ri-arrow-down-s-line"></i>
+                      </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[826px] opacity-80">
+                      <p class="pt-4">
+                        Connect your bank account securely to our platform for
+                        smooth and convenient transactions & it’s handled with
+                        the utmost security.
+                      </p>
+                    </div>
+                    <!-- Accordion Body -->
+                  </li>
+                  <!-- Accordion Item -->
+                  <!-- Accordion Item -->
+                  <li class="accordion-item-style-2 accordion-item">
+                    <!-- Accordion Header -->
+                    <div
+                      class="accordion-header flex items-center justify-between gap-6"
+                    >
+                      <button class="flex-1 text-left text-2xl font-semibold">
+                        What is a strategic to block?
+                      </button>
+                      <div
+                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                      >
+                        <i class="ri-arrow-down-s-line"></i>
+                      </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[826px] opacity-80">
+                      <p class="pt-4">
+                        Once your account is set up and linked, dive into the
+                        world of cryptocurrency trading. Buy & sell a diverse
+                        range of digital assets.
+                      </p>
+                    </div>
+                    <!-- Accordion Body -->
+                  </li>
+                  <!-- Accordion Item -->
+                </ul>
+                <!-- Accordion List -->
+              </div>
+            </div>
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: FAQ Section End :::... -->
+
+        <!--...::: Contact Section End :::... -->
+        <section class="section-contact">
+          <!-- Section Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Contact Area -->
+                <div
+                  class="grid grid-cols-1 gap-9 lg:grid-cols-[1fr_minmax(0,0.8fr)]"
+                >
+                  <!-- Content Block -->
+                  <div class="text-white">
+                    <!-- Section Block -->
+                    <div class="mb-[50px]">
+                      <h2 class="jos text-white">
+                        Contact us now for marketing your brand
+                      </h2>
+                      <p class="jos mt-6">
+                        Increase brand awareness, drive traffic and generate
+                        leads or sales through strategic use of social media
+                        channels. If you have any questions, please do not
+                        hesitate to contact us directly.
+                      </p>
+                    </div>
+                    <!-- Section Block -->
+                    <!-- Contact Info List -->
+                    <ul class="grid grid-cols-1 gap-y-6">
+                      <!-- Contact Info Item -->
+                      <li class="jos flex gap-x-4">
+                        <span class="text-2xl text-colorPurpleLight"
+                          ><i class="ri-mail-fill"></i
+                        ></span>
+                        <div class="flex-1">
+                          <span
+                            class="display-heading display-heading-5 mb-1.5 block text-white"
+                            >Send us an email</span
+                          >
+                          <a
+                            href="mailto:yourmail@email.com"
+                            class="hover:text-colorPurpleLight"
+                            >yourmail@email.com</a
+                          >
+                        </div>
+                      </li>
+                      <!-- Contact Info Item -->
+                      <!-- Contact Info Item -->
+                      <li class="jos flex gap-x-4">
+                        <span class="text-2xl text-colorPurpleLight"
+                          ><i class="ri-phone-fill"></i
+                        ></span>
+                        <div class="flex-1">
+                          <span
+                            class="display-heading display-heading-5 mb-1.5 block text-white"
+                            >Give us a call</span
+                          >
+
+                          <a
+                            href="tel:+1234567890"
+                            class="hover:text-colorPurpleLight"
+                            >(123) 456-7890</a
+                          >
+                        </div>
+                      </li>
+                      <!-- Contact Info Item -->
+                      <!-- Contact Info Item -->
+                      <li class="jos flex gap-x-4">
+                        <span class="text-2xl text-colorPurpleLight"
+                          ><i class="ri-map-pin-2-fill"></i
+                        ></span>
+                        <div class="flex-1">
+                          <span
+                            class="display-heading display-heading-5 mb-1.5 block text-white"
+                            >Our location</span
+                          >
+
+                          <address>Eighth Avenum, New York</address>
+                        </div>
+                      </li>
+                      <!-- Contact Info Item -->
+                    </ul>
+                    <!-- Contact Info List -->
+                  </div>
+                  <!-- Content Block -->
+                  <!-- Contact Form Block -->
+                  <div class="jos rounded-[10px] bg-white p-[30px]">
+                    <div class="display-heading display-heading-3 mb-[30px]">
+                      Send us a message
+                    </div>
+                    <form
+                      action="#"
+                      method="post"
+                      class="grid grid-cols-1 gap-y-6"
+                    >
+                      <input
+                        type="text"
+                        placeholder="Your Name"
+                        class="min-h-[60px] w-full rounded-[50px] border border-colorBorder px-5 py-[18px] text-base font-bold text-colorTextTitle placeholder:text-colorTextBody"
+                      />
+                      <input
+                        type="email"
+                        placeholder="Your Email"
+                        class="min-h-[60px] w-full rounded-[50px] border border-colorBorder px-5 py-[18px] text-base font-bold text-colorTextTitle placeholder:text-colorTextBody"
+                      />
+                      <textarea
+                        placeholder="Write your message here..."
+                        class="min-h-[152px] w-full rounded-[20px] border border-colorBorder px-5 py-[18px] text-base font-bold text-colorTextTitle placeholder:text-colorTextBody"
+                      >
+                      </textarea>
+                      <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <span>Send Message</span>
+                      </button>
+                    </form>
+                  </div>
+                  <!-- Contact Form Block -->
+                </div>
+                <!-- Contact Area -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: Contact Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container relative z-10">
+              <!-- Section Block -->
+              <div class="mx-auto max-w-4xl text-center">
+                <h2 class="jos">
+                  See everything the web hosting on in one place
+                </h2>
+                <p class="jos mt-5">
+                  Provide a comprehensive overview of web hosting, I'll break
+                  down thedifferent aspects and categories, including types of
+                  web hosting, key features, and popular providers.
+                </p>
+              </div>
+              <!-- Section Block -->
+
+              <div class="mx-auto mt-[50px] max-w-sm text-center">
+                <a href="index.html" class="jos btn btn-primary">
+                  <span>Get Started For - Free</span>
+                  <span>Get Started For - Free</span>
+                </a>
+              </div>
+
+              <img
+                src="assets/img/abstracts/cta-1-element-1.svg"
+                alt="cta-1-element-1"
+                width="414"
+                height="367"
+                class="jos absolute -bottom-20 right-0 -z-10 hidden xl:inline-block"
+                data-jos_animation="zoom-in"
+              />
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+      <footer class="section-footer">
+        <!-- Footer Top -->
+        <div class="pb-14 pt-14 lg:pt-[100px]">
+          <!-- Container -->
+          <div class="container">
+            <!-- Footer Top Area -->
+            <div class="flex flex-wrap gap-10 xl:justify-between">
+              <!-- Footer Widget - Info -->
+              <div class="max-w-sm">
+                <a href="index.html" class="inline-block">
+                  <img
+                    src="assets/img/images/logo.png"
+                    alt="logo"
+                    width="112"
+                    height="40"
+                  />
+                </a>
+                <p class="my-6">
+                  Sofax is best softwere platform manage your sales depends on
+                  your specific business needs budget & industry.
+                </p>
+
+                <div class="flex gap-6">
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-twitter-x-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-linkedin-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Footer Widget - Info -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Company</span
+                >
+
+                <nav class="flex flex-col gap-y-4">
+                  <a
+                    href="about.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >About Us</a
+                  >
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Contact US</a
+                  >
+                  <a
+                    href="terms-condition.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Privacy Policy
+                  </a>
+                  <a
+                    href="terms-condition.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Terms & Conditions</a
+                  >
+                </nav>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Utility Pages</span
+                >
+
+                <div class="flex flex-col gap-y-4">
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Instructions</a
+                  >
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Style Guide</a
+                  >
+                  <a
+                    href="error-404.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >404 Pages
+                  </a>
+                  <a
+                    href="contact.html"
+                    class="hover:text-colorBody hover:font-medium"
+                    >Licenses</a
+                  >
+                </div>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Subscribe Form -->
+              <div class="max-w-72">
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Subscribe to our newsletter</span
+                >
+
+                <form action="#" method="post">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full rounded-[50px] border border-colorTextTitle bg-white px-11 py-3"
+                  />
+                  <button
+                    type="submit"
+                    class="btn btn-primary mt-3 flex w-full"
+                  >
+                    <span>Subscribe now</span>
+                    <span>Subscribe now</span>
+                  </button>
+                </form>
+              </div>
+              <!-- Footer Widget - Subscribe Form -->
+            </div>
+            <!-- Footer Top Area -->
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Top -->
+
+        <!-- Footer Bottom -->
+        <div>
+          <!-- Container -->
+          <div class="container">
+            <div class="border-t border-colorBorder py-9 text-center">
+              © 2024 Mthemeus All Rights Reserved.
+            </div>
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Bottom -->
+      </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

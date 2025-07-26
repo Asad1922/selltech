@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+    <!-- ...::: Header Section Start :::... -->
+    <header class="section-header site-header fixed top-0 z-30 w-full py-2">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="index.html" class="h-auto w-auto">
+              <img src="assets/img/images/logo.png" alt="SellTech - Software Development & Marketing Agency" width="200"
+                height="40" />
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="ri-arrow-left-s-fill"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a class="nav-link-item" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Services <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu mega-menu" id="submenu-services">
+                    <div class="mega-menu-content">
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Software Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#saas-development"><i class="ri-arrow-right-s-line"></i> SaaS Application
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#api-development"><i class="ri-arrow-right-s-line"></i> API Development
+                              Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#cross-platform-app"><i class="ri-arrow-right-s-line"></i> Cross-platform App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#progressive-web-app"><i class="ri-arrow-right-s-line"></i> Progressive Web App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#enterprise-software"><i class="ri-arrow-right-s-line"></i> Enterprise Software
+                              Solutions</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">Mobile App Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#native-app-development"><i class="ri-arrow-right-s-line"></i> Native App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#cross-platform-mobile"><i class="ri-arrow-right-s-line"></i> Cross-platform
+                              Mobile Development</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Web Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#custom-web-development"><i class="ri-arrow-right-s-line"></i> Custom Web
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#ecommerce-development"><i class="ri-arrow-right-s-line"></i> E-commerce
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#cms-development"><i class="ri-arrow-right-s-line"></i> CMS Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#website-maintenance"><i class="ri-arrow-right-s-line"></i> Website
+                              Maintenance</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#performance-optimization"><i class="ri-arrow-right-s-line"></i> Performance
+                              Optimization</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">Digital Marketing</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#seo-services"><i class="ri-arrow-right-s-line"></i> Search Engine
+                              Optimization (SEO)</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#ppc-advertising"><i class="ri-arrow-right-s-line"></i> Pay-Per-Click (PPC)
+                              Advertising</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#social-media-marketing"><i class="ri-arrow-right-s-line"></i> Social Media
+                              Marketing</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Branding Services</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-strategy-development"><i class="ri-arrow-right-s-line"></i> Brand Strategy
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#logo-design-services"><i class="ri-arrow-right-s-line"></i> Logo Design Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#visual-identity-creation"><i class="ri-arrow-right-s-line"></i> Visual Identity
+                              Creation</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-guidelines-establishment"><i class="ri-arrow-right-s-line"></i> Brand Guidelines
+                              Establishment</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#marketing-materials-design"><i class="ri-arrow-right-s-line"></i> Marketing
+                              Materials Design</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">UI/UX Service</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ui-design"><i class="ri-arrow-right-s-line"></i> UI Design</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ux-research-strategy"><i class="ri-arrow-right-s-line"></i> UX Research & Strategy</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#wireframing-prototyping"><i class="ri-arrow-right-s-line"></i> Wireframing &
+                              Prototyping</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col mega-menu-cta">
+                        <h3>Ready to Start Your Project?</h3>
+                        <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
+                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Industries <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-industries">
+                    <li class="sub-menu--item">
+                      <a href="healthcare-solutions.html">Healthcare</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="fintech-solutions.html">Fintech</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="ecommerce-solutions.html">E-commerce</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="education-solutions.html">Education</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="real-estate-solutions.html">Real Estate</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="manufacturing-solutions.html">Manufacturing</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="automotive-solutions.html">Automotive</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="Case studies.html">Case studies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-x-6">
+            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+              <span>Get Free Quote</span>
+              <span>Get Free Quote</span>
+            </a>
+            <div class="block lg:hidden">
+              <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                <span class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ...::: Header Section End :::... -->
+
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Breadcrumb Section Start :::... -->
+        <section class="section-breadcrumb">
+          <!-- Breadcrumb Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Breadcrumb Space -->
+            <div class="breadcrumb-space">
+              <!-- Breadcrumb Container -->
+              <div class="container">
+                <div class="text-center text-white">
+                  <h1 class="mb-[50px] text-white">Portfolio</h1>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        Portfolio
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+              <!-- Breadcrumb Container -->
+            </div>
+            <!-- Breadcrumb Space -->
+          </div>
+          <!-- Breadcrumb Background -->
+        </section>
+        <!--...::: Breadcrumb Section End :::... -->
+
+        <!--...::: Project Section Start :::... -->
+        <section class="section-project">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Section Block -->
+              <div
+                class="mx-auto mb-10 max-w-3xl text-center md:mb-[60px] lg:mb-20"
+              >
+                <h2 class="jos">Check out all our latest feature projects</h2>
+              </div>
+              <!-- Section Block -->
+
+              <!-- Project List -->
+              <ul
+                class="grid grid-cols-1 items-center gap-x-[60px] gap-y-10 lg:grid-cols-2"
+              >
+                <!-- Project Item -->
+                <li class="jos">
+                  <div class="group">
+                    <a
+                      href="#"
+                      class="block overflow-hidden rounded-[10px] border border-colorTextTitle"
+                    >
+                      <img
+                        src="assets/img/images/home-5/project-img-1.jpg"
+                        alt="project-img-1"
+                        width="614"
+                        height="596"
+                        class="transition-default h-auto w-full group-hover:scale-110"
+                      />
+                    </a>
+                    <div class="mt-6 flex justify-between gap-x-6">
+                      <div class="flex-1">
+                        <a
+                          href="#"
+                          class="display-heading display-heading-4 mb-1 block"
+                          >Gradient Web Design</a
+                        >
+                        <a href="portfolio.html">Web design & development</a>
+                      </div>
+                      <div class="hidden sm:block">
+                        <a href="#">
+                          <span class="text-5xl"
+                            ><i class="ri-arrow-right-line"></i
+                          ></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- Project Item -->
+                <!-- Project Item -->
+                <li class="jos">
+                  <div class="group">
+                    <a
+                      href="#"
+                      class="block overflow-hidden rounded-[10px] border border-colorTextTitle"
+                    >
+                      <img
+                        src="assets/img/images/home-5/project-img-2.jpg"
+                        alt="project-img-2"
+                        width="614"
+                        height="446"
+                        class="transition-default h-auto w-full group-hover:scale-110"
+                      />
+                    </a>
+                    <div class="mt-6 flex justify-between gap-x-6">
+                      <div class="flex-1">
+                        <a
+                          href="#"
+                          class="display-heading display-heading-4 mb-1 block"
+                          >Mobile Web Design</a
+                        >
+                        <a href="portfolio.html">Web design & development</a>
+                      </div>
+                      <div class="hidden sm:block">
+                        <a href="#">
+                          <span class="text-5xl"
+                            ><i class="ri-arrow-right-line"></i
+                          ></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- Project Item -->
+                <!-- Project Item -->
+                <li class="jos">
+                  <div class="group">
+                    <a
+                      href="#"
+                      class="block overflow-hidden rounded-[10px] border border-colorTextTitle"
+                    >
+                      <img
+                        src="assets/img/images/home-5/project-img-3.jpg"
+                        alt="project-img-3"
+                        width="614"
+                        height="446"
+                        class="transition-default h-auto w-full group-hover:scale-110"
+                      />
+                    </a>
+                    <div class="mt-6 flex justify-between gap-x-6">
+                      <div class="flex-1">
+                        <a
+                          href="#"
+                          class="display-heading display-heading-4 mb-1 block"
+                          >Smart Watch Design</a
+                        >
+                        <a href="portfolio.html">App design & development</a>
+                      </div>
+                      <div class="hidden sm:block">
+                        <a href="#">
+                          <span class="text-5xl"
+                            ><i class="ri-arrow-right-line"></i
+                          ></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- Project Item -->
+                <!-- Project Item -->
+                <li class="jos">
+                  <div class="group">
+                    <a
+                      href="#"
+                      class="block overflow-hidden rounded-[10px] border border-colorTextTitle"
+                    >
+                      <img
+                        src="assets/img/images/home-5/project-img-4.jpg"
+                        alt="project-img-4"
+                        width="614"
+                        height="446"
+                        class="transition-default h-auto w-full group-hover:scale-110"
+                      />
+                    </a>
+                    <div class="mt-6 flex justify-between gap-x-6">
+                      <div class="flex-1">
+                        <a
+                          href="#"
+                          class="display-heading display-heading-4 mb-1 block"
+                          >Responsive Web Design</a
+                        >
+                        <a href="portfolio.html">Web design & development</a>
+                      </div>
+                      <div class="hidden sm:block">
+                        <a href="#">
+                          <span class="text-5xl"
+                            ><i class="ri-arrow-right-line"></i
+                          ></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- Project Item -->
+              </ul>
+              <!-- Project List -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Project Section End :::... -->
+
+        <!--...::: FAQ Section Start :::... -->
+<section class="section-faq">
+  <!-- Section Background -->
+  <div class="bg-colorGrey">
+    <!-- Section Space -->
+    <div class="section-space">
+      <!-- Section Container -->
+      <div class="container">
+        <!-- Section Block -->
+        <div class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <!-- Section Block -->
+
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <!-- Accordion List -->
+          <ul class="jos flex flex-col gap-6">
+            <!-- Accordion Item -->
+            <li class="accordion-item-style-2 accordion-item active">
+              <div class="accordion-header flex items-center justify-between gap-6">
+                <button class="flex-1 text-left text-2xl font-semibold">
+                  What services does SellTech offer?
+                </button>
+                <div class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </div>
+              <div class="accordion-body max-w-[826px] opacity-80">
+                <p class="pt-4">
+                  SellTech provides custom software development, web and mobile app development, UI/UX design, cloud & AI solutions, and digital marketing services tailored to your business needs.
+                </p>
+              </div>
+            </li>
+
+            <li class="accordion-item-style-2 accordion-item">
+              <div class="accordion-header flex items-center justify-between gap-6">
+                <button class="flex-1 text-left text-2xl font-semibold">
+                  How does SellTech ensure project success?
+                </button>
+                <div class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </div>
+              <div class="accordion-body max-w-[826px] opacity-80">
+                <p class="pt-4">
+                  We follow proven methodologies, transparent communication, and continuous testing to deliver high-quality, scalable solutions on time and within budget.
+                </p>
+              </div>
+            </li>
+
+            <li class="accordion-item-style-2 accordion-item">
+              <div class="accordion-header flex items-center justify-between gap-6">
+                <button class="flex-1 text-left text-2xl font-semibold">
+                  Do you provide post-launch support?
+                </button>
+                <div class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </div>
+              <div class="accordion-body max-w-[826px] opacity-80">
+                <p class="pt-4">
+                  Yes, we offer ongoing maintenance, updates, and technical support to ensure your solution stays secure, efficient, and up-to-date.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <!-- Accordion List -->
+
+          <!-- Accordion List -->
+          <ul class="jos flex flex-col gap-6">
+            <li class="accordion-item-style-2 accordion-item">
+              <div class="accordion-header flex items-center justify-between gap-6">
+                <button class="flex-1 text-left text-2xl font-semibold">
+                  How do you handle data security?
+                </button>
+                <div class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </div>
+              <div class="accordion-body max-w-[826px] opacity-80">
+                <p class="pt-4">
+                  We implement industry-standard security practices, encryption, and compliance checks to protect your sensitive data throughout the project lifecycle.
+                </p>
+              </div>
+            </li>
+
+            <li class="accordion-item-style-2 accordion-item">
+              <div class="accordion-header flex items-center justify-between gap-6">
+                <button class="flex-1 text-left text-2xl font-semibold">
+                  Can you work with international clients?
+                </button>
+                <div class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </div>
+              <div class="accordion-body max-w-[826px] opacity-80">
+                <p class="pt-4">
+                  Absolutely! Our team has experience working with clients across the globe, adapting to different time zones, cultures, and requirements seamlessly.
+                </p>
+              </div>
+            </li>
+
+            <li class="accordion-item-style-2 accordion-item">
+              <div class="accordion-header flex items-center justify-between gap-6">
+                <button class="flex-1 text-left text-2xl font-semibold">
+                  How do I get started with SellTech?
+                </button>
+                <div class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </div>
+              <div class="accordion-body max-w-[826px] opacity-80">
+                <p class="pt-4">
+                  Simply contact us through our website or email to schedule a free consultation. We’ll discuss your needs and propose a tailored solution.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <!-- Accordion List -->
+        </div>
+      </div>
+    </div>
+    <!-- Section Space -->
+  </div>
+  <!-- Section Background -->
+</section>
+
+        <!--...::: FAQ Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space relative">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- CTA Area -->
+              <div
+                class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
+              >
+                <!-- Section Block -->
+                <div class="sm:max-w-[820px] sm:flex-1">
+                  <h2 class="jos">
+                    Let's embark on a digital journey together!
+                    <img
+                      src="assets/img/images/home-5/icon-union.svg"
+                      alt="icon-union"
+                      width="83"
+                      height="80"
+                      class="inline h-auto w-10 lg:w-16"
+                    />
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <a
+                  href="contact.html"
+                  class="group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]"
+                >
+                  <span
+                    class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                  <span
+                    class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                </a>
+              </div>
+              <!-- CTA Area -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Background Element -->
+            <img
+              src="assets/img/images/home-5/background-shape-1.svg"
+              alt="background-shape-1"
+              width="273"
+              height="204"
+              class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
+            />
+            <!-- Background Element -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+    <footer class="section-footer">
+      <!-- Footer Top -->
+      <div class="pb-14 pt-14 lg:pt-[100px]">
+        <!-- Container -->
+        <div class="container">
+          <!-- Footer Top Area -->
+          <div class="flex flex-wrap gap-10 xl:justify-between">
+            <!-- Footer Widget - Info -->
+            <div class="max-w-sm" data-jos_delay="0">
+              <a href="index.html" class="inline-block">
+                <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+              </a>
+              <p class="my-6">
+                SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive
+                advantages.
+              </p>
+
+              <!-- Social Icons below paragraph -->
+              <div class="flex gap-4 mt-4">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Footer Widget - Info -->
+
+            <!-- Footer Widget - Services -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Services
+              </span>
+
+              <nav class="flex flex-col gap-y-4">
+                <a href="custom-software.html" class="hover:font-medium hover:text-colorTextTitle">Custom Software</a>
+                <a href="mobile-apps.html" class="hover:font-medium hover:text-colorTextTitle">Mobile Apps</a>
+                <a href="web-development.html" class="hover:font-medium hover:text-colorTextTitle">Web Development</a>
+                <a href="ui-ux.html" class="hover:font-medium hover:text-colorTextTitle">UI/UX Design</a>
+                <a href="digital-marketing.html" class="hover:font-medium hover:text-colorTextTitle">Digital
+                  Marketing</a>
+                <a href="branding.html" class="hover:font-medium hover:text-colorTextTitle">Branding</a>
+                <a href="cloud-ai.html" class="hover:font-medium hover:text-colorTextTitle">Cloud & AI</a>
+              </nav>
+            </div>
+            <!-- Footer Widget - Services -->
+
+            <!-- Footer Widget - Company -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Company
+              </span>
+
+              <div class="flex flex-col gap-y-4">
+                <a href="about.html" class="hover:font-medium hover:text-colorTextTitle">About Us</a>
+                <a href="our-process.html" class="hover:font-medium hover:text-colorTextTitle">Our Process</a>
+                <a href="Case studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
+                <a href="testimonials.html" class="hover:font-medium hover:text-colorTextTitle">Testimonials</a>
+                <a href="careers.html" class="hover:font-medium hover:text-colorTextTitle">Careers</a>
+                <a href="blog.html" class="hover:font-medium hover:text-colorTextTitle">Blog</a>
+              </div>
+            </div>
+            <!-- Footer Widget - Company -->
+
+            <!-- Footer Widget - Resources -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Resources
+              </span>
+
+              <div class="flex flex-col gap-y-4">
+                <a href="faq.html" class="hover:font-medium hover:text-colorTextTitle">FAQ</a>
+                <a href="guides.html" class="hover:font-medium hover:text-colorTextTitle">Guides</a>
+                <a href="case-studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
+                <a href="pricing.html" class="hover:font-medium hover:text-colorTextTitle">Pricing</a>
+                <a href="support.html" class="hover:font-medium hover:text-colorTextTitle">Support</a>
+                <a href="contact.html" class="hover:font-medium hover:text-colorTextTitle">Contact</a>
+              </div>
+            </div>
+            <!-- Footer Widget - Resources -->
+          </div>
+          <!-- Footer Top Area -->
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Top -->
+
+      <!-- Footer Bottom -->
+      <div>
+        <!-- Container -->
+        <div class="container">
+          <div
+            class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+            <div class="text-center md:text-right">
+              © 2025 SellTech. All rights reserved.
+            </div>
+
+            <!-- Policies instead of Social Icons -->
+            <div class="flex flex-wrap gap-6 justify-center">
+              <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+              <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+              <a href="cookie-policy.html" class="hover:underline">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Bottom -->
+    </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

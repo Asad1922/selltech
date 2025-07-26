@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+    <!-- ...::: Header Section Start :::... -->
+<header class="section-header site-header fixed top-0 z-30 w-full py-2">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="index.html" class="h-auto w-auto">
+              <img src="assets/img/images/logo.png" alt="SellTech - Software Development & Marketing Agency" width="200"
+                height="40" />
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="ri-arrow-left-s-fill"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a class="nav-link-item" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Services <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu mega-menu" id="submenu-services">
+                    <div class="mega-menu-content">
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title"><a href="software-development.html">Software Development</a></h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#saas-development"><i class="ri-arrow-right-s-line"></i> SaaS Application
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#api-development"><i class="ri-arrow-right-s-line"></i> API Development
+                              Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#cross-platform-app"><i class="ri-arrow-right-s-line"></i> Cross-platform App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#progressive-web-app"><i class="ri-arrow-right-s-line"></i> Progressive Web App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#enterprise-software"><i class="ri-arrow-right-s-line"></i> Enterprise Software
+                              Solutions</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title"><a href="mobile-app-development.html">Mobile App Development</a></h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#native-app-development"><i class="ri-arrow-right-s-line"></i> Native App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#cross-platform-mobile"><i class="ri-arrow-right-s-line"></i> Cross-platform
+                              Mobile Development</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title"><a href="web-development.html">Web Development</a></h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#custom-web-development"><i class="ri-arrow-right-s-line"></i> Custom Web
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#ecommerce-development"><i class="ri-arrow-right-s-line"></i> E-commerce
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#cms-development"><i class="ri-arrow-right-s-line"></i> CMS Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#website-maintenance"><i class="ri-arrow-right-s-line"></i> Website
+                              Maintenance</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#performance-optimization"><i class="ri-arrow-right-s-line"></i> Performance
+                              Optimization</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title"><a href="digital-marketing.html">Digital Marketing</a></h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#seo-services"><i class="ri-arrow-right-s-line"></i> Search Engine
+                              Optimization (SEO)</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#ppc-advertising"><i class="ri-arrow-right-s-line"></i> Pay-Per-Click (PPC)
+                              Advertising</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#social-media-marketing"><i class="ri-arrow-right-s-line"></i> Social Media
+                              Marketing</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title"><a href="branding.html">Branding Services</a></h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-strategy-development"><i class="ri-arrow-right-s-line"></i> Brand Strategy
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#logo-design-services"><i class="ri-arrow-right-s-line"></i> Logo Design Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#visual-identity-creation"><i class="ri-arrow-right-s-line"></i> Visual Identity
+                              Creation</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-guidelines-establishment"><i class="ri-arrow-right-s-line"></i> Brand Guidelines
+                              Establishment</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#marketing-materials-design"><i class="ri-arrow-right-s-line"></i> Marketing
+                              Materials Design</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title"><a href="ui-ux.html">UI/UX Service</a></h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ui-design"><i class="ri-arrow-right-s-line"></i> UI Design</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ux-research-strategy"><i class="ri-arrow-right-s-line"></i> UX Research & Strategy</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#wireframing-prototyping"><i class="ri-arrow-right-s-line"></i> Wireframing &
+                              Prototyping</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col mega-menu-cta">
+                        <h3>Ready to Start Your Project?</h3>
+                        <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
+                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Industries <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-industries">
+                    <li class="sub-menu--item">
+                      <a href="healthcare-solutions.html">Healthcare</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="fintech-solutions.html">Fintech</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="ecommerce-solutions.html">E-commerce</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="education-solutions.html">Education</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="real-estate-solutions.html">Real Estate</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="manufacturing-solutions.html">Manufacturing</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="automotive-solutions.html">Automotive</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="pricing.html">Pricing Plans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-x-6">
+            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+              <span>Get Free Quote</span>
+              <span>Get Free Quote</span>
+            </a>
+            <div class="block lg:hidden">
+              <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                <span class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ...::: Header Section End :::... -->
+
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip bg-white">
+        <!--...::: Breadcrumb Section Start :::... -->
+<section class="section-hero">
+  <!-- Section Space -->
+  <div class=" pt-24 md:pt-32 lg:pt-40 xl:pt-52">
+    <!-- Section Container -->
+    <div class="container">
+      <div class="relative">
+        <!-- Hero Area -->
+        <div class="mx-auto max-w-7xl">
+          <!-- Hero Content -->
+          <div class="text-center">
+            <h1 class="mb-6">Get in Touch with SellTech</h1>
+            <p class="mx-auto max-w-6xl">
+              Let’s discuss how SellTech can help your business thrive. Whether you need custom software, web development, UI/UX design, or digital marketing — we’re here to deliver exceptional results.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-6 mt-6">
+              <a href="contact.html" class="btn btn-primary">
+                <span>Contact Us Today</span>
+                <span>Contact Us Today</span>
+              </a>
+            </div>
+          </div>
+          <!-- Hero Content -->
+        </div>
+        <!-- Hero Area -->
+      </div>
+    </div>
+    <!-- Section Container -->
+ <div class="relative mt-10 md:mt-[60px] lg:mt-20">
+  <video
+    src="assets/video/hero.mp4"
+    autoplay
+    loop
+    muted
+    playsinline
+    class="max-w-full w-full h-auto rounded-[10px]"
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+  </div>
+  <!-- Section Space -->
+</section>
+
+        <!--...::: Breadcrumb Section End :::... -->
+
+        <!--...::: Contact Section Start :::... -->
+      <section class="section-contact">
+        <!-- Section Background -->
+        <div class="bg-colorTextTitle">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Contact Area -->
+              <div class="grid grid-cols-1 gap-9 lg:grid-cols-[1fr_minmax(0,0.8fr)]">
+                <!-- Content Block -->
+                <div class="text-white">
+                  <!-- Section Block -->
+                  <div class="mb-[50px]">
+                    <h2 class="jos text-white">
+                      Want to discuss your project idea?
+                    </h2>
+                    <p class="jos mt-6">
+                      Let’s turn your vision into reality. Share your project or questions with us, and we’ll help you
+                      find the right solution to move forward. We’re just a message away — let’s get started today.
+                    </p>
+                  </div>
+                  <!-- Section Block -->
+                  <!-- Contact Info List -->
+                  <ul class="grid grid-cols-1 gap-y-6">
+                    <!-- Contact Info Item -->
+                    <li class="jos flex gap-x-4">
+                      <span class="text-2xl text-colorPurpleLight"><i class="ri-mail-fill"></i></span>
+                      <div class="flex-1">
+                        <span class="display-heading display-heading-5 mb-1.5 block text-white">Send us an email</span>
+                        <a href="mailto:yourmail@email.com" class="hover:text-colorPurpleLight">yourmail@email.com</a>
+                      </div>
+                    </li>
+                    <!-- Contact Info Item -->
+                    <!-- Contact Info Item -->
+                    <li class="jos flex gap-x-4">
+                      <span class="text-2xl text-colorPurpleLight"><i class="ri-phone-fill"></i></span>
+                      <div class="flex-1">
+                        <span class="display-heading display-heading-5 mb-1.5 block text-white">Give us a call</span>
+
+                        <a href="tel:+1234567890" class="hover:text-colorPurpleLight">(123) 456-7890</a>
+                      </div>
+                    </li>
+                    <!-- Contact Info Item -->
+                    <!-- Contact Info Item -->
+                    <li class="jos flex gap-x-4">
+                      <span class="text-2xl text-colorPurpleLight"><i class="ri-map-pin-2-fill"></i></span>
+                      <div class="flex-1">
+                        <span class="display-heading display-heading-5 mb-1.5 block text-white">Our location</span>
+
+                        <address>Eighth Avenum, New York</address>
+                      </div>
+                    </li>
+                    <!-- Contact Info Item -->
+                  </ul>
+                  <!-- Contact Info List -->
+                </div>
+                <!-- Content Block -->
+                <!-- Contact Form Block -->
+                <div class="jos rounded-[10px] bg-white p-[30px]">
+                  <div class="display-heading display-heading-3 mb-[30px]">
+                    Send us a message
+                  </div>
+                  <form action="#" method="post" class="grid grid-cols-1 gap-y-6">
+                    <input type="text" name="name" placeholder="Your Name" required
+                      class="min-h-[60px] w-full rounded-[50px] border border-colorBorder px-5 py-[18px] text-base font-bold placeholder:text-colorTextBody" />
+                    <input type="email" name="email" placeholder="Your Email" required
+                      class="min-h-[60px] w-full rounded-[50px] border border-colorBorder px-5 py-[18px] text-base font-bold placeholder:text-colorTextBody" />
+                    <input type="tel" name="phone" placeholder="Your Phone Number" required
+                      class="min-h-[60px] w-full rounded-[50px] border border-colorBorder px-5 py-[18px] text-base font-bold placeholder:text-colorTextBody" />
+                    <textarea name="message" placeholder="Tell us about your project or ask any questions you have..."
+                      class="min-h-[152px] w-full rounded-[20px] border border-colorBorder px-5 py-[18px] text-base font-bold placeholder:text-colorTextBody"></textarea>
+                    <button type="submit" class="btn btn-primary">
+                      <span>Send Message</span>
+                      <span>Send Message</span>
+                    </button>
+                  </form>
+
+                </div>
+                <!-- Contact Form Block -->
+              </div>
+              <!-- Contact Area -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </div>
+        <!-- Section Background -->
+      </section>
+        <!--...::: Contact Section End :::... -->
+
+        <!--...::: Map Section Start :::... -->
+        <div class="sction-map">
+          <!-- Location Map Block -->
+          <div class="jos">
+            <div class="h-96 w-full overflow-hidden lg:h-[600px]">
+              <iframe
+                class="h-full w-full"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+            </div>
+          </div>
+          <!-- Location Map Block -->
+        </div>
+        <!--...::: Map Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space relative">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- CTA Area -->
+              <div
+                class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
+              >
+                <!-- Section Block -->
+                <div class="sm:max-w-[820px] sm:flex-1">
+                  <h2 class="jos">
+                    Let's embark on a digital journey together!
+                    <img
+                      src="assets/img/images/home-5/icon-union.svg"
+                      alt="icon-union"
+                      width="83"
+                      height="80"
+                      class="inline h-auto w-10 lg:w-16"
+                    />
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <a
+                  href="contact.html"
+                  class="group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]"
+                >
+                  <span
+                    class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                  <span
+                    class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                </a>
+              </div>
+              <!-- CTA Area -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Background Element -->
+            <img
+              src="assets/img/images/home-5/background-shape-1.svg"
+              alt="background-shape-1"
+              width="273"
+              height="204"
+              class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
+            />
+            <!-- Background Element -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+    <footer class="section-footer">
+      <!-- Footer Top -->
+      <div class="pb-14 pt-14 lg:pt-[100px]">
+        <!-- Container -->
+        <div class="container">
+          <!-- Footer Top Area -->
+          <div class="flex flex-wrap gap-10 xl:justify-between">
+            <!-- Footer Widget - Info -->
+            <div class="max-w-sm" data-jos_delay="0">
+              <a href="index.html" class="inline-block">
+                <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+              </a>
+              <p class="my-6">
+                SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive
+                advantages.
+              </p>
+
+              <!-- Social Icons below paragraph -->
+              <div class="flex gap-4 mt-4">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Footer Widget - Info -->
+
+            <!-- Footer Widget - Services -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Services
+              </span>
+
+              <nav class="flex flex-col gap-y-4">
+                <a href="custom-software.html" class="hover:font-medium hover:text-colorTextTitle">Custom Software</a>
+                <a href="mobile-apps.html" class="hover:font-medium hover:text-colorTextTitle">Mobile Apps</a>
+                <a href="web-development.html" class="hover:font-medium hover:text-colorTextTitle">Web Development</a>
+                <a href="ui-ux.html" class="hover:font-medium hover:text-colorTextTitle">UI/UX Design</a>
+                <a href="digital-marketing.html" class="hover:font-medium hover:text-colorTextTitle">Digital
+                  Marketing</a>
+                <a href="branding.html" class="hover:font-medium hover:text-colorTextTitle">Branding</a>
+                <a href="cloud-ai.html" class="hover:font-medium hover:text-colorTextTitle">Cloud & AI</a>
+              </nav>
+            </div>
+            <!-- Footer Widget - Services -->
+
+            <!-- Footer Widget - Company -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Company
+              </span>
+
+              <div class="flex flex-col gap-y-4">
+                <a href="about.html" class="hover:font-medium hover:text-colorTextTitle">About Us</a>
+                <a href="our-process.html" class="hover:font-medium hover:text-colorTextTitle">Our Process</a>
+                <a href="Case studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
+                <a href="testimonials.html" class="hover:font-medium hover:text-colorTextTitle">Testimonials</a>
+                <a href="careers.html" class="hover:font-medium hover:text-colorTextTitle">Careers</a>
+                <a href="blog.html" class="hover:font-medium hover:text-colorTextTitle">Blog</a>
+              </div>
+            </div>
+            <!-- Footer Widget - Company -->
+
+            <!-- Footer Widget - Resources -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Resources
+              </span>
+
+              <div class="flex flex-col gap-y-4">
+                <a href="faq.html" class="hover:font-medium hover:text-colorTextTitle">FAQ</a>
+                <a href="guides.html" class="hover:font-medium hover:text-colorTextTitle">Guides</a>
+                <a href="case-studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
+                <a href="pricing.html" class="hover:font-medium hover:text-colorTextTitle">Pricing</a>
+                <a href="support.html" class="hover:font-medium hover:text-colorTextTitle">Support</a>
+                <a href="contact.html" class="hover:font-medium hover:text-colorTextTitle">Contact</a>
+              </div>
+            </div>
+            <!-- Footer Widget - Resources -->
+          </div>
+          <!-- Footer Top Area -->
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Top -->
+
+      <!-- Footer Bottom -->
+      <div>
+        <!-- Container -->
+        <div class="container">
+          <div
+            class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+            <div class="text-center md:text-right">
+              © 2025 SellTech. All rights reserved.
+            </div>
+
+            <!-- Policies instead of Social Icons -->
+            <div class="flex flex-wrap gap-6 justify-center">
+              <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+              <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+              <a href="cookie-policy.html" class="hover:underline">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Bottom -->
+    </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

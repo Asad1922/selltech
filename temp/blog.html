@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+    <!-- ...::: Header Section Start :::... -->
+    <header class="section-header site-header fixed top-0 z-30 w-full py-2">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="index.html" class="h-auto w-auto">
+              <img src="assets/img/images/logo.png" alt="SellTech - Software Development & Marketing Agency" width="200"
+                height="40" />
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="ri-arrow-left-s-fill"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a class="nav-link-item" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Services <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu mega-menu" id="submenu-services">
+                    <div class="mega-menu-content">
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Software Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#saas-development"><i class="ri-arrow-right-s-line"></i> SaaS Application
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#api-development"><i class="ri-arrow-right-s-line"></i> API Development
+                              Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#cross-platform-app"><i class="ri-arrow-right-s-line"></i> Cross-platform App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#progressive-web-app"><i class="ri-arrow-right-s-line"></i> Progressive Web App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="software-development.html#enterprise-software"><i class="ri-arrow-right-s-line"></i> Enterprise Software
+                              Solutions</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">Mobile App Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#native-app-development"><i class="ri-arrow-right-s-line"></i> Native App
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="mobile-app-development.html#cross-platform-mobile"><i class="ri-arrow-right-s-line"></i> Cross-platform
+                              Mobile Development</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Web Development</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#custom-web-development"><i class="ri-arrow-right-s-line"></i> Custom Web
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#ecommerce-development"><i class="ri-arrow-right-s-line"></i> E-commerce
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#cms-development"><i class="ri-arrow-right-s-line"></i> CMS Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#website-maintenance"><i class="ri-arrow-right-s-line"></i> Website
+                              Maintenance</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="web-development.html#performance-optimization"><i class="ri-arrow-right-s-line"></i> Performance
+                              Optimization</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">Digital Marketing</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#seo-services"><i class="ri-arrow-right-s-line"></i> Search Engine
+                              Optimization (SEO)</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#ppc-advertising"><i class="ri-arrow-right-s-line"></i> Pay-Per-Click (PPC)
+                              Advertising</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="digital-marketing.html#social-media-marketing"><i class="ri-arrow-right-s-line"></i> Social Media
+                              Marketing</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title">Branding Services</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-strategy-development"><i class="ri-arrow-right-s-line"></i> Brand Strategy
+                              Development</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#logo-design-services"><i class="ri-arrow-right-s-line"></i> Logo Design Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#visual-identity-creation"><i class="ri-arrow-right-s-line"></i> Visual Identity
+                              Creation</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#brand-guidelines-establishment"><i class="ri-arrow-right-s-line"></i> Brand Guidelines
+                              Establishment</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="branding.html#marketing-materials-design"><i class="ri-arrow-right-s-line"></i> Marketing
+                              Materials Design</a>
+                          </li>
+                        </ul>
+                        <h3 class="menu-col-title">UI/UX Service</h3>
+                        <ul>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ui-design"><i class="ri-arrow-right-s-line"></i> UI Design</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#ux-research-strategy"><i class="ri-arrow-right-s-line"></i> UX Research & Strategy</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="ui-ux.html#wireframing-prototyping"><i class="ri-arrow-right-s-line"></i> Wireframing &
+                              Prototyping</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mega-menu-col mega-menu-cta">
+                        <h3>Ready to Start Your Project?</h3>
+                        <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
+                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Industries <i class="ri-arrow-down-s-fill"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-industries">
+                    <li class="sub-menu--item">
+                      <a href="healthcare-solutions.html">Healthcare</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="fintech-solutions.html">Fintech</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="ecommerce-solutions.html">E-commerce</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="education-solutions.html">Education</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="real-estate-solutions.html">Real Estate</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="manufacturing-solutions.html">Manufacturing</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="automotive-solutions.html">Automotive</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="Case studies.html">Case studies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-x-6">
+            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+              <span>Get Free Quote</span>
+              <span>Get Free Quote</span>
+            </a>
+            <div class="block lg:hidden">
+              <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                <span class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ...::: Header Section End :::... -->
+
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Breadcrumb Section Start :::... -->
+        <section class="section-breadcrumb">
+          <!-- Breadcrumb Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Breadcrumb Space -->
+            <div class="breadcrumb-space">
+              <!-- Breadcrumb Container -->
+              <div class="container">
+                <div class="text-center text-white">
+                  <h1 class="mb-[50px] text-white">Blog</h1>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        Blog
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+              <!-- Breadcrumb Container -->
+            </div>
+            <!-- Breadcrumb Space -->
+          </div>
+          <!-- Breadcrumb Background -->
+        </section>
+        <!--...::: Breadcrumb Section End :::... -->
+
+        <!--...::: Blog Section Start :::... -->
+        <div class="section-blog">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Blog Area -->
+              <div
+                class="grid grid-cols-1 gap-[30px] lg:grid-cols-[1fr_minmax(416px,0.5fr)]"
+              >
+                <div>
+                  <!-- Blog List -->
+                  <ul
+                    class="mb-10 grid grid-cols-1 gap-y-[30px] md:mb-[60px] lg:mb-20"
+                  >
+                    <!-- Blog Item -->
+                    <li class="jos">
+                      <div
+                        class="group rounded-[20px] border border-colorBorder p-5 xl:p-[30px]"
+                      >
+                        <!-- Blog Thumbnails -->
+                        <a
+                          href="blog-details.html"
+                          class="block overflow-hidden rounded-[15px]"
+                        >
+                          <img
+                            src="assets/img/images/home-1/blog-thumbnail-1.jpg"
+                            alt="blog-thumbnail-1"
+                            width="790"
+                            height="500"
+                            class="transition-default h-full w-full object-cover group-hover:scale-110"
+                          />
+                        </a>
+                        <!-- Blog Thumbnails -->
+
+                        <!-- Blog Metadata -->
+                        <div
+                          class="my-[30px] flex flex-col items-start gap-4 sm:flex-row sm:items-center"
+                        >
+                          <a
+                            href="blog.html"
+                            class="btn min-w-0 rounded-[5px] bg-colorTextTitle px-4 py-2 text-xl leading-none text-white md:px-8 md:py-4"
+                          >
+                            <span>Technology</span>
+                            <span>Technology</span>
+                          </a>
+
+                          <span>April 13, 2024</span>
+                        </div>
+                        <!-- Blog Metadata -->
+                        <!-- Blog Content -->
+                        <div>
+                          <a
+                            href="blog-details.html"
+                            class="display-heading display-heading-3 line-clamp-2"
+                            >Optimizing your online store for a maximum to sales
+                            impact your business to the world.</a
+                          >
+                          <p class="mb-6 mt-4 line-clamp-2">
+                            Optimizing your online store for maximum sales
+                            impact and exposure involves a multifaceted approach
+                            & incorporating a blog can be a crucial aspect.
+                          </p>
+                          <a href="blog-details.html" class="inline-block">
+                            <span
+                              class="transition-default font-normal group-hover:font-semibold"
+                            >
+                              More details
+                            </span>
+                            <div
+                              class="relative inline-flex items-center justify-center overflow-hidden"
+                            >
+                              <span
+                                class="transition-default translate-x-0 group-hover:translate-x-full"
+                              >
+                                <i class="ri-arrow-right-line"></i>
+                              </span>
+                              <span
+                                class="transition-default absolute -translate-x-full group-hover:translate-x-0"
+                              >
+                                <i class="ri-arrow-right-line"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- Blog Content -->
+                      </div>
+                    </li>
+                    <!-- Blog Item -->
+                    <!-- Blog Item -->
+                    <li class="jos">
+                      <div
+                        class="group rounded-[20px] border border-colorBorder p-5 xl:p-[30px]"
+                      >
+                        <!-- Blog Thumbnails -->
+                        <a
+                          href="blog-details.html"
+                          class="block overflow-hidden rounded-[15px]"
+                        >
+                          <img
+                            src="assets/img/images/home-1/blog-thumbnail-2.jpg"
+                            alt="blog-thumbnail-2"
+                            width="790"
+                            height="500"
+                            class="transition-default h-full w-full object-cover group-hover:scale-110"
+                          />
+                        </a>
+                        <!-- Blog Thumbnails -->
+
+                        <!-- Blog Metadata -->
+                        <div
+                          class="my-[30px] flex flex-col items-start gap-4 sm:flex-row sm:items-center"
+                        >
+                          <a
+                            href="blog.html"
+                            class="btn min-w-0 rounded-[5px] bg-colorTextTitle px-4 py-2 text-xl leading-none text-white md:px-8 md:py-4"
+                          >
+                            <span>Business</span>
+                            <span>Business</span>
+                          </a>
+
+                          <span>April 11, 2024</span>
+                        </div>
+                        <!-- Blog Metadata -->
+                        <!-- Blog Content -->
+                        <div>
+                          <a
+                            href="blog-details.html"
+                            class="display-heading display-heading-3 line-clamp-2"
+                            >We’re here to explain how data analytics with sofax
+                            can help to grow your business.</a
+                          >
+                          <p class="mb-6 mt-4 line-clamp-2">
+                            Businesses better understand their customer base by
+                            segmenting them based on various criteria such as
+                            demographics, purchasing behavior, and preferences.
+                          </p>
+                          <a href="blog-details.html" class="inline-block">
+                            <span
+                              class="transition-default font-normal group-hover:font-semibold"
+                            >
+                              More details
+                            </span>
+                            <div
+                              class="relative inline-flex items-center justify-center overflow-hidden"
+                            >
+                              <span
+                                class="transition-default translate-x-0 group-hover:translate-x-full"
+                              >
+                                <i class="ri-arrow-right-line"></i>
+                              </span>
+                              <span
+                                class="transition-default absolute -translate-x-full group-hover:translate-x-0"
+                              >
+                                <i class="ri-arrow-right-line"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- Blog Content -->
+                      </div>
+                    </li>
+                    <!-- Blog Item -->
+                    <!-- Blog Item -->
+                    <li class="jos">
+                      <div
+                        class="group rounded-[20px] border border-colorBorder p-5 xl:p-[30px]"
+                      >
+                        <!-- Blog Thumbnails -->
+                        <a
+                          href="blog-details.html"
+                          class="block overflow-hidden rounded-[15px]"
+                        >
+                          <img
+                            src="assets/img/images/home-1/blog-thumbnail-3.jpg"
+                            alt="blog-thumbnail-3"
+                            width="790"
+                            height="500"
+                            class="transition-default h-full w-full object-cover group-hover:scale-110"
+                          />
+                        </a>
+                        <!-- Blog Thumbnails -->
+
+                        <!-- Blog Metadata -->
+                        <div
+                          class="my-[30px] flex flex-col items-start gap-4 sm:flex-row sm:items-center"
+                        >
+                          <a
+                            href="blog.html"
+                            class="btn min-w-0 rounded-[5px] bg-colorTextTitle px-4 py-2 text-xl leading-none text-white md:px-8 md:py-4"
+                          >
+                            <span>Agency</span>
+                            <span>Agency</span>
+                          </a>
+
+                          <span>April 10, 2024</span>
+                        </div>
+                        <!-- Blog Metadata -->
+                        <!-- Blog Content -->
+                        <div>
+                          <a
+                            href="blog-details.html"
+                            class="display-heading display-heading-3 line-clamp-2"
+                            >The importance of logo design in branding
+                            strategies development with logo design.</a
+                          >
+                          <p class="mb-6 mt-4 line-clamp-2">
+                            A logo is often the first point of contact between a
+                            company & its audience. It’s the visual
+                            representation of the brand & sets the tone for how
+                            the brand is perceived.
+                          </p>
+                          <a href="blog-details.html" class="inline-block">
+                            <span
+                              class="transition-default font-normal group-hover:font-semibold"
+                            >
+                              More details
+                            </span>
+                            <div
+                              class="relative inline-flex items-center justify-center overflow-hidden"
+                            >
+                              <span
+                                class="transition-default translate-x-0 group-hover:translate-x-full"
+                              >
+                                <i class="ri-arrow-right-line"></i>
+                              </span>
+                              <span
+                                class="transition-default absolute -translate-x-full group-hover:translate-x-0"
+                              >
+                                <i class="ri-arrow-right-line"></i>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- Blog Content -->
+                      </div>
+                    </li>
+                    <!-- Blog Item -->
+                  </ul>
+                  <!-- Blog List -->
+
+                  <!-- Pagination -->
+                  <nav
+                    aria-label="Page navigation example"
+                    class="flex justify-center"
+                  >
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a
+                          class="page-link"
+                          href="blog.html"
+                          aria-label="Previous"
+                        >
+                          <i class="ri-arrow-left-s-line"></i>
+                        </a>
+                      </li>
+                      <li class="page-item active">
+                        <a class="page-link" href="blog.html">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="blog.html">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="blog.html">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="blog.html" aria-label="Next">
+                          <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <!-- Pagination -->
+                </div>
+
+                <!-- Sidebar Block -->
+                <aside class="jos flex flex-col gap-y-8">
+                  <!-- Sidebar Widget - Search -->
+                  <div>
+                    <form
+                      action="#"
+                      method="get"
+                      class="relative overflow-hidden"
+                    >
+                      <input
+                        type="search"
+                        placeholder="Search..."
+                        class="w-full rounded-[50px] border border-colorTextTitle px-8 py-4 pr-16 text-base outline-none"
+                      />
+                      <button
+                        type="submit"
+                        class="absolute right-0 top-0 h-full pl-6 pr-8"
+                      >
+                        <i class="ri-search-line"></i>
+                      </button>
+                    </form>
+                  </div>
+                  <!-- Sidebar Widget - Search -->
+
+                  <!-- Sidebar Widget - Categories -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle p-[30px]"
+                  >
+                    <span class="display-heading display-heading-4 mb-6 block"
+                      >Categories:</span
+                    >
+
+                    <!-- Categories List -->
+                    <ul class="flex list-inside list-disc flex-col gap-y-4">
+                      <li>
+                        <a href="blog.html" class="hover:text-colorTextTitle"
+                          >Saas</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog.html" class="hover:text-colorTextTitle"
+                          >Business</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog.html" class="hover:text-colorTextTitle"
+                          >Marketing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog.html" class="hover:text-colorTextTitle"
+                          >Technology</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog.html" class="hover:text-colorTextTitle"
+                          >Development</a
+                        >
+                      </li>
+                    </ul>
+                    <!-- Categories List -->
+                  </div>
+                  <!-- Sidebar Widget - Categories -->
+
+                  <!-- Sidebar Widget - Recent Posts -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle p-[30px]"
+                  >
+                    <span class="display-heading display-heading-4 mb-6 block"
+                      >Recent Posts:</span
+                    >
+
+                    <!-- Recent Posts List -->
+                    <ul class="flex list-inside list-disc flex-col gap-y-6">
+                      <li class="flex items-center gap-4">
+                        <a
+                          href="blog-details.html"
+                          class="group flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center"
+                        >
+                          <div
+                            class="w-full overflow-hidden rounded-[6px] sm:w-[164px]"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-recent-thumbnail-1.jpg"
+                              alt="blog-recent-thumbnail-1"
+                              width="164"
+                              height="110"
+                              class="transition-default h-full w-full object-cover group-hover:scale-110"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="mb-2 block text-xs"
+                              >April 13, 2024</span
+                            >
+                            <span
+                              class="transition-default text-sm font-bold leading-[1.4] group-hover:text-colorTextTitle"
+                              >Six what ifs that could the transform digital
+                              agency</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="flex items-center gap-4">
+                        <a
+                          href="blog-details.html"
+                          class="group flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center"
+                        >
+                          <div
+                            class="w-full overflow-hidden rounded-[6px] sm:w-[164px]"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-recent-thumbnail-2.jpg"
+                              alt="blog-recent-thumbnail-2"
+                              width="164"
+                              height="110"
+                              class="transition-default h-full w-full object-cover group-hover:scale-110"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="mb-2 block text-xs"
+                              >April 11, 2024</span
+                            >
+                            <span
+                              class="transition-default text-sm font-bold leading-[1.4] group-hover:text-colorTextTitle"
+                              >We have been to strategy thought leader for
+                              nearly</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="flex items-center gap-4">
+                        <a
+                          href="blog-details.html"
+                          class="group flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center"
+                        >
+                          <div
+                            class="w-full overflow-hidden rounded-[6px] sm:w-[164px]"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-recent-thumbnail-3.jpg"
+                              alt="blog-recent-thumbnail-3"
+                              width="164"
+                              height="110"
+                              class="transition-default h-full w-full object-cover group-hover:scale-110"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="mb-2 block text-xs"
+                              >April 10, 2024</span
+                            >
+                            <span
+                              class="transition-default text-sm font-bold leading-[1.4] group-hover:text-colorTextTitle"
+                              >This week’s top to stories agency and about
+                              it</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- Recent Posts List -->
+                  </div>
+                  <!-- Sidebar Widget - Recent Posts -->
+
+                  <!-- Sidebar Widget - Popular Tag -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle p-[30px]"
+                  >
+                    <span class="display-heading display-heading-4 mb-6 block"
+                      >Popular Tags:</span
+                    >
+
+                    <!-- Popular Tag List -->
+                    <div class="flex flex-wrap gap-3">
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >Business</a
+                      >
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >Web</a
+                      >
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >Digital</a
+                      >
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >Development</a
+                      >
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >Technology</a
+                      >
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >Agency</a
+                      >
+                      <a
+                        href="blog.html"
+                        class="text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white"
+                        >UI/UX</a
+                      >
+                    </div>
+                    <!-- Popular Tag List -->
+                  </div>
+                  <!-- Sidebar Widget - Popular Tag -->
+
+                  <!-- Sidebar Widget - Subscription Form -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle bg-colorTextTitle p-[30px]"
+                  >
+                    <span
+                      class="display-heading display-heading-4 mb-6 block text-white"
+                      >Subscribe to our newsletter</span
+                    >
+
+                    <form action="#" method="post">
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="w-full rounded-[50px] border border-colorBorder bg-colorTextTitle px-11 py-3 text-white"
+                      />
+                      <button
+                        type="submit"
+                        class="btn btn-primary mt-3 flex w-full"
+                      >
+                        <span>Subscribe now</span>
+                        <span>Subscribe now</span>
+                      </button>
+                    </form>
+                  </div>
+                  <!-- Sidebar Widget - Subscription Form -->
+                </aside>
+                <!-- Sidebar Block -->
+              </div>
+              <!-- Blog Area -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </div>
+        <!--...::: Blog Section End :::... -->
+
+        <!--...::: Text SLider Section Start :::... -->
+        <div class="section-text-slider">
+          <div class="bg-colorTextTitle py-8 lg:py-10 xl:py-[50px]">
+            <!-- Text SLider Wrapper-->
+            <div class="infinite-text-slider flex gap-6 whitespace-nowrap">
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Digital Marketing Agency
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Start Up Business
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Social Media Marketing
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Digital Marketing Agency
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Start Up Business
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Social Media Marketing
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+            </div>
+            <!-- Text SLider Wrapper-->
+          </div>
+        </div>
+        <!--...::: Text SLider Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space relative">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- CTA Area -->
+              <div
+                class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
+              >
+                <!-- Section Block -->
+                <div class="sm:max-w-[820px] sm:flex-1">
+                  <h2 class="jos">
+                    Let's embark on a digital journey together!
+                    <img
+                      src="assets/img/images/home-5/icon-union.svg"
+                      alt="icon-union"
+                      width="83"
+                      height="80"
+                      class="inline h-auto w-10 lg:w-16"
+                    />
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <a
+                  href="contact.html"
+                  class="group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]"
+                >
+                  <span
+                    class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                  <span
+                    class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                </a>
+              </div>
+              <!-- CTA Area -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Background Element -->
+            <img
+              src="assets/img/images/home-5/background-shape-1.svg"
+              alt="background-shape-1"
+              width="273"
+              height="204"
+              class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
+            />
+            <!-- Background Element -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+    <footer class="section-footer">
+      <!-- Footer Top -->
+      <div class="pb-14 pt-14 lg:pt-[100px]">
+        <!-- Container -->
+        <div class="container">
+          <!-- Footer Top Area -->
+          <div class="flex flex-wrap gap-10 xl:justify-between">
+            <!-- Footer Widget - Info -->
+            <div class="max-w-sm" data-jos_delay="0">
+              <a href="index.html" class="inline-block">
+                <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+              </a>
+              <p class="my-6">
+                SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive
+                advantages.
+              </p>
+
+              <!-- Social Icons below paragraph -->
+              <div class="flex gap-4 mt-4">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Footer Widget - Info -->
+
+            <!-- Footer Widget - Services -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Services
+              </span>
+
+              <nav class="flex flex-col gap-y-4">
+                <a href="custom-software.html" class="hover:font-medium hover:text-colorTextTitle">Custom Software</a>
+                <a href="mobile-apps.html" class="hover:font-medium hover:text-colorTextTitle">Mobile Apps</a>
+                <a href="web-development.html" class="hover:font-medium hover:text-colorTextTitle">Web Development</a>
+                <a href="ui-ux.html" class="hover:font-medium hover:text-colorTextTitle">UI/UX Design</a>
+                <a href="digital-marketing.html" class="hover:font-medium hover:text-colorTextTitle">Digital
+                  Marketing</a>
+                <a href="branding.html" class="hover:font-medium hover:text-colorTextTitle">Branding</a>
+                <a href="cloud-ai.html" class="hover:font-medium hover:text-colorTextTitle">Cloud & AI</a>
+              </nav>
+            </div>
+            <!-- Footer Widget - Services -->
+
+            <!-- Footer Widget - Company -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Company
+              </span>
+
+              <div class="flex flex-col gap-y-4">
+                <a href="about.html" class="hover:font-medium hover:text-colorTextTitle">About Us</a>
+                <a href="our-process.html" class="hover:font-medium hover:text-colorTextTitle">Our Process</a>
+                <a href="Case studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
+                <a href="testimonials.html" class="hover:font-medium hover:text-colorTextTitle">Testimonials</a>
+                <a href="careers.html" class="hover:font-medium hover:text-colorTextTitle">Careers</a>
+                <a href="blog.html" class="hover:font-medium hover:text-colorTextTitle">Blog</a>
+              </div>
+            </div>
+            <!-- Footer Widget - Company -->
+
+            <!-- Footer Widget - Resources -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">
+                Resources
+              </span>
+
+              <div class="flex flex-col gap-y-4">
+                <a href="faq.html" class="hover:font-medium hover:text-colorTextTitle">FAQ</a>
+                <a href="guides.html" class="hover:font-medium hover:text-colorTextTitle">Guides</a>
+                <a href="case-studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
+                <a href="pricing.html" class="hover:font-medium hover:text-colorTextTitle">Pricing</a>
+                <a href="support.html" class="hover:font-medium hover:text-colorTextTitle">Support</a>
+                <a href="contact.html" class="hover:font-medium hover:text-colorTextTitle">Contact</a>
+              </div>
+            </div>
+            <!-- Footer Widget - Resources -->
+          </div>
+          <!-- Footer Top Area -->
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Top -->
+
+      <!-- Footer Bottom -->
+      <div>
+        <!-- Container -->
+        <div class="container">
+          <div
+            class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+            <div class="text-center md:text-right">
+              © 2025 SellTech. All rights reserved.
+            </div>
+
+            <!-- Policies instead of Social Icons -->
+            <div class="flex flex-wrap gap-6 justify-center">
+              <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+              <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+              <a href="cookie-policy.html" class="hover:underline">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Bottom -->
+    </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
