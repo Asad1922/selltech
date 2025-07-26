@@ -1151,5 +1151,55 @@
 
   <!-- Main js -->
   <script src="assets/js/main.js"></script>
+      <script>
+  // Initialize the Swiper for your testimonial slider
+  var swiper = new Swiper('YOUR_SLIDER_CONTAINER_SELECTOR', {
+    // Optional parameters
+    direction: 'horizontal', // 'vertical' or 'horizontal'
+    loop: true, // Set to true for continuous loop
+
+    // If you need pagination (dots)
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    // If you need navigation buttons (arrows)
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if you need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+
+    // Autoplay (optional)
+    autoplay: {
+        delay: 2000, // 5 seconds
+        disableOnInteraction: false, // Continue autoplay after user interaction
+    },
+
+    // Responsive breakpoints (optional)
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      // when window width is >= 1024px
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 40
+      }
+    }
+  });
+</script>
 </body>
 </html>
