@@ -4559,8 +4559,21 @@ p.jos-cta-cs-p.mt-5 {
 h2.jos-cta-cs {
     color: white;
 }
-.max-w-full {
-    object-fit: cover;
-    height: 550px;
-    max-width: 100%;
+nav.flex.flex-col.gap-y-4 {
+    font-size: 16px;
+}.flex.flex-col.gap-y-4 {
+    font-size: 16px;
+}
+.flex.flex-wrap.gap-6.justify-center {
+    font-size: 16px;
+}
+.hover\:bg-colorPurpleLight:hover {
+    --tw-bg-opacity: 1;
+    color: white;
+    background-color: rgb(220 40 36);
+}
+.breadcrumb-item.active {
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(220 40 36);
 }

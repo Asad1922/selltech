@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "SellTech",
-        "url": "https://selltech.com",
+        "url": "https://selltech.pro",
         "logo": "https://selltech.pro/logo.png",
         "description": "Leading software development and digital marketing agency",
         "sameAs": [
@@ -78,7 +79,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "SellTech",
-        "url": "https://selltech.com",
+        "url": "https://selltech.pro",
         "potentialAction": {
           "@type": "SearchAction",
           "target": "https://selltech.pro/search?q={search_term_string}",
@@ -234,7 +235,7 @@
                       <div class="mega-menu-col mega-menu-cta">
                         <h3>Ready to Start Your Project?</h3>
                         <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
-                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                        <a href="#" onclick="openQuoteModal()" class="btn btn-dark">Get a Free Quote</a>
                       </div>
                     </div>
                   </ul>
@@ -279,7 +280,7 @@
             </nav>
           </div>
           <div class="flex items-center gap-x-6">
-            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+            <a href="get-a-quote.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
               <span>Get Free Quote</span>
               <span>Get Free Quote</span>
             </a>
@@ -316,131 +317,108 @@
                 </nav>
               </div>
             </div>
-            </div>
           </div>
-        </section>
+        </div>
+      </section>
       <section class="service-details-section">
         <div class="section-space">
           <div class="container">
             <div>
               <h2 class="jos mb-6">Transforming Healthcare with Technology</h2>
               <p>
-                The healthcare industry is rapidly evolving, driven by the need for more efficient patient care, enhanced data security, and improved accessibility. SellTech delivers innovative, HIPAA-compliant software solutions that address these critical demands, empowering healthcare providers to deliver superior services.
+                The healthcare industry is rapidly evolving, driven by the need for more efficient patient care,
+                enhanced data security, and improved accessibility. SellTech delivers innovative, HIPAA-compliant
+                software solutions that address these critical demands, empowering healthcare providers to deliver
+                superior services.
               </p>
               <div
-                class="relative mb-10 mt-[50px] flex items-center justify-center overflow-hidden rounded-[16px] border-b-8 border-r-8 border-colorTextTitle lg:mb-[80px]"
-              >
-                <img
-                  src="assets/img/images/home-1/healthcare-industry-details.jpg"
-                  alt="healthcare-industry-img"
-                  width="1282"
-                  height="584"
-                  class="min-h-96 w-full border border-colorTextTitle object-cover"
-                />
+                class="relative mb-10 mt-[50px] flex items-center justify-center overflow-hidden rounded-[16px] border-b-8 border-r-8 border-colorTextTitle lg:mb-[80px]">
+                <img src="assets\img\images\Branding\2149611211 (1).jpg" alt="healthcare-industry-img" width="1282"
+                  height="584" class="min-h-96 w-full border border-colorTextTitle object-cover" />
               </div>
               <div>
                 <h2 class="jos mb-5 max-w-4xl">
                   Our Comprehensive Healthcare Technology Solutions
                 </h2>
                 <p class="jos">
-                  SellTech provides a range of specialized services tailored to the unique needs of the healthcare sector. Our solutions are designed to optimize operations, improve patient outcomes, and ensure regulatory compliance.
+                  SellTech provides a range of specialized services tailored to the unique needs of the healthcare
+                  sector. Our solutions are designed to optimize operations, improve patient outcomes, and ensure
+                  regulatory compliance.
                 </p>
 
-                <div
-                  class="grid grid-cols-1 items-center gap-x-[60px] gap-y-10 lg:grid-cols-12"
-                >
-                  <div
-                    class="rounded-md bg-colorTextTitle p-[30px] text-white lg:col-span-6 xxl:col-span-5"
-                  >
+                <div class="grid grid-cols-1 items-center gap-x-[60px] gap-y-10 lg:grid-cols-12">
+                  <div class="rounded-md bg-colorTextTitle p-[30px] text-white lg:col-span-6 xxl:col-span-5">
                     <h3 class="mb-4 text-white">Ensuring Data Security & Compliance</h3>
                     <p>
-                      We prioritize the highest standards of data security and regulatory compliance (HIPAA, GDPR) in all our healthcare software development projects, protecting sensitive patient information.
+                      We prioritize the highest standards of data security and regulatory compliance (HIPAA, GDPR) in
+                      all our healthcare software development projects, protecting sensitive patient information.
                     </p>
                   </div>
                   <div class="lg:col-span-6 xxl:col-span-7">
                     <ul class="grid grid-cols-1 gap-4 xxl:grid-cols-2">
                       <li class="jos">
                         <div class="display-heading display-heading-4">
-                          <span
-                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                            ><i class="ri-checkbox-circle-fill"></i
-                          ></span>
+                          <span class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"><i
+                              class="ri-checkbox-circle-fill"></i></span>
                           Telemedicine Platforms
                         </div>
                       </li>
                       <li class="jos">
                         <div class="display-heading display-heading-4">
-                          <span
-                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                            ><i class="ri-checkbox-circle-fill"></i
-                          ></span>
+                          <span class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"><i
+                              class="ri-checkbox-circle-fill"></i></span>
                           Electronic Health Records (EHR)
                         </div>
                       </li>
                       <li class="jos">
                         <div class="display-heading display-heading-4">
-                          <span
-                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                            ><i class="ri-checkbox-circle-fill"></i
-                          ></span>
+                          <span class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"><i
+                              class="ri-checkbox-circle-fill"></i></span>
                           Patient Portals
                         </div>
                       </li>
                       <li class="jos">
                         <div class="display-heading display-heading-4">
-                          <span
-                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                            ><i class="ri-checkbox-circle-fill"></i
-                          ></span>
+                          <span class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"><i
+                              class="ri-checkbox-circle-fill"></i></span>
                           Hospital Management Systems (HMS)
                         </div>
                       </li>
                       <li class="jos">
                         <div class="display-heading display-heading-4">
-                          <span
-                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                            ><i class="ri-checkbox-circle-fill"></i
-                          ></span>
+                          <span class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"><i
+                              class="ri-checkbox-circle-fill"></i></span>
                           Medical IoT & Wearables
                         </div>
                       </li>
                       <li class="jos">
                         <div class="display-heading display-heading-4">
-                          <span
-                            class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                            ><i class="ri-checkbox-circle-fill"></i
-                          ></span>
+                          <span class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"><i
+                              class="ri-checkbox-circle-fill"></i></span>
                           Healthcare Analytics
                         </div>
                       </li>
                     </ul>
-                    </div>
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
       <section class="section-content">
         <div class="section-space-bottom relative z-10">
           <div class="container">
-            <div
-              class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]"
-            >
+            <div class="grid grid-cols-1 gap-y-20 lg:gap-y-[100px] xl:gap-y-[130px]">
               <div
-                class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[1fr_minmax(0,0.8fr)] xl:gap-20"
-              >
+                class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:grid-cols-[1fr_minmax(0,0.8fr)] xl:gap-20">
                 <div
                   class="jos img-shadow relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center lg:max-w-full"
-                  data-jos_animation="fade-left"
-                >
+                  data-jos_animation="fade-left">
                   <img
-                    src="assets/img/images/home-1/healthcare-approach-img.jpg"
-                    alt="healthcare-approach-img"
-                    width="484"
-                    height="596"
-                    class="max-w-full rounded-[10px] border border-colorTextTitle"
-                  />
+                    src="assets\img\images\UIUX\healthcare-professionals-review-mri-scan-test-results-neurology-x-rays_482257-123104.jpg"
+                    alt="healthcare-approach-img" width="484" height="596"
+                    class="max-w-full rounded-[10px] border border-colorTextTitle" />
                 </div>
                 <div class="order-1">
                   <div class="mb-[50px]">
@@ -448,7 +426,9 @@
                     <div class="jos">
                       <div class="mt-5">
                         <p>
-                          SellTech's approach to healthcare technology focuses on creating secure, scalable, and user-friendly solutions that drive positive change. We collaborate closely with healthcare organizations to understand their unique workflows and challenges.
+                          SellTech's approach to healthcare technology focuses on creating secure, scalable, and
+                          user-friendly solutions that drive positive change. We collaborate closely with healthcare
+                          organizations to understand their unique workflows and challenges.
                         </p>
                       </div>
                     </div>
@@ -457,21 +437,17 @@
                     <li class="jos">
                       <div class="flex items-start gap-4">
                         <div
-                          class="inline-flex h-[60px] w-[60px] items-center justify-center rounded-full bg-colorYellow"
-                        >
-                          <img
-                            src="assets/img/images/home-1/content-icon-1.svg"
-                            alt="content-icon-1"
-                            width="35"
-                            height="35"
-                          />
+                          class="inline-flex h-[60px] w-[60px] items-center justify-center rounded-full bg-colorYellow">
+                          <img src="assets/img/images/home-1/content-icon-1.svg" alt="content-icon-1" width="35"
+                            height="35" />
                         </div>
                         <div class="flex-1">
                           <div class="display-heading display-heading-4 mb-4">
                             Patient-Centric Design
                           </div>
                           <p>
-                            We design interfaces that are intuitive and accessible for both healthcare professionals and patients, improving engagement and experience.
+                            We design interfaces that are intuitive and accessible for both healthcare professionals and
+                            patients, improving engagement and experience.
                           </p>
                         </div>
                       </div>
@@ -479,21 +455,17 @@
                     <li class="jos">
                       <div class="flex items-start gap-4">
                         <div
-                          class="inline-flex h-[60px] w-[60px] items-center justify-center rounded-full bg-colorYellow"
-                        >
-                          <img
-                            src="assets/img/images/home-1/content-icon-2.svg"
-                            alt="content-icon-2"
-                            width="35"
-                            height="35"
-                          />
+                          class="inline-flex h-[60px] w-[60px] items-center justify-center rounded-full bg-colorYellow">
+                          <img src="assets/img/images/home-1/content-icon-2.svg" alt="content-icon-2" width="35"
+                            height="35" />
                         </div>
                         <div class="flex-1">
                           <div class="display-heading display-heading-4 mb-4">
                             Robust Security Protocols
                           </div>
                           <p>
-                            Implementing advanced encryption, access controls, and regular audits to ensure compliance with HIPAA and other privacy regulations.
+                            Implementing advanced encryption, access controls, and regular audits to ensure compliance
+                            with HIPAA and other privacy regulations.
                           </p>
                         </div>
                       </div>
@@ -501,302 +473,160 @@
                     <li class="jos">
                       <div class="flex items-start gap-4">
                         <div
-                          class="inline-flex h-[60px] w-[60px] items-center justify-center rounded-full bg-colorYellow"
-                        >
-                          <img
-                            src="assets/img/images/home-1/content-icon-3.svg"
-                            alt="content-icon-3"
-                            width="35"
-                            height="35"
-                          />
+                          class="inline-flex h-[60px] w-[60px] items-center justify-center rounded-full bg-colorYellow">
+                          <img src="assets/img/images/home-1/content-icon-3.svg" alt="content-icon-3" width="35"
+                            height="35" />
                         </div>
                         <div class="flex-1">
                           <div class="display-heading display-heading-4 mb-4">
                             Scalable & Integrated Solutions
                           </div>
                           <p>
-                            Building solutions that can grow with your organization and integrate seamlessly with existing healthcare systems.
+                            Building solutions that can grow with your organization and integrate seamlessly with
+                            existing healthcare systems.
                           </p>
                         </div>
                       </div>
                     </li>
                   </ul>
-                  </div>
                 </div>
               </div>
-          </div>
-          <img
-            src="assets/img/images/home-5/background-shape-2.svg"
-            alt="background-shape-2"
-            width="174"
-            height="171"
-            class="absolute right-28 top-[60px] -z-10 hidden h-auto max-w-[153px] xxxl:inline-block"
-          />
-          </div>
-        </section>
-      <!-- <section class="section-faq">
-        <div class="bg-colorGrey">
-          <div class="section-space">
-            <div class="container">
-              <div
-                class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20"
-              >
-                <h2>Frequently Asked Questions about Healthcare Solutions</h2>
-              </div>
-              <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
-                <ul class="jos flex flex-col gap-6">
-                  <li class="accordion-item-style-2 accordion-item active">
-                    <div
-                      class="accordion-header flex items-center justify-between gap-6"
-                    >
-                      <button class="flex-1 text-left text-2xl font-semibold">
-                        What makes your healthcare software HIPAA compliant?
-                      </button>
-                      <div
-                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
-                      >
-                        <i class="ri-arrow-down-s-line"></i>
-                      </div>
-                    </div>
-                    <div class="accordion-body max-w-[826px] opacity-80">
-                      <p class="pt-4">
-                        Our development process integrates stringent security measures, including data encryption, access controls, secure data storage, and regular compliance audits, all designed to meet HIPAA regulations.
-                      </p>
-                    </div>
-                    </li>
-                  <li class="accordion-item-style-2 accordion-item">
-                    <div
-                      class="accordion-header flex items-center justify-between gap-6"
-                    >
-                      <button class="flex-1 text-left text-2xl font-semibold">
-                        Can you integrate with existing hospital systems?
-                      </button>
-                      <div
-                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
-                      >
-                        <i class="ri-arrow-down-s-line"></i>
-                      </div>
-                    </div>
-                    <div class="accordion-body max-w-[826px] opacity-80">
-                      <p class="pt-4">
-                        Yes, our solutions are built with interoperability in mind. We specialize in integrating new platforms with your existing EHR, HMS, and other clinical systems to ensure a seamless workflow.
-                      </p>
-                    </div>
-                    </li>
-                  <li class="accordion-item-style-2 accordion-item">
-                    <div
-                      class="accordion-header flex items-center justify-between gap-6"
-                    >
-                      <button class="flex-1 text-left text-2xl font-semibold">
-                        What kind of ongoing support do you provide?
-                      </button>
-                      <div
-                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
-                      >
-                        <i class="ri-arrow-down-s-line"></i>
-                      </div>
-                    </div>
-                    <div class="accordion-body max-w-[826px] opacity-80">
-                      <p class="pt-4">
-                        We offer comprehensive post-launch support, including maintenance, updates, bug fixes, and performance monitoring, to ensure your healthcare solutions run smoothly and efficiently.
-                      </p>
-                    </div>
-                    </li>
-                  </ul>
-                <ul class="jos flex flex-col gap-6">
-                  <li class="accordion-item-style-2 accordion-item">
-                    <div
-                      class="accordion-header flex items-center justify-between gap-6"
-                    >
-                      <button class="flex-1 text-left text-2xl font-semibold">
-                        How can telemedicine platforms benefit my practice?
-                      </button>
-                      <div
-                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
-                      >
-                        <i class="ri-arrow-down-s-line"></i>
-                      </div>
-                    </div>
-                    <div class="accordion-body max-w-[826px] opacity-80">
-                      <p class="pt-4">
-                        Telemedicine platforms enhance patient accessibility, reduce no-show rates, streamline scheduling, and allow for efficient remote consultations, improving overall patient care delivery.
-                      </p>
-                    </div>
-                    </li>
-                  <li class="accordion-item-style-2 accordion-item">
-                    <div
-                      class="accordion-header flex items-center justify-between gap-6"
-                    >
-                      <button class="flex-1 text-left text-2xl font-semibold">
-                        Do you develop custom solutions for specific medical specialties?
-                      </button>
-                      <div
-                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
-                      >
-                        <i class="ri-arrow-down-s-line"></i>
-                      </div>
-                    </div>
-                    <div class="accordion-body max-w-[826px] opacity-80">
-                      <p class="pt-4">
-                        Absolutely. We work closely with clients to develop highly customized software that caters to the specific needs and workflows of various medical specialties, from cardiology to pediatrics.
-                      </p>
-                    </div>
-                    </li>
-                  <li class="accordion-item-style-2 accordion-item">
-                    <div
-                      class="accordion-header flex items-center justify-between gap-6"
-                    >
-                      <button class="flex-1 text-left text-2xl font-semibold">
-                        How long does it take to develop a healthcare solution?
-                      </button>
-                      <div
-                        class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
-                      >
-                        <i class="ri-arrow-down-s-line"></i>
-                      </div>
-                    </div>
-                    <div class="accordion-body max-w-[826px] opacity-80">
-                      <p class="pt-4">
-                        The timeline varies depending on the complexity and scope of the project. After an initial consultation and discovery phase, we provide a detailed project roadmap with estimated timelines.
-                      </p>
-                    </div>
-                    </li>
-                  </ul>
-                </div>
             </div>
           </div>
-          </div>
-        </section> -->
-<section class="section-service">
-    <div class=".bg-colorBlack">
-        <div class="section-space">
-            <div class="container max-w-full">
-                <div class="mb-20 flex flex-wrap items-center justify-between gap-10">
-                    <div class="max-w-3xl">
-                        <h2 class="jos-ser">
-                            Explore Other Industries
-                        </h2>
-                    </div>
-                    <a href="industries.html" class="jos btn btn-primary">
-                        <span>View all industries</span>
-                        <span>View all industries</span>
-                    </a>
-                </div>
-
-                <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="fintech-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/fintech.png" alt="Fintech" width="80" height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Fintech
-                            </div>
-                            <p class="mb-[30px]">
-                                Secure payment processing, trading platforms, regulatory compliance solutions
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="ecommerce-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/commerce.png" alt="E-commerce" width="80" height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                E-commerce
-                            </div>
-                            <p class="mb-[30px]">
-                                Online stores, inventory management, customer analytics platforms
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="education-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/school.png" alt="Education" width="80" height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Education
-                            </div>
-                            <p class="mb-[30px]">
-                                E-learning platforms, student management systems, virtual classrooms
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="real-estate-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/residential.png" alt="Real Estate" width="80" height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Real Estate
-                            </div>
-                            <p class="mb-[30px]">
-                                Property management software, CRM systems, virtual tour applications
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="manufacturing-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/industrial-park.png" alt="Manufacturing" width="80"
-                                height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Manufacturing
-                            </div>
-                            <p class="mb-[30px]">
-                                Industrial IoT, quality control systems, production management
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="travel-hospitality-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/travel-and-tourism.png" alt="Travel & Hospitality" width="80"
-                                height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Travel & Hospitality
-                            </div>
-                            <p class="mb-[30px]">
-                                Booking platforms, hotel management, customer experience apps
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="automotive-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/workflow.png" alt="Automotive" width="80" height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Automotive
-                            </div>
-                            <p class="mb-[30px]">
-                                Fleet management, vehicle tracking, dealership management systems
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="jos" data-jos_animation="flip-left">
-                        <a href="energy-utilities-solutions.html"
-                            class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
-                            <img src="assets/img/images/home-1/renewable-energy.png" alt="Energy & Utilities" width="80"
-                                height="80" />
-                            <div class="display-heading display-heading-4 mb-4 mt-[30px]">
-                                Energy & Utilities
-                            </div>
-                            <p class="mb-[30px]">
-                                Smart grid solutions, renewable energy monitoring, utility management systems
-                            </p>
-                        </a>
-                    </li>
-
-                </ul>
-                </div>
+          <img src="assets/img/images/home-5/background-shape-2.svg" alt="background-shape-2" width="174" height="171"
+            class="absolute right-28 top-[60px] -z-10 hidden h-auto max-w-[153px] xxxl:inline-block" />
         </div>
-    </div>
-</section>
+      </section>
+      <section class="section-service">
+        <div class=".bg-colorBlack">
+          <div class="section-space">
+            <div class="container max-w-full">
+              <div class="mb-20 flex flex-wrap items-center justify-between gap-10">
+                <div class="max-w-3xl">
+                  <h2 class="jos-ser">
+                    Explore Other Industries
+                  </h2>
+                </div>
+                <a href="industries.html" class="jos btn btn-primary">
+                  <span>View all industries</span>
+                  <span>View all industries</span>
+                </a>
+              </div>
+
+              <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="fintech-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/fintech.png" alt="Fintech" width="80" height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Fintech
+                    </div>
+                    <p class="mb-[30px]">
+                      Secure payment processing, trading platforms, regulatory compliance solutions
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="ecommerce-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/commerce.png" alt="E-commerce" width="80" height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      E-commerce
+                    </div>
+                    <p class="mb-[30px]">
+                      Online stores, inventory management, customer analytics platforms
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="education-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/school.png" alt="Education" width="80" height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Education
+                    </div>
+                    <p class="mb-[30px]">
+                      E-learning platforms, student management systems, virtual classrooms
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="real-estate-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/residential.png" alt="Real Estate" width="80" height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Real Estate
+                    </div>
+                    <p class="mb-[30px]">
+                      Property management software, CRM systems, virtual tour applications
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="manufacturing-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/industrial-park.png" alt="Manufacturing" width="80"
+                      height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Manufacturing
+                    </div>
+                    <p class="mb-[30px]">
+                      Industrial IoT, quality control systems, production management
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="travel-hospitality-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/travel-and-tourism.png" alt="Travel & Hospitality" width="80"
+                      height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Travel & Hospitality
+                    </div>
+                    <p class="mb-[30px]">
+                      Booking platforms, hotel management, customer experience apps
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="automotive-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/workflow.png" alt="Automotive" width="80" height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Automotive
+                    </div>
+                    <p class="mb-[30px]">
+                      Fleet management, vehicle tracking, dealership management systems
+                    </p>
+                  </a>
+                </li>
+
+                <li class="jos" data-jos_animation="flip-left">
+                  <a href="energy-utilities-solutions.html"
+                    class="group block h-full rounded-[10px] bg-white p-[30px] hover:shadow-custom-1">
+                    <img src="assets/img/images/home-1/renewable-energy.png" alt="Energy & Utilities" width="80"
+                      height="80" />
+                    <div class="display-heading display-heading-4 mb-4 mt-[30px]">
+                      Energy & Utilities
+                    </div>
+                    <p class="mb-[30px]">
+                      Smart grid solutions, renewable energy monitoring, utility management systems
+                    </p>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="section-content">
         <!-- Section Space -->
         <div class="section-space relative z-10">
@@ -874,52 +704,36 @@
         </div>
         <!-- Section Space -->
       </section>
-      <section class="section-cta">
+      <!-- <section class="section-cta">
         <div class="section-space relative">
           <div class="container">
-            <div
-              class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
-            >
+            <div class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between">
               <div class="sm:max-w-[820px] sm:flex-1">
                 <h2 class="jos">
                   Ready to Innovate Your Healthcare Services?
-                  <img
-                    src="assets/img/images/home-5/icon-union.svg"
-                    alt="icon-union"
-                    width="83"
-                    height="80"
-                    class="inline h-auto w-10 lg:w-16"
-                  />
+                  <img src="assets/img/images/home-5/icon-union.svg" alt="icon-union" width="83" height="80"
+                    class="inline h-auto w-10 lg:w-16" />
                 </h2>
               </div>
-              <a
-                href="contact.html"
-                class="group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]"
-              >
+              <a href="contact.html"
+                class="group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]">
                 <span
-                  class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
-                  ><i class="ri-arrow-right-up-line"></i
-                ></span>
+                  class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"><i
+                    class="ri-arrow-right-up-line"></i></span>
                 <span
-                  class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
-                  ><i class="ri-arrow-right-up-line"></i
-                ></span>
+                  class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"><i
+                    class="ri-arrow-right-up-line"></i></span>
               </a>
             </div>
-            </div>
-          <img
-            src="assets/img/images/home-5/background-shape-1.svg"
-            alt="background-shape-1"
-            width="273"
-            height="204"
-            class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
-          />
           </div>
+          <img src="assets/img/images/home-5/background-shape-1.svg" alt="background-shape-1" width="273" height="204"
+            class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block" />
+        </div>
         <div
-          class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
-        ></div>
-        </section>
-              <section class="section-contact">
+          class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]">
+        </div>
+      </section> -->
+      <section class="section-contact">
         <!-- Section Background -->
         <div class="bg-colorTextTitle">
           <!-- Section Space -->
@@ -1008,124 +822,130 @@
         <!-- Section Background -->
       </section>
 
-      </main>
-    <footer class="section-footer">
-    <div class="pb-14 pt-14 lg:pt-[100px]">
-      <div class="container">
-        <div class="flex flex-wrap gap-10 xl:justify-between">
-          <div class="max-w-sm" data-jos_delay="0">
-            <a href="index.html" class="inline-block">
-              <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+    </main>
+<footer class="section-footer">
+  <!-- Footer Top -->
+  <div class="pb-14 pt-14 lg:pt-[100px]">
+    <!-- Container -->
+    <div class="container">
+      <!-- Footer Top Area -->
+      <div class="flex flex-wrap gap-10 xl:justify-between">
+        <!-- Footer Widget - Info -->
+        <div class="max-w-sm" data-jos_delay="0">
+          <a href="index.html" class="inline-block">
+            <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+          </a>
+          <p class="my-6">
+            SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive advantages.
+          </p>
+          <!-- Social Icons -->
+          <div class="flex gap-4 mt-4">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-linkedin-fill"></i>
             </a>
-            <p class="my-6">
-              SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive
-              advantages.
-            </p>
-
-            <div class="flex gap-4 mt-4">
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                <i class="ri-linkedin-fill"></i>
-              </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                <i class="ri-twitter-x-line"></i>
-              </a>
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                <i class="ri-facebook-fill"></i>
-              </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                <i class="ri-instagram-line"></i>
-              </a>
-            </div>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-instagram-line"></i>
+            </a>
           </div>
-          <div>
-            <span class="display-heading display-heading-5 mb-6 block">
-              Services
-            </span>
+        </div>
 
-            <nav class="flex flex-col gap-y-4">
-              <a href="custom-software.html" class="hover:font-medium hover:text-colorTextTitle">Custom Software</a>
-              <a href="mobile-apps.html" class="hover:font-medium hover:text-colorTextTitle">Mobile Apps</a>
-              <a href="web-development.html" class="hover:font-medium hover:text-colorTextTitle">Web Development</a>
-              <a href="ui-ux.html" class="hover:font-medium hover:text-colorTextTitle">UI/UX Design</a>
-              <a href="digital-marketing.html" class="hover:font-medium hover:text-colorTextTitle">Digital
-                Marketing</a>
-              <a href="branding.html" class="hover:font-medium hover:text-colorTextTitle">Branding</a>
-              <a href="cloud-ai.html" class="hover:font-medium hover:text-colorTextTitle">Cloud & AI</a>
-            </nav>
-          </div>
-          <div>
-            <span class="display-heading display-heading-5 mb-6 block">
-              Company
-            </span>
+        <!-- Footer Widget - Services -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Services</span>
+          <nav class="flex flex-col gap-y-4">
+            <a href="software-development.html">Software Development</a>
+            <a href="mobile-app-development.html">Mobile App Development</a>
+            <a href="web-development.html">Web Development</a>
+            <a href="digital-marketing.html">Digital Marketing</a>
+            <a href="branding.html">Branding Services</a>
+            <a href="ui-ux.html">UI/UX Service</a>
+          </nav>
+        </div>
 
-            <div class="flex flex-col gap-y-4">
-              <a href="about.html" class="hover:font-medium hover:text-colorTextTitle">About Us</a>
-              <a href="our-process.html" class="hover:font-medium hover:text-colorTextTitle">Our Process</a>
-              <a href="Case studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
-              <a href="testimonials.html" class="hover:font-medium hover:text-colorTextTitle">Testimonials</a>
-              <a href="careers.html" class="hover:font-medium hover:text-colorTextTitle">Careers</a>
-              <a href="blog.html" class="hover:font-medium hover:text-colorTextTitle">Blog</a>
-            </div>
+        <!-- Footer Widget - Industries -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Industries</span>
+          <div class="flex flex-col gap-y-4">
+            <a href="healthcare-solutions.html">Healthcare</a>
+            <a href="fintech-solutions.html">Fintech</a>
+            <a href="ecommerce-solutions.html">E-commerce</a>
+            <a href="education-solutions.html">Education</a>
+            <a href="real-estate-solutions.html">Real Estate</a>
+            <a href="manufacturing-solutions.html">Manufacturing</a>
+            <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+            <a href="automotive-solutions.html">Automotive</a>
           </div>
-          <div>
-            <span class="display-heading display-heading-5 mb-6 block">
-              Resources
-            </span>
+        </div>
 
-            <div class="flex flex-col gap-y-4">
-              <a href="faq.html" class="hover:font-medium hover:text-colorTextTitle">FAQ</a>
-              <a href="guides.html" class="hover:font-medium hover:text-colorTextTitle">Guides</a>
-              <a href="case-studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
-              <a href="pricing.html" class="hover:font-medium hover:text-colorTextTitle">Pricing</a>
-              <a href="support.html" class="hover:font-medium hover:text-colorTextTitle">Support</a>
-              <a href="contact.html" class="hover:font-medium hover:text-colorTextTitle">Contact</a>
-            </div>
-          </div>
+        <!-- Footer Widget - Useful Links -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Useful Links</span>
+          <div class="flex flex-col gap-y-4">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
           </div>
         </div>
       </div>
-    <div>
-      <div class="container">
-        <div
-          class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
-          <div class="text-center md:text-right">
-            © 2025 SellTech. All rights reserved.
-          </div>
+      <!-- Footer Top Area -->
+    </div>
+    <!-- Container -->
+  </div>
+  <!-- Footer Top -->
 
-          <div class="flex flex-wrap gap-6 justify-center">
-            <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
-            <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
-            <a href="cookie-policy.html" class="hover:underline">Cookie Policy</a>
-          </div>
+  <!-- Footer Bottom -->
+  <div>
+    <div class="container">
+      <div class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+        <div class="text-center md:text-right">
+          © 2025 SellTech. All rights reserved.
+        </div>
+        <!-- Policies -->
+        <div class="flex flex-wrap gap-6 justify-center">
+          <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+          <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+          <a href="refund-policy.html" class="hover:underline">Refund Policy</a>
         </div>
       </div>
-      </div>
-    </footer>
+    </div>
+  </div>
+  <!-- Footer Bottom -->
+</footer>
 
 
   </div>
 
-<script src="assets/js/vendors/counterup.js"></script>
-<script src="assets/js/vendors/swiper-bundle.min.js"></script>
-<script src="assets/js/vendors/fslightbox.js"></script>
-<script src="assets/js/vendors/jos.min.js"></script>
-<script src="assets/js/vendors/menu.js"></script>
+  <script src="assets/js/vendors/counterup.js"></script>
+  <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+  <script src="assets/js/vendors/fslightbox.js"></script>
+  <script src="assets/js/vendors/jos.min.js"></script>
+  <script src="assets/js/vendors/menu.js"></script>
 
-<script src="assets/js/main.js"></script>
-<script>
-  // Tab switcher
-  document.querySelectorAll('.tab-button').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
-      btn.classList.add('active');
-      document.getElementById(btn.dataset.tab).classList.add('active');
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Tab switcher
+    document.querySelectorAll('.tab-button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).classList.add('active');
+      });
     });
-  });
-</script>
+  </script>
 </body>
+
 </html>

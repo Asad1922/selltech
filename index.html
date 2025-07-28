@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Transform Your Business | SellTech Software & Marketing Agency</title>
   <meta name="description"
-    content="SellTech delivers AI-powered software development, digital marketing & branding services. Solve your business challenges with custom solutions. Get free quote!" />
+    content="SellTech delivers AI-powered software development, digital marketing & branding services. Solve your business challenges with custom solutions." />
 
   <!-- SEO Meta Tags -->
   <meta name="keywords"
@@ -76,7 +76,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "SellTech",
-        "url": "https://selltech.com",
+        "url": "https://selltech.pro",
         "logo": "https://selltech.pro/logo.png",
         "description": "Leading software development and digital marketing agency",
         "sameAs": [
@@ -98,7 +98,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "SellTech",
-        "url": "https://selltech.com",
+        "url": "https://selltech.pro",
         "potentialAction": {
           "@type": "SearchAction",
           "target": "https://selltech.pro/search?q={search_term_string}",
@@ -255,7 +255,7 @@
                       <div class="mega-menu-col mega-menu-cta">
                         <h3>Ready to Start Your Project?</h3>
                         <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
-                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                        <a href="#" onclick="openQuoteModal()" class="btn btn-dark">Get a Free Quote</a>
                       </div>
                     </div>
                   </ul>
@@ -300,7 +300,7 @@
             </nav>
           </div>
           <div class="flex items-center gap-x-6">
-            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+            <a href="get-a-quote.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
               <span>Get Free Quote</span>
               <span>Get Free Quote</span>
             </a>
@@ -348,18 +348,18 @@
                   </p>
 
                   <!-- Single Line Email Form -->
-                  <form action="#" method="post" class="mx-auto mt-[50px] max-w-[600px]">
-                    <div class="relative">
-                      <input type="email" placeholder="Enter your email"
-                        class="w-full rounded-[50px] border border-colorGreyDark px-5 py-4 pr-60 text-lg focus-visible:outline-none bg-white"
-                        required />
-                      <button type="submit"
-                        class="btn btn-primary right-1 top-1/2 mt-6 sm:absolute sm:mt-0 sm:-translate-y-1/2">
-                        <span>Get a Proposal</span>
-                        <span>Get a Proposal</span>
-                      </button>
-                    </div>
-                  </form>
+                 <form id="quickEmailForm" class="mx-auto mt-[50px] max-w-[600px]">
+  <div class="relative">
+    <input type="email" name="email" placeholder="Enter your email"
+      class="w-full rounded-[50px] border border-colorGreyDark px-5 py-4 pr-60 text-lg focus-visible:outline-none bg-white"
+      required />
+    <button type="submit"
+      class="btn btn-primary right-1 top-1/2 mt-6 sm:absolute sm:mt-0 sm:-translate-y-1/2">
+      <span>Get a Proposal</span>
+      <span>Get a Proposal</span>
+    </button>
+  </div>
+</form>
                   <!-- Testimonial Avatars with Rating - Single Row Layout -->
                   <!-- Testimonial Avatars with Rating - Single Row Layout -->
                   <div class="hero-testimonial">
@@ -578,7 +578,7 @@
                       <li>Progressive web app development</li>
                       <li>Enterprise software solutions</li>
                     </ul>
-                    <a href="custom-software.html" class="btn btn-primary mt-4">Get Custom Solution</a>
+                    <a href="software-development.html" class="btn btn-primary mt-4">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -598,7 +598,7 @@
                       <li>How long does it take to build an app?</li>
                       <li>What makes a successful app?</li>
                     </ul>
-                    <a href="mobile-apps.html" class="btn btn-primary mt-4">Discuss Your App Idea</a>
+                    <a href="mobile-app-development.html" class="btn btn-primary mt-4">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -619,7 +619,7 @@
                       <li>Website maintenance</li>
                       <li>Performance optimization</li>
                     </ul>
-                    <a href="web-development.html" class="btn btn-primary mt-4">Build Your Website</a>
+                    <a href="web-development.html" class="btn btn-primary mt-4">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -639,7 +639,7 @@
                       <li>Social Media Marketing</li>
                       <li>Content Strategy</li>
                     </ul>
-                    <a href="digital-marketing.html" class="btn btn-primary mt-4">Boost Your Marketing</a>
+                    <a href="digital-marketing.html" class="btn btn-primary mt-4">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -660,7 +660,7 @@
                       <li>Brand guidelines establishment</li>
                       <li>Marketing materials design</li>
                     </ul>
-                    <a href="branding.html" class="btn btn-primary mt-4">Elevate Your Brand</a>
+                    <a href="branding.html" class="btn btn-primary mt-4">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -683,7 +683,7 @@
                       <li>Usability testing</li>
                       <li>Design system & guidelines</li>
                     </ul>
-                    <a href="ui-ux.html" class="btn btn-primary mt-4">Improve Your Experience</a>
+                    <a href="ui-ux.html" class="btn btn-primary mt-4">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -702,7 +702,7 @@
                       <li>DevOps & Automation</li>
                       <li>Scalable Infrastructure</li>
                     </ul>
-                    <a href="cloud-ai.html" class="btn btn-primary mt-4">Modernize Your Tech</a>
+                    <a href="#" class="btn btn-primary mt-4">Modernize Your Tech</a>
                   </div>
                 </div>
               </div>
@@ -780,7 +780,7 @@
                   <!-- Content List -->
                   <!-- CTA Button -->
                   <div class="mt-10">
-                    <a href="#" class="jos btn btn-primary">
+                    <a href="get-a-quote.html" class="jos btn btn-primary">
                       <span>Get Started</span>
                       <span>Get Started</span>
                     </a>
@@ -806,7 +806,7 @@
                     Industries We Transform
                   </h2>
                 </div>
-                <a href="services.html" class="jos btn btn-primary">
+                <a href="healthcare-solutions.html" class="jos btn btn-primary">
                   <span>View all industries</span>
                   <span>View all industries</span>
                 </a>
@@ -1003,7 +1003,7 @@
 
               <!-- CTA Button -->
               <div class="mt-10 text-center">
-                <a href="contact.html" class="jos btn btn-primary">
+                <a href="get-a-quote.html" class="jos btn btn-primary">
                   <span>Get Started</span>
                   <span>Get Started</span>
                 </a>
@@ -1124,7 +1124,7 @@
                     backend, mobile, cloud, and AI. Our team combines expertise with creativity to deliver software that
                     drives results and supports your growth.
                   </p>
-                  <a href="contact.html" class="jos btn btn-primary">
+                  <a href="get-a-quote.html" class="jos btn btn-primary">
                     <span>Let’s Build Together</span>
                     <span>Let’s Build Together</span>
                   </a>
@@ -1211,10 +1211,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-2.jpg" alt="testimonial-user-img-2"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Wellim Selith</span>
                         <span class="text-sm">Web Developer</span>
@@ -1240,10 +1240,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-3.jpg" alt="testimonial-user-img-3"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Semits Johan</span>
                         <span class="text-sm">Web Developer</span>
@@ -1269,10 +1269,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-1.jpg" alt="testimonial-user-img-1"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Derrick Turner</span>
                         <span class="text-sm">Co-Founder</span>
@@ -1298,10 +1298,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-2.jpg" alt="testimonial-user-img-2"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Wellim Selith</span>
                         <span class="text-sm">Web Developer</span>
@@ -1327,10 +1327,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-3.jpg" alt="testimonial-user-img-3"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Semits Johan</span>
                         <span class="text-sm">Web Developer</span>
@@ -1362,10 +1362,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-1.jpg" alt="testimonial-user-img-1"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Derrick Turner</span>
                         <span class="text-sm">Co-Founder</span>
@@ -1391,10 +1391,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-2.jpg" alt="testimonial-user-img-2"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Wellim Selith</span>
                         <span class="text-sm">Web Developer</span>
@@ -1420,10 +1420,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-3.jpg" alt="testimonial-user-img-3"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Semits Johan</span>
                         <span class="text-sm">Web Developer</span>
@@ -1449,10 +1449,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-1.jpg" alt="testimonial-user-img-1"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Derrick Turner</span>
                         <span class="text-sm">Co-Founder</span>
@@ -1478,10 +1478,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-2.jpg" alt="testimonial-user-img-2"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Wellim Selith</span>
                         <span class="text-sm">Web Developer</span>
@@ -1507,10 +1507,10 @@
                     </blockquote>
 
                     <div class="flex items-center gap-2.5">
-                      <div class="h-14 w-14 overflow-hidden rounded-full">
+                      <!-- <div class="h-14 w-14 overflow-hidden rounded-full">
                         <img src="assets/img/images/home-1/testimonial-user-img-3.jpg" alt="testimonial-user-img-3"
                           width="55" height="55" class="h-full w-full object-cover" />
-                      </div>
+                      </div> -->
                       <div class="flex-1">
                         <span class="block font-bold text-colorTextTitle">Semits Johan</span>
                         <span class="text-sm">Web Developer</span>
@@ -1525,7 +1525,47 @@
         </div>
         <!-- Section Space -->
       </section>
+      <section class="section-cta">
+        <!-- Section Background -->
+        <div class="bg-colorBlack">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container relative z-10">
+              <!-- Section Block -->
+              <div class="mx-auto max-w-3xl text-center">
+                <h2 class="jos-cta">
+                  Ready to Transform Your Business?
+                </h2>
+                <p class="jos-cta mt-5">
+                  Don't let outdated software systems, poor online visibility, or ineffective marketing hold your
+                  business back. SellTech's comprehensive solutions address these challenges and position your business
+                  for sustainable growth.
+                </p>
+              </div>
+              <!-- Section Block -->
 
+              <div class="mx-auto mt-[50px] flex flex-wrap justify-center gap-4">
+                <a href="get-a-quote.html" class="jos btn btn-primary">
+                  <span>Schedule Free Consultation</span>
+                  <span>Schedule Free Consultation</span>
+                </a>
+                <a href="get-a-quote.html"
+                  class="jos btn bg-white text-primary border border-primary hover:bg-primary hover:text-white">
+                  <span>Get Custom Quote</span>
+                  <span>Get Custom Quote</span>
+                </a>
+              </div>
+
+              <img src="assets/img/abstracts/cta-1-element-1.svg" alt="cta-1-element-1" width="414" height="367"
+                class="jos absolute -bottom-20 right-0 -z-10 hidden xl:inline-block" data-jos_animation="zoom-in" />
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </div>
+        <!-- Section Background -->
+      </section>
 
 
 
@@ -1606,273 +1646,9 @@
         </div>
         <!-- Section Space -->
       </section>
-      <section class="section-cta">
-        <!-- Section Background -->
-        <div class="bg-colorBlack">
-          <!-- Section Space -->
-          <div class="section-space">
-            <!-- Section Container -->
-            <div class="container relative z-10">
-              <!-- Section Block -->
-              <div class="mx-auto max-w-3xl text-center">
-                <h2 class="jos-cta">
-                  Ready to Transform Your Business?
-                </h2>
-                <p class="jos-cta mt-5">
-                  Don't let outdated software systems, poor online visibility, or ineffective marketing hold your
-                  business back. SellTech's comprehensive solutions address these challenges and position your business
-                  for sustainable growth.
-                </p>
-              </div>
-              <!-- Section Block -->
-
-              <div class="mx-auto mt-[50px] flex flex-wrap justify-center gap-4">
-                <a href="consultation.html" class="jos btn btn-primary">
-                  <span>Schedule Free Consultation</span>
-                  <span>Schedule Free Consultation</span>
-                </a>
-                <a href="quote.html"
-                  class="jos btn bg-white text-primary border border-primary hover:bg-primary hover:text-white">
-                  <span>Get Custom Quote</span>
-                  <span>Get Custom Quote</span>
-                </a>
-              </div>
-
-              <img src="assets/img/abstracts/cta-1-element-1.svg" alt="cta-1-element-1" width="414" height="367"
-                class="jos absolute -bottom-20 right-0 -z-10 hidden xl:inline-block" data-jos_animation="zoom-in" />
-            </div>
-            <!-- Section Container -->
-          </div>
-          <!-- Section Space -->
-        </div>
-        <!-- Section Background -->
-      </section>
 
 
 
-        <section class="section-blog">
-          <!-- Section Background -->
-          <div class="bg-colorGrey">
-            <!-- Section Space -->
-            <div class="section-space">
-              <!-- Section Container -->
-              <div class="container">
-                <!-- Section Block -->
-                <div class="mx-auto mb-10 max-w-3xl md:mb-[60px] lg:mb-20">
-                  <h2 class="jos text-center">
-                    The latest news & tips
-                  </h2>
-                </div>
-                <!-- Section Block -->
-
-                <!-- Blog List -->
-                <ul
-                  class="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 xl:grid-cols-3"
-                >
-                  <!-- Blog Item -->
-                  <li class="jos" data-jos_animation="flip-left">
-                    <div
-                      class="transition-default group rounded-[10px] bg-white p-5 hover:shadow-custom-1"
-                    >
-                      <!-- Blog Thumbnail -->
-                      <a
-                        href="blog-details.html"
-                        class="block overflow-hidden rounded-[5px]"
-                      >
-                        <img
-                          src="assets/img/images/home-1/blog-1.jpg"
-                          alt="blog-thumbnail-1"
-                          width="376"
-                          height="600"
-                          class="transition-default h-full w-full object-cover group-hover:scale-110"
-                        />
-                      </a>
-                      <!-- Blog Thumbnail -->
-                      <!-- Blog Content -->
-                      <div class="mt-6">
-                        <!-- Meta Data -->
-                        <div class="mb-4 flex flex-wrap items-center gap-3">
-                          <a
-                            href="blog.html"
-                            class="inline-block rounded-[50px] bg-colorGrey px-4 py-2 text-base leading-none hover:bg-colorTextTitle hover:text-white"
-                            >Advertising</a
-                          >
-                          <span class="text-lg">15 March 2024</span>
-                        </div>
-                        <!-- Meta Data -->
-                        <!-- Title Link -->
-                        <a
-                          href="blog-details.html"
-                          class="display-heading display-heading-4 mb-8 block -tracking-[1.5px] group-hover:text-colorTextBody group-hover:underline"
-                          >Target audience including interests behaviors and
-                          creating.</a
-                        >
-                        <!-- Title Link -->
-                        <a href="blog-details.html" class="inline-block">
-                          <span
-                            class="transition-default font-title font-semibold group-hover:font-bold"
-                          >
-                            Read More
-                          </span>
-                          <div
-                            class="relative inline-flex items-center justify-center overflow-hidden text-2xl"
-                          >
-                            <span
-                              class="transition-default translate-x-0 group-hover:translate-x-full"
-                            >
-                              <i class="ri-arrow-right-line"></i>
-                            </span>
-                            <span
-                              class="transition-default absolute -translate-x-full group-hover:translate-x-0"
-                            >
-                              <i class="ri-arrow-right-line"></i>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- Blog Content -->
-                    </div>
-                  </li>
-                  <!-- Blog Item -->
-                  <!-- Blog Item -->
-                  <li class="jos" data-jos_animation="flip-left">
-                    <div
-                      class="transition-default group rounded-[10px] bg-white p-5 hover:shadow-custom-1"
-                    >
-                      <!-- Blog Thumbnail -->
-                      <a
-                        href="blog-details.html"
-                        class="block overflow-hidden rounded-[5px]"
-                      >
-                        <img
-                          src="assets/img/images/home-1/blog-2.jpg"
-                          alt="blog-thumbnail-2"
-                          width="376"
-                          height="600"
-                          class="transition-default h-full w-full object-cover group-hover:scale-110"
-                        />
-                      </a>
-                      <!-- Blog Thumbnail -->
-                      <!-- Blog Content -->
-                      <div class="mt-6">
-                        <!-- Meta Data -->
-                        <div class="mb-4 flex flex-wrap items-center gap-3">
-                          <a
-                            href="blog.html"
-                            class="inline-block rounded-[50px] bg-colorGrey px-4 py-2 text-base leading-none hover:bg-colorTextTitle hover:text-white"
-                            >Social</a
-                          >
-                          <span class="text-lg">12 March 2024</span>
-                        </div>
-                        <!-- Meta Data -->
-                        <!-- Title Link -->
-                        <a
-                          href="blog-details.html"
-                          class="display-heading display-heading-4 mb-8 block -tracking-[1.5px] group-hover:text-colorTextBody group-hover:underline"
-                          >How to optimize your campaigns to find out for your
-                          success</a
-                        >
-                        <!-- Title Link -->
-                        <a href="blog-details.html" class="inline-block">
-                          <span
-                            class="transition-default font-title font-semibold group-hover:font-bold"
-                          >
-                            Read More
-                          </span>
-                          <div
-                            class="relative inline-flex items-center justify-center overflow-hidden text-2xl"
-                          >
-                            <span
-                              class="transition-default translate-x-0 group-hover:translate-x-full"
-                            >
-                              <i class="ri-arrow-right-line"></i>
-                            </span>
-                            <span
-                              class="transition-default absolute -translate-x-full group-hover:translate-x-0"
-                            >
-                              <i class="ri-arrow-right-line"></i>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- Blog Content -->
-                    </div>
-                  </li>
-                  <!-- Blog Item -->
-                  <!-- Blog Item -->
-                  <li class="jos" data-jos_animation="flip-left">
-                    <div
-                      class="transition-default group rounded-[10px] bg-white p-5 hover:shadow-custom-1"
-                    >
-                      <!-- Blog Thumbnail -->
-                      <a
-                        href="blog-details.html"
-                        class="block overflow-hidden rounded-[5px]"
-                      >
-                        <img
-                          src="assets/img/images/home-1/blog-3.jpg"
-                          alt="blog-thumbnail-3"
-                          width="376"
-                          height="600"
-                          class="transition-default h-full w-full object-cover group-hover:scale-110"
-                        />
-                      </a>
-                      <!-- Blog Thumbnail -->
-                      <!-- Blog Content -->
-                      <div class="mt-6">
-                        <!-- Meta Data -->
-                        <div class="mb-4 flex flex-wrap items-center gap-3">
-                          <a
-                            href="blog.html"
-                            class="inline-block rounded-[50px] bg-colorGrey px-4 py-2 text-base leading-none hover:bg-colorTextTitle hover:text-white"
-                            >Promotion</a
-                          >
-                          <span class="text-lg">10 March 2024</span>
-                        </div>
-                        <!-- Meta Data -->
-                        <!-- Title Link -->
-                        <a
-                          href="blog-details.html"
-                          class="display-heading display-heading-4 mb-8 block -tracking-[1.5px] group-hover:text-colorTextBody group-hover:underline"
-                          >A guide to sofax captivating to your audience social
-                          media</a
-                        >
-                        <!-- Title Link -->
-                        <a href="blog-details.html" class="inline-block">
-                          <span
-                            class="transition-default font-title font-semibold group-hover:font-bold"
-                          >
-                            Read More
-                          </span>
-                          <div
-                            class="relative inline-flex items-center justify-center overflow-hidden text-2xl"
-                          >
-                            <span
-                              class="transition-default translate-x-0 group-hover:translate-x-full"
-                            >
-                              <i class="ri-arrow-right-line"></i>
-                            </span>
-                            <span
-                              class="transition-default absolute -translate-x-full group-hover:translate-x-0"
-                            >
-                              <i class="ri-arrow-right-line"></i>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- Blog Content -->
-                    </div>
-                  </li>
-                  <!-- Blog Item -->
-                </ul>
-                <!-- Blog List -->
-              </div>
-              <!-- Section Container -->
-            </div>
-            <!-- Section Space -->
-          </div>
-          <!-- Section Background -->
-        </section>
 
 
       <!--...::: Testimonial Section End :::... -->
@@ -1972,126 +1748,108 @@
     <!-- Main Wrapper -->
 
     <!--...::: Footer Section Start :::... -->
-    <footer class="section-footer">
-      <!-- Footer Top -->
-      <div class="pb-14 pt-14 lg:pt-[100px]">
-        <!-- Container -->
-        <div class="container">
-          <!-- Footer Top Area -->
-          <div class="flex flex-wrap gap-10 xl:justify-between">
-            <!-- Footer Widget - Info -->
-            <div class="max-w-sm" data-jos_delay="0">
-              <a href="index.html" class="inline-block">
-                <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
-              </a>
-              <p class="my-6">
-                SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive
-                advantages.
-              </p>
-
-              <!-- Social Icons below paragraph -->
-              <div class="flex gap-4 mt-4">
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-linkedin-fill"></i>
-                </a>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-twitter-x-line"></i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-facebook-fill"></i>
-                </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-instagram-line"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Footer Widget - Info -->
-
-            <!-- Footer Widget - Services -->
-            <div>
-              <span class="display-heading display-heading-5 mb-6 block">
-                Services
-              </span>
-
-              <nav class="flex flex-col gap-y-4">
-                <a href="custom-software.html" class="hover:font-medium hover:text-colorTextTitle">Custom Software</a>
-                <a href="mobile-apps.html" class="hover:font-medium hover:text-colorTextTitle">Mobile Apps</a>
-                <a href="web-development.html" class="hover:font-medium hover:text-colorTextTitle">Web Development</a>
-                <a href="ui-ux.html" class="hover:font-medium hover:text-colorTextTitle">UI/UX Design</a>
-                <a href="digital-marketing.html" class="hover:font-medium hover:text-colorTextTitle">Digital
-                  Marketing</a>
-                <a href="branding.html" class="hover:font-medium hover:text-colorTextTitle">Branding</a>
-                <a href="cloud-ai.html" class="hover:font-medium hover:text-colorTextTitle">Cloud & AI</a>
-              </nav>
-            </div>
-            <!-- Footer Widget - Services -->
-
-            <!-- Footer Widget - Company -->
-            <div>
-              <span class="display-heading display-heading-5 mb-6 block">
-                Company
-              </span>
-
-              <div class="flex flex-col gap-y-4">
-                <a href="about.html" class="hover:font-medium hover:text-colorTextTitle">About Us</a>
-                <a href="our-process.html" class="hover:font-medium hover:text-colorTextTitle">Our Process</a>
-                <a href="Case studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
-                <a href="testimonials.html" class="hover:font-medium hover:text-colorTextTitle">Testimonials</a>
-                <a href="careers.html" class="hover:font-medium hover:text-colorTextTitle">Careers</a>
-                <a href="blog.html" class="hover:font-medium hover:text-colorTextTitle">Blog</a>
-              </div>
-            </div>
-            <!-- Footer Widget - Company -->
-
-            <!-- Footer Widget - Resources -->
-            <div>
-              <span class="display-heading display-heading-5 mb-6 block">
-                Resources
-              </span>
-
-              <div class="flex flex-col gap-y-4">
-                <a href="faq.html" class="hover:font-medium hover:text-colorTextTitle">FAQ</a>
-                <a href="guides.html" class="hover:font-medium hover:text-colorTextTitle">Guides</a>
-                <a href="case-studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
-                <a href="pricing.html" class="hover:font-medium hover:text-colorTextTitle">Pricing</a>
-                <a href="support.html" class="hover:font-medium hover:text-colorTextTitle">Support</a>
-                <a href="contact.html" class="hover:font-medium hover:text-colorTextTitle">Contact</a>
-              </div>
-            </div>
-            <!-- Footer Widget - Resources -->
-          </div>
-          <!-- Footer Top Area -->
-        </div>
-        <!-- Container -->
-      </div>
-      <!-- Footer Top -->
-
-      <!-- Footer Bottom -->
-      <div>
-        <!-- Container -->
-        <div class="container">
-          <div
-            class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
-            <div class="text-center md:text-right">
-              © 2025 SellTech. All rights reserved.
-            </div>
-
-            <!-- Policies instead of Social Icons -->
-            <div class="flex flex-wrap gap-6 justify-center">
-              <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
-              <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
-              <a href="cookie-policy.html" class="hover:underline">Cookie Policy</a>
-            </div>
+<footer class="section-footer">
+  <!-- Footer Top -->
+  <div class="pb-14 pt-14 lg:pt-[100px]">
+    <!-- Container -->
+    <div class="container">
+      <!-- Footer Top Area -->
+      <div class="flex flex-wrap gap-10 xl:justify-between">
+        <!-- Footer Widget - Info -->
+        <div class="max-w-sm" data-jos_delay="0">
+          <a href="index.html" class="inline-block">
+            <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+          </a>
+          <p class="my-6">
+            SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive advantages.
+          </p>
+          <!-- Social Icons -->
+          <div class="flex gap-4 mt-4">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-instagram-line"></i>
+            </a>
           </div>
         </div>
-        <!-- Container -->
+
+        <!-- Footer Widget - Services -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Services</span>
+          <nav class="flex flex-col gap-y-4">
+            <a href="software-development.html">Software Development</a>
+            <a href="mobile-app-development.html">Mobile App Development</a>
+            <a href="web-development.html">Web Development</a>
+            <a href="digital-marketing.html">Digital Marketing</a>
+            <a href="branding.html">Branding Services</a>
+            <a href="ui-ux.html">UI/UX Service</a>
+          </nav>
+        </div>
+
+        <!-- Footer Widget - Industries -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Industries</span>
+          <div class="flex flex-col gap-y-4">
+            <a href="healthcare-solutions.html">Healthcare</a>
+            <a href="fintech-solutions.html">Fintech</a>
+            <a href="ecommerce-solutions.html">E-commerce</a>
+            <a href="education-solutions.html">Education</a>
+            <a href="real-estate-solutions.html">Real Estate</a>
+            <a href="manufacturing-solutions.html">Manufacturing</a>
+            <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+            <a href="automotive-solutions.html">Automotive</a>
+          </div>
+        </div>
+
+        <!-- Footer Widget - Useful Links -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Useful Links</span>
+          <div class="flex flex-col gap-y-4">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+          </div>
+        </div>
       </div>
-      <!-- Footer Bottom -->
-    </footer>
+      <!-- Footer Top Area -->
+    </div>
+    <!-- Container -->
+  </div>
+  <!-- Footer Top -->
+
+  <!-- Footer Bottom -->
+  <div>
+    <div class="container">
+      <div class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+        <div class="text-center md:text-right">
+          © 2025 SellTech. All rights reserved.
+        </div>
+        <!-- Policies -->
+        <div class="flex flex-wrap gap-6 justify-center">
+          <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+          <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+          <a href="refund-policy.html" class="hover:underline">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Bottom -->
+</footer>
+
 
 
     <!--...::: Footer Section Start :::... -->
@@ -2117,6 +1875,15 @@
       });
     });
   </script>
+  <script>
+  document.getElementById('quickEmailForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const email = this.email.value;
+    const encodedEmail = encodeURIComponent(email);
+    window.location.href = `get-a-quote.html?email=${encodedEmail}`;
+  });
+</script>
+  
 </body>
 
 </html>

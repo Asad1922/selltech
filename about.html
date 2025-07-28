@@ -2,12 +2,52 @@
 <html lang="en">
 
 <head>
+  <!-- Basic Meta Tags -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sofax | SASS & Startup Tailwind Template</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>About SellTech | Leading Software & Marketing Agency</title>
+  <meta name="description"
+    content="Learn more about SellTech – your AI-powered partner in custom software, mobile apps, digital marketing & branding. Meet the team behind your growth." />
 
-  <!-- Site font -->
+  <!-- SEO Meta Tags -->
+  <meta name="keywords"
+    content="about SellTech, software agency team, custom software development, marketing agency, app development, web development, SEO experts, branding specialists" />
+  <meta name="author" content="SellTech" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://selltech.pro/about" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="About SellTech | Leading Software & Marketing Agency" />
+  <meta property="og:description"
+    content="Learn more about SellTech – your AI-powered partner in software, marketing, and digital transformation." />
+  <meta property="og:image" content="https://selltech.pro/images/og-image-about.jpg" />
+  <meta property="og:url" content="https://selltech.pro/about" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SellTech" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About SellTech | Leading Software & Marketing Agency" />
+  <meta name="twitter:description"
+    content="Learn more about SellTech – your AI-powered partner in software, marketing, and branding solutions." />
+  <meta name="twitter:image" content="https://selltech.pro/images/twitter-about.jpg" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Site Fonts -->
   <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
   <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
 
@@ -19,11 +59,27 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom.css" />
 
-  <!-- Development css -->
+  <!-- Development CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- Production css -->
-  <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  <!-- Preload Critical CSS -->
+  <link rel="preload" href="assets/css/style.css" as="style" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About SellTech",
+      "url": "https://selltech.pro/about",
+      "description": "Meet the SellTech team and explore our mission to deliver AI-powered digital solutions.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SellTech",
+        "url": "https://selltech.pro"
+      }
+    }
+  </script>
 </head>
 
 <body class="relative">
@@ -173,7 +229,7 @@
                       <div class="mega-menu-col mega-menu-cta">
                         <h3>Ready to Start Your Project?</h3>
                         <p>Let's turn your ideas into innovative solutions. Contact us for a free consultation.</p>
-                        <a href="contact.html" class="btn btn-dark">Get a Free Quote</a>
+                        <a href="#" onclick="openQuoteModal()" class="btn btn-dark">Get a Free Quote</a>
                       </div>
                     </div>
                   </ul>
@@ -218,7 +274,7 @@
             </nav>
           </div>
           <div class="flex items-center gap-x-6">
-            <a href="contact.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+            <a href="get-a-quote.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
               <span>Get Free Quote</span>
               <span>Get Free Quote</span>
             </a>
@@ -366,16 +422,21 @@
 
       <section class="section-cta">
         <!-- Section Background -->
-        <div class="bg-black" style="
-    background: linear-gradient(
-     135deg,
-  #00e0c6 0%,       /* light cyan at far left */
-  #00b4a0 20%,      /* teal fades quickly */
-  #000000 60%,      /* black starts taking over */
-  #000000 100%      /* full black on right */
-    );
-    background-blend-mode: overlay;
-  ">
+    <div class="bg-black" style="
+  background-image: 
+    linear-gradient(
+      135deg,
+      rgba(0, 224, 198, 0.6) 0%, 
+      rgba(0, 244, 215, 0.724) 20%, 
+      rgba(0, 0, 0, 0.8) 60%, 
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url('assets/img/images/software-development/18697.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+">
           <!-- Section Space -->
           <div class="section-space">
             <!-- Section Container -->
@@ -613,7 +674,7 @@
           </div>
         </li>
 
-        <li class="jos py-10 first-of-type:pt-0 last-of-type:pb-0">
+        <!-- <li class="jos py-10 first-of-type:pt-0 last-of-type:pb-0">
           <div class="grid grid-cols-1 items-center gap-x-10 gap-y-4 lg:grid-cols-[0.8fr_1fr_auto] xl:gap-x-20">
             <div class="display-heading display-heading-3 text-white">
               7. Cloud & AI Solutions
@@ -628,7 +689,7 @@
               </a>
             </div>
           </div>
-        </li>
+        </li> -->
       </ul>
       <!-- Service List -->
 
@@ -643,96 +704,7 @@
     </div>
   </div>
 </section>
-<section class="section-content">
-  <!-- Section Space -->
-  <div class="section-space relative z-10">
-    <!-- Section Container -->
-    <div class="container">
-      <!-- Content Area -->
-      <div
-        class="grid grid-cols-1 items-center gap-10 md:gap-[60px] lg:grid-cols-2 xl:gap-20 xxl:grid-cols-[1fr_minmax(0,0.7fr)] xxl:gap-[100px]"
-      >
-        <!-- Image Block -->
-        <div
-          class="jos order-2 mx-auto inline-flex max-w-[500px] items-center justify-center rounded-[5px] lg:max-w-full"
-          data-jos_animation="fade-right"
-        >
-          <img
-            src="assets/img/images/home-1/group-young-people-working-together_23-2148499842.jpg"
-            alt="content-img-2"
-            width="500"
-            height="700"
-            class="max-w-full rounded-[10px] shadow-custom-1 object-cover object-center"
-          />
-        </div>
-        <!-- Image Block -->
-
-        <!-- Content Block -->
-        <div class="order-1">
-          <!-- Section Block -->
-          <div class="mb-[50px]">
-            <h2 class="section-title jos">
-              SellTech Careers
-            </h2>
-            <p class="jos mt-5 max-w-2xl">
-              Join our mission to provide industry-leading custom software development and web solutions to businesses around the globe – all while building your technical expertise and growing as a developer.
-            </p>
-          </div>
-          <!-- Section Block -->
-
-          <!-- Content List -->
-          <ul class="mb-[50px] grid grid-cols-1 gap-y-4">
-            <li class="jos">
-              <div class="display-heading display-heading-4">
-                <span
-                  class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                  ><i class="ri-checkbox-circle-fill"></i
-                ></span>
-                Are you ready to jump-start your development career?
-              </div>
-            </li>
-            <li class="jos">
-              <div class="display-heading display-heading-4">
-                <span
-                  class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                  ><i class="ri-checkbox-circle-fill"></i
-                ></span>
-               We’re hiring! Join us to build scalable software and web apps.
-              </div>
-            </li>
-            <li class="jos">
-              <div class="display-heading display-heading-4">
-                <span
-                  class="inline-block translate-y-0.5 pr-3 text-3xl font-normal text-colorGreen"
-                  ><i class="ri-checkbox-circle-fill"></i
-                ></span>
-                Advance your technical skills with Enterprise level projects.
-              </div>
-            </li>
-          </ul>
-          <!-- Content List -->
-
-          <!-- CTA Buttons -->
-          <div class="flex flex-wrap gap-4">
-            <a href="developer-positions.html" class="btn btn-primary">
-              <span>View Developer Positions</span>
-              <span>View Developer Positions</span>
-            </a>
-            <a href="apply.html" class="btn btn-outline-black">
-              <span>Apply Today</span>
-              <span>Apply Today</span>
-            </a>
-          </div>
-          <!-- CTA Buttons -->
-        </div>
-        <!-- Content Block -->
-      </div>
-      <!-- Content Area -->
-    </div>
-    <!-- Section Container -->
-  </div>
-  <!-- Section Space -->
-</section>
+<!- -->
 
 <div class="fun-fact-section">
   <!-- Section Background -->
@@ -811,7 +783,7 @@
           <div
             class="jos relative z-10 order-2 mx-auto inline-flex max-w-[500px] items-center justify-center rounded-[5px] lg:order-1 lg:max-w-full"
             data-jos_animation="fade-right">
-            <img src="assets/img/images/home-8/content-img-1.jpg" alt="content-img-2" width="518" height="400"
+            <img src="assets\img\images\software-development\group-young-business-men-formalwear-working-using-computers-while-sitting-office_484651-6227.jpg" alt="content-img-2" width="518" height="400"
               class="max-w-full rounded-[10px] border-2 border-colorTextTitle" />
 
             <img src="assets/img/images/home-8/content-circle.svg" alt="content-circle" width="430" height="430"
@@ -961,126 +933,107 @@ Our development approach combines cutting-edge technology with proven business s
     <!-- Main Wrapper -->
 
     <!--...::: Footer Section Start :::... -->
-    <footer class="section-footer">
-      <!-- Footer Top -->
-      <div class="pb-14 pt-14 lg:pt-[100px]">
-        <!-- Container -->
-        <div class="container">
-          <!-- Footer Top Area -->
-          <div class="flex flex-wrap gap-10 xl:justify-between">
-            <!-- Footer Widget - Info -->
-            <div class="max-w-sm" data-jos_delay="0">
-              <a href="index.html" class="inline-block">
-                <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
-              </a>
-              <p class="my-6">
-                SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive
-                advantages.
-              </p>
-
-              <!-- Social Icons below paragraph -->
-              <div class="flex gap-4 mt-4">
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-linkedin-fill"></i>
-                </a>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-twitter-x-line"></i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-facebook-fill"></i>
-                </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
-                  <i class="ri-instagram-line"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Footer Widget - Info -->
-
-            <!-- Footer Widget - Services -->
-            <div>
-              <span class="display-heading display-heading-5 mb-6 block">
-                Services
-              </span>
-
-              <nav class="flex flex-col gap-y-4">
-                <a href="custom-software.html" class="hover:font-medium hover:text-colorTextTitle">Custom Software</a>
-                <a href="mobile-apps.html" class="hover:font-medium hover:text-colorTextTitle">Mobile Apps</a>
-                <a href="web-development.html" class="hover:font-medium hover:text-colorTextTitle">Web Development</a>
-                <a href="ui-ux.html" class="hover:font-medium hover:text-colorTextTitle">UI/UX Design</a>
-                <a href="digital-marketing.html" class="hover:font-medium hover:text-colorTextTitle">Digital
-                  Marketing</a>
-                <a href="branding.html" class="hover:font-medium hover:text-colorTextTitle">Branding</a>
-                <a href="cloud-ai.html" class="hover:font-medium hover:text-colorTextTitle">Cloud & AI</a>
-              </nav>
-            </div>
-            <!-- Footer Widget - Services -->
-
-            <!-- Footer Widget - Company -->
-            <div>
-              <span class="display-heading display-heading-5 mb-6 block">
-                Company
-              </span>
-
-              <div class="flex flex-col gap-y-4">
-                <a href="about.html" class="hover:font-medium hover:text-colorTextTitle">About Us</a>
-                <a href="our-process.html" class="hover:font-medium hover:text-colorTextTitle">Our Process</a>
-                <a href="Case studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
-                <a href="testimonials.html" class="hover:font-medium hover:text-colorTextTitle">Testimonials</a>
-                <a href="careers.html" class="hover:font-medium hover:text-colorTextTitle">Careers</a>
-                <a href="blog.html" class="hover:font-medium hover:text-colorTextTitle">Blog</a>
-              </div>
-            </div>
-            <!-- Footer Widget - Company -->
-
-            <!-- Footer Widget - Resources -->
-            <div>
-              <span class="display-heading display-heading-5 mb-6 block">
-                Resources
-              </span>
-
-              <div class="flex flex-col gap-y-4">
-                <a href="faq.html" class="hover:font-medium hover:text-colorTextTitle">FAQ</a>
-                <a href="guides.html" class="hover:font-medium hover:text-colorTextTitle">Guides</a>
-                <a href="case-studies.html" class="hover:font-medium hover:text-colorTextTitle">Case studies</a>
-                <a href="pricing.html" class="hover:font-medium hover:text-colorTextTitle">Pricing</a>
-                <a href="support.html" class="hover:font-medium hover:text-colorTextTitle">Support</a>
-                <a href="contact.html" class="hover:font-medium hover:text-colorTextTitle">Contact</a>
-              </div>
-            </div>
-            <!-- Footer Widget - Resources -->
-          </div>
-          <!-- Footer Top Area -->
-        </div>
-        <!-- Container -->
-      </div>
-      <!-- Footer Top -->
-
-      <!-- Footer Bottom -->
-      <div>
-        <!-- Container -->
-        <div class="container">
-          <div
-            class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
-            <div class="text-center md:text-right">
-              © 2025 SellTech. All rights reserved.
-            </div>
-
-            <!-- Policies instead of Social Icons -->
-            <div class="flex flex-wrap gap-6 justify-center">
-              <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
-              <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
-              <a href="cookie-policy.html" class="hover:underline">Cookie Policy</a>
-            </div>
+ <footer class="section-footer">
+  <!-- Footer Top -->
+  <div class="pb-14 pt-14 lg:pt-[100px]">
+    <!-- Container -->
+    <div class="container">
+      <!-- Footer Top Area -->
+      <div class="flex flex-wrap gap-10 xl:justify-between">
+        <!-- Footer Widget - Info -->
+        <div class="max-w-sm" data-jos_delay="0">
+          <a href="index.html" class="inline-block">
+            <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+          </a>
+          <p class="my-6">
+            SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive advantages.
+          </p>
+          <!-- Social Icons -->
+          <div class="flex gap-4 mt-4">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+              <i class="ri-instagram-line"></i>
+            </a>
           </div>
         </div>
-        <!-- Container -->
+
+        <!-- Footer Widget - Services -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Services</span>
+          <nav class="flex flex-col gap-y-4">
+            <a href="software-development.html">Software Development</a>
+            <a href="mobile-app-development.html">Mobile App Development</a>
+            <a href="web-development.html">Web Development</a>
+            <a href="digital-marketing.html">Digital Marketing</a>
+            <a href="branding.html">Branding Services</a>
+            <a href="ui-ux.html">UI/UX Service</a>
+          </nav>
+        </div>
+
+        <!-- Footer Widget - Industries -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Industries</span>
+          <div class="flex flex-col gap-y-4">
+            <a href="healthcare-solutions.html">Healthcare</a>
+            <a href="fintech-solutions.html">Fintech</a>
+            <a href="ecommerce-solutions.html">E-commerce</a>
+            <a href="education-solutions.html">Education</a>
+            <a href="real-estate-solutions.html">Real Estate</a>
+            <a href="manufacturing-solutions.html">Manufacturing</a>
+            <a href="travel-hospitality-solutions.html">Travel & Hospitality</a>
+            <a href="automotive-solutions.html">Automotive</a>
+          </div>
+        </div>
+
+        <!-- Footer Widget - Useful Links -->
+        <div>
+          <span class="display-heading display-heading-5 mb-6 block">Useful Links</span>
+          <div class="flex flex-col gap-y-4">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+          </div>
+        </div>
       </div>
-      <!-- Footer Bottom -->
-    </footer>
+      <!-- Footer Top Area -->
+    </div>
+    <!-- Container -->
+  </div>
+  <!-- Footer Top -->
+
+  <!-- Footer Bottom -->
+  <div>
+    <div class="container">
+      <div class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+        <div class="text-center md:text-right">
+          © 2025 SellTech. All rights reserved.
+        </div>
+        <!-- Policies -->
+        <div class="flex flex-wrap gap-6 justify-center">
+          <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+          <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+          <a href="refund-policy.html" class="hover:underline">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Bottom -->
+</footer>
     <!--...::: Footer Section Start :::... -->
   </div>
 

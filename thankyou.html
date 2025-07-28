@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | SellTech</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Site font -->
+  <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+  <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+  <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    /* Thank You Page Custom Styles */
+    .thankyou-section {
+      width: 100%;
+      margin: 70px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      min-height: 80vh;
+    }
+
+    .thankyou-container {
+      display: flex;
+      max-width: 1200px;
+      width: 100%;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+      min-height: 600px;
+    }
+
+    .thankyou-image {
+      flex: 1;
+      background: linear-gradient(rgba(220, 40, 36, 0.1), rgba(220, 40, 36, 0.1)), url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+      text-align: center;
+      padding: 40px;
+      position: relative;
+    }
+
+    .thankyou-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(220, 40, 36, 0.05) 0%, rgba(220, 40, 36, 0.1) 100%);
+    }
+
+    .thankyou-image-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .success-icon {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(135deg, rgb(220, 40, 36) 0%, #dc2824 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 30px;
+      animation: successPulse 2s ease-in-out infinite;
+    }
+
+    .success-icon i {
+      font-size: 50px;
+      color: white;
+    }
+
+    @keyframes successPulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(220, 40, 36, 0.4);
+      }
+      50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 20px rgba(220, 40, 36, 0);
+      }
+    }
+
+    .thankyou-image-content h3 {
+      color: #ffffff;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .thankyou-image-content p {
+      font-size: 1.1rem;
+      opacity: 0.8;
+      line-height: 1.6;
+      color: #ffffff;
+    }
+
+    .thankyou-content {
+      flex: 1;
+      padding: 50px 40px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .thankyou-content h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: 700;
+    }
+
+    .thankyou-content .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .info-card {
+      background: #f8f9fa;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-left: 4px solid rgb(220, 40, 36);
+    }
+
+    .info-card h4 {
+      color: #333;
+      margin-bottom: 15px;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .info-list li {
+      padding: 8px 0;
+      color: #666;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    .info-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: rgb(220, 40, 36);
+      font-weight: bold;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, rgb(220, 40, 36) 0%, #dc2824 100%);
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: rgb(220, 40, 36);
+      padding: 15px 25px;
+      border: 2px solid rgb(220, 40, 36);
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(220, 40, 36, 0.3);
+    }
+
+    .btn-secondary:hover {
+      background: rgb(220, 40, 36);
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(220, 40, 36, 0.2);
+    }
+
+    .social-proof {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+    }
+
+    .social-proof h5 {
+      color: #333;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .stats-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      text-align: center;
+      flex: 1;
+      min-width: 100px;
+    }
+
+    .stat-number {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: rgb(220, 40, 36);
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .thankyou-container {
+        margin: 20px;
+      }
+      
+      .thankyou-content {
+        padding: 40px 30px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .thankyou-section {
+        padding: 20px 10px;
+        margin: 50px auto;
+      }
+
+      .thankyou-container {
+        flex-direction: column;
+        margin: 10px;
+      }
+
+      .thankyou-image {
+        min-height: 300px;
+      }
+
+      .success-icon {
+        width: 100px;
+        height: 100px;
+      }
+
+      .success-icon i {
+        font-size: 40px;
+      }
+
+      .thankyou-image-content h3 {
+        font-size: 2rem;
+      }
+
+      .thankyou-content {
+        padding: 30px 25px;
+      }
+
+      .thankyou-content h2 {
+        font-size: 2rem;
+      }
+
+      .action-buttons {
+        flex-direction: column;
+      }
+
+      .stats-row {
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .stat-item {
+        min-width: 80px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .thankyou-content {
+        padding: 25px 20px;
+      }
+
+      .thankyou-content h2 {
+        font-size: 1.8rem;
+      }
+
+      .info-card {
+        padding: 20px;
+      }
+    }
+
+    /* Animation for page load */
+    .fade-in {
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Form submission status styles */
+    .submission-details {
+      background: #e8f5e8;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid #28a745;
+    }
+
+    .submission-details h4 {
+      color: #155724;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .submission-details p {
+      color: #155724;
+      margin: 5px 0;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body class="relative">
+  <div class="page-wrapper relative">
+    <!-- Header Section Start -->
+    <header class="section-header site-header fixed top-0 z-30 w-full py-2">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="index.html" class="h-auto w-auto">
+              <img src="assets/img/images/logo.png" alt="SellTech - Software Development & Marketing Agency" width="200"
+                height="40" />
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="ri-arrow-left-s-fill"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a class="nav-link-item" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Services <i class="ri-arrow-down-s-fill"></i></a>
+                  <ul class="sub-menu mega-menu" id="submenu-services">
+                    <div class="mega-menu-content">
+                      <div class="mega-menu-col">
+                        <h3 class="menu-col-title"><a href="software-development.html">Software Development</a></h3>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="pricing.html">Pricing Plans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link-item" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-x-6">
+            <a href="get-a-quote.html" class="btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex">
+              <span>Get Free Quote</span>
+              <span>Get Free Quote</span>
+            </a>
+            <div class="block lg:hidden">
+              <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                <span class="bg-colorTextTitle before:bg-colorTextTitle after:bg-colorTextTitle"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Content -->
+    <main class="main-wrapper relative overflow-x-clip">
+      <section class="section-breadcrumb">
+        <div class="bg-colorTextTitle">
+          <div class="breadcrumb-space">
+            <div class="container">
+              <div class="text-center text-white">
+                <h1 class="mb-[50px] text-white">Thank You!</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Thank You Section -->
+      <section class="thankyou-section fade-in">
+        <div class="thankyou-container">
+          <!-- Left Side - Success Animation -->
+          <div class="thankyou-image">
+            <div class="thankyou-image-content">
+              <div class="success-icon">
+                <i class="ri-check-line"></i>
+              </div>
+              <h3>Message Sent Successfully!</h3>
+              <p>We've received your submission and our team will review it carefully. You'll hear back from us soon with next steps.</p>
+            </div>
+          </div>
+
+          <!-- Right Side - Content -->
+          <div class="thankyou-content">
+            <h2>Thank You for Reaching Out!</h2>
+            <p class="subtitle">Your request has been successfully submitted to our team.</p>
+
+            <!-- Submission confirmation -->
+            <div id="submissionDetails" class="submission-details" style="display: none;">
+              <h4><i class="ri-mail-check-line"></i> Submission Confirmed</h4>
+              <p><strong>Submitted at:</strong> <span id="submissionTime"></span></p>
+              <p><strong>Reference ID:</strong> <span id="referenceId"></span></p>
+            </div>
+
+            <div class="info-card">
+              <h4>What happens next?</h4>
+              <ul class="info-list">
+                <li>Our team will review your submission within 2-4 hours</li>
+                <li>You'll receive a personalized response within 24 hours</li>
+                <li>We'll schedule a consultation call if needed</li>
+                <li>Get a detailed project proposal tailored to your needs</li>
+              </ul>
+            </div>
+
+            <div class="action-buttons">
+              <a href="index.html" class="btn-primary">
+                <i class="ri-home-line"></i>
+                Back to Home
+              </a>
+              <a href="about.html" class="btn-secondary">
+                <i class="ri-team-line"></i>
+                Learn About Us
+              </a>
+            </div>
+
+            <div class="social-proof">
+              <h5>Join 500+ satisfied clients</h5>
+              <div class="stats-row">
+                <div class="stat-item">
+                  <span class="stat-number">500+</span>
+                  <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">24hr</span>
+                  <span class="stat-label">Response Time</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">98%</span>
+                  <span class="stat-label">Success Rate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+      <!-- Footer Top -->
+      <div class="pb-14 pt-14 lg:pt-[100px]">
+        <!-- Container -->
+        <div class="container">
+          <!-- Footer Top Area -->
+          <div class="flex flex-wrap gap-10 xl:justify-between">
+            <!-- Footer Widget - Info -->
+            <div class="max-w-sm" data-jos_delay="0">
+              <a href="index.html" class="inline-block">
+                <img src="assets/img/images/logo.png" alt="SellTech Logo" width="200" height="40" />
+              </a>
+              <p class="my-6">
+                SellTech — Your Partner in Digital Transformation. We turn your technology challenges into competitive advantages.
+              </p>
+              <!-- Social Icons -->
+              <div class="flex gap-4 mt-4">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Footer Widget - Services -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">Services</span>
+              <nav class="flex flex-col gap-y-4">
+                <a href="software-development.html">Software Development</a>
+                <a href="mobile-app-development.html">Mobile App Development</a>
+                <a href="web-development.html">Web Development</a>
+                <a href="digital-marketing.html">Digital Marketing</a>
+                <a href="branding.html">Branding Services</a>
+                <a href="ui-ux.html">UI/UX Service</a>
+              </nav>
+            </div>
+
+            <!-- Footer Widget - Useful Links -->
+            <div>
+              <span class="display-heading display-heading-5 mb-6 block">Useful Links</span>
+              <div class="flex flex-col gap-y-4">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Top Area -->
+        </div>
+        <!-- Container -->
+      </div>
+      <!-- Footer Top -->
+
+      <!-- Footer Bottom -->
+      <div>
+        <div class="container">
+          <div class="flex flex-wrap items-center justify-center gap-6 border-t border-colorGrey py-9 md:justify-between">
+            <div class="text-center md:text-right">
+              © 2025 SellTech. All rights reserved.
+            </div>
+            <!-- Policies -->
+            <div class="flex flex-wrap gap-6 justify-center">
+              <a href="privacy-policy.html" class="hover:underline">Privacy Policy</a>
+              <a href="terms-of-service.html" class="hover:underline">Terms of Service</a>
+              <a href="refund-policy.html" class="hover:underline">Refund Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom -->
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/vendors/counterup.js"></script>
+  <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+  <script src="assets/js/vendors/fslightbox.js"></script>
+  <script src="assets/js/vendors/jos.min.js"></script>
+  <script src="assets/js/vendors/menu.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // Display submission details when page loads
+    window.addEventListener('DOMContentLoaded', function() {
+      // Get URL parameters to check if this is a form submission
+      const urlParams = new URLSearchParams(window.location.search);
+      const submitted = urlParams.get('submitted');
+      const formType = urlParams.get('type');
+      
+      if (submitted === 'true') {
+        // Show submission details
+        const submissionDetails = document.getElementById('submissionDetails');
+        const submissionTime = document.getElementById('submissionTime');
+        const referenceId = document.getElementById('referenceId');
+        
+        if (submissionDetails) {
+          submissionDetails.style.display = 'block';
+          
+          // Set current time
+          const now = new Date();
+          submissionTime.textContent = now.toLocaleString();
+          
+          // Generate reference ID
+          const refId = 'ST-' + Date.now().toString().slice(-6);
+          referenceId.textContent = refId;
+          
+          // Update content based on form type
+          const heading = document.querySelector('.thankyou-content h2');
+          const subtitle = document.querySelector('.thankyou-content .subtitle');
+          
+          if (formType === 'quote') {
+            heading.textContent = 'Quote Request Received!';
+            subtitle.textContent = 'Your quote request has been successfully submitted. We\'ll prepare a customized proposal for you.';
+          } else if (formType === 'contact') {
+            heading.textContent = 'Message Received!';
+            subtitle.textContent = 'Thank you for contacting us. We\'ll respond to your inquiry as soon as possible.';
+          }
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
